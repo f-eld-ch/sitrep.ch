@@ -1,0 +1,12 @@
+style: "style2 orient-center content-align-center image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "sitrep.ch"
+subtitle: |
+  Elektronische Lagedarstellung für die Schweiz 🇨🇭
+content : |
+  Robuste, miliztaugliche und moderne digitale Lagedarstellung zur raschen und
+  fundierten Entscheidfindung und erfolgreichen Ereignisbewältigung in
+  sämtlichen Lagen.
+button:
+  label : "Los gehts!"
+  link : "#why"
+image : "images/lage.png"

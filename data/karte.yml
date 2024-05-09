@@ -1,0 +1,8 @@
+style: "style4 orient-left content-align-left image-position-left onscroll-image-fade-in"
+id: "karte"
+title : "Lagekarte"
+content: |
+  Zusammen mit dem Einsatzjournal bildet die interaktive Lagekarte das
+  Herzstück von sitrep.ch. Erkenntnisse werden direkt auf der Karte visualisiert
+  und den Entscheidungsträgern ohne Zeitverlust angezeigt.
+image : "images/lagekarte.png"

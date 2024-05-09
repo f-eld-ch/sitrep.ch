@@ -1,0 +1,8 @@
+style: "style1 orient-center content-align-center image-position-left onscroll-image-fade-in"
+id: "demo"
+title : "Probieren geht über Studieren"
+content: |
+  Einfach einen Account in der Demo-Umgebung von sitrep.ch erstellen und sofort loslegen.
+button: 
+  label: "Zur Demo Umgebung"
+  link: "https://demo.sitrep.ch"

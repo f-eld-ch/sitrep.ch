@@ -1,0 +1,27 @@
+# Basic Configuration
+title = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
+copyright = "{year}"
+theme="hugo-story"
+
+# Publish
+relativeURLs = "true"
+#canonifyURLs = "true"
+baseURL = "/"
+publishDir = "public"
+
+# Hugo Built-in Features
+disableKinds = ["taxonomy", "section"]
+
+# Site Parameters
+[Params]
+  description = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
+  logo = "images/lage.png"
+  favicon = true
+
+[Params.social]
+  github = "https://github.com/f-eld-ch/"
+  email = "info@f-eld.ch"
+
+[Params.asset]
+  fontawesome_css = ["css/fontawesome-all.min.css"]
+  fontawesome_js = ["js/fontawesome-all.min.js"]

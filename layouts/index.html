@@ -1,0 +1,11 @@
+{{ define "main" }}
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "items" site.Data.why }}
+	{{ partial "spotlight" site.Data.input }}
+	{{ partial "spotlight" site.Data.triage }}
+	{{ partial "spotlight" site.Data.journal }}
+	{{ partial "spotlight" site.Data.karte }}
+	{{ partial "spotlight" site.Data.demoenv }}
+	{{ partial "spotlight" site.Data.support }}
+	{{ partial "footer" . }}
+{{ end }}
