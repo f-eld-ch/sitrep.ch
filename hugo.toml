@@ -6,7 +6,7 @@ theme="hugo-story"
 # Publish
 relativeURLs = "true"
 #canonifyURLs = "true"
-baseURL = "/"
+baseURL = "https://sitrep.ch/"
 publishDir = "public"
 
 # Hugo Built-in Features
