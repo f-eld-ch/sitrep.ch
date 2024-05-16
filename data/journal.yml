@@ -1,7 +1,7 @@
-style: "style4 orient-right content-align-left image-position-left onscroll-image-fade-in"
+style: "style4 orient-right content-align-left image-position-left"
 id: "journal"
 title : "Einsatzjournal"
 content: |
-  Samtliche Nachrichten sind chronologisch im Einsatzjournal erfasst und bieten
-  eine guten &Uuml;berblick über die aktuelle Lage.
+  Sämtliche Nachrichten sind chronologisch im Einsatzjournal erfasst und bieten
+  eine guten Überblick über die aktuelle Lage.
 image : "images/einsatzjournal.png"

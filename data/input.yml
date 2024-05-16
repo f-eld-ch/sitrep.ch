@@ -1,6 +1,8 @@
-style: "style1 orient-right content-align-left image-position-left onscroll-image-fade-in"
+style: "style1 orient-right content-align-left image-position-left"
 id: "input"
 title : "Nachrichtenerfassung"
 content: |
-  Ohne Information keine Führung! Mit sitrep werden Nachrichten mühelos und schnell erfasst.
+  Einzelne Nachrichten und Meldungen bilden die Grundlage fundierter
+  Entscheidungen und ermöglichen so professionelle Führung! Mit sitrep werden
+  Nachrichten mittels einfacher Eingabemaske mühelos und rasch erfasst.
 image : "images/erfassung.png"

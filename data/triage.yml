@@ -1,7 +1,9 @@
-style: "style1 orient-left content-align-left image-position-left onscroll-image-fade-in"
+style: "style1 orient-left content-align-left image-position-left"
 id: "triage"
 title : "Triage"
 content: |
   sitrep ermöglicht Nachrichten im Einsatzjournal einfach und effizient zu
-  triagieren, um Erkenntnisse für die Führung abzuleiten.
+  triagieren, um Erkenntnisse für die Führung abzuleiten und einen schnellen
+  Meldefluss sicherzustellen. Triagierte Nachrichten können einzelnen Ressorts
+  zugewiesen werden, priorisiert und mit Pendenzen verknüpft werden.
 image : "images/triage.png"

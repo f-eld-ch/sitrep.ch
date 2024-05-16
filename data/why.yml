@@ -4,11 +4,21 @@ content:
 style: "style3 medium onload-fade-in"
 items:
   - name : "KISS"
-    content : "Keep it simple, stupid. sitrep überzeugt durch einfache und klar strukturierte Oberflächen und Prozesse ohne Schnickschnack. Dies ermöglicht effiziente und zielgerichtete Führung und erfolgreiche Ereignisbewältigung."
+    content : "Keep it simple, stupid. sitrep überzeugt durch einfache und klar
+    strukturierte Oberflächen und Prozesse ohne Schnickschnack. Dies ermöglicht
+    miliztaugliche, effiziente und zielgerichtete Führung und erfolgreiche
+    Ereignisbewältigung."
     style : "solid style2 major fa-bullseye"
   - name : "Open Source"
-    content : "sitrep ist Open Source Software, damit möglichst viele Einsatzorganisationen nicht nur davon profitieren, sondern auch Verbesserungen zu sitrep beitragen können. Im Gegensatz dazu sind bestehende Tools oft proprietär, teuer, und dennoch kompliziert zu benutzen und wenig performant."
+    content : "sitrep ist Open Source Software, damit möglichst viele
+    Einsatzorganisationen nicht nur davon profitieren, sondern auch
+    Verbesserungen zu sitrep beitragen können. Im Gegensatz dazu sind
+    bestehende Tools leider oft proprietär, teuer, und dennoch kompliziert zu
+    benutzen und wenig performant."
     style : "style2 major fa-heart"
   - name : "Moderne Technologie"
-    content : "Als browser-basierte Web Applikation ist sitrep state-of-the-art und stellt lediglich minimalste Anforderungen."
+    content : "Als browser-basierte Web Applikation ist sitrep state-of-the-art
+    und stellt lediglich minimalste Anforderungen. Das Tool kann beispielsweise
+    problemlos auf einem Raspberry Pi betrieben werden, aber auch in einer VM
+    oder als Docker Container."
     style : "solid style2 major fa-rocket"
