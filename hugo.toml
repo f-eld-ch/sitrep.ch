@@ -116,15 +116,11 @@ defaultContentLanguageInSubdir = false
   [[module.mounts]]
     source = "content"
     target = "content"
-    lang = "de"
   [[module.mounts]]
     source = "content/docs"
     target = "content/docs"
-    lang = "fr"
-  [[module.mounts]]
-    source = "content/docs"
-    target = "content/docs"
-    lang = "it"
+    [module.mounts.sites.matrix]
+      languages = ["fr", "it"]
   [[module.mounts]]
     source = "static"
     target = "static"
