@@ -22,8 +22,9 @@ tool for command staffs (civil protection), published at <https://sitrep.ch>. It
 
 ## Commands
 
-Hugo **0.162.1 or newer** is required (the same version CI uses; the theme uses APIs from
-0.158+). The non-extended build is enough, there is no Sass.
+The Hugo version is pinned in **`.hugo-version`**. It is the single source of truth: the
+GitHub Actions workflow and `scripts/cloudflare-build.sh` read it. To upgrade Hugo, change that
+file only (the theme needs 0.158+). The non-extended build is enough, there is no Sass.
 
 ```sh
 hugo server --buildDrafts      # live preview on http://localhost:1313, includes draft posts
@@ -43,6 +44,9 @@ hugo.toml                  languages, menus, params, module mounts
 content/                   all content (see below)
 static/images/             site screenshots (WebP)
 scripts/sync-brand.sh      brand sync (tokens.css, logos, favicons)
+scripts/cloudflare-build.sh  build script for Cloudflare Workers Builds (production and previews)
+wrangler.jsonc             Cloudflare Workers config: serves public/ as static assets
+.hugo-version              pinned Hugo version (used by CI and the Cloudflare build)
 themes/sitrep/
   layouts/                 baseof, home, features, blog, docs, partials, shortcodes
   assets/css/tokens.css    GENERATED from the brand repo, do not edit
@@ -189,6 +193,6 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
 
 ## Deployment
 
-`main` → GitHub Actions → GitHub Pages (`.github/workflows/hugo.yaml`, Hugo 0.162.1). A merge to
+`main` → GitHub Actions → GitHub Pages (`.github/workflows/hugo.yaml`). A merge to
 `main` changes the live site, so review the build output before merging. Branch builds are not
 deployed.
