@@ -1,8 +1,9 @@
 ---
 title: "sitrep.ch"
 subtitle: "Représentation électronique de la situation pour la Suisse 🇨🇭"
-image: "images/lage.png"
-image_alt: "Carte de situation et journal d'intervention dans sitrep"
+image: "images/features/dashboard.webp"
+image_alt: "Tableau de bord avec messages actuels, carte de situation, aperçu des personnes et des moyens"
+showcase_more: "Toutes les fonctionnalités"
 facts_title: "Ce qui distingue sitrep"
 facts:
   - title: "Rapide"
@@ -12,10 +13,27 @@ facts:
   - title: "Open source"
     text: "Toute organisation peut exploiter, modifier et faire évoluer sitrep elle-même, contrairement aux outils souvent propriétaires et chers. Les modifications reviennent au projet ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE))."
   - title: "Fonctionnalités"
-    text: "Aujourd'hui : journal, triage et carte de situation. En développement : tableaux des moyens, besoins / tâches en suspens / demandes et tableau de bord de l'événement."
+    text: "Aujourd'hui : journal, triage et carte de situation. Aperçus des personnes et des moyens et tableau de bord en version préliminaire. Besoins / tâches en suspens / demandes en développement."
   - title: "Multilingue"
     text: "Disponible en allemand, français, italien et anglais."
   - title: "Sobre en ressources"
     text: "Application web dans le navigateur, aux exigences minimales : fonctionne aussi sur un Raspberry Pi, dans une VM ou comme conteneur Docker."
+hero_cta:
+  label: "Mettre sitrep en œuvre"
+  url: "mise-en-oeuvre/"
+cta_title: "C'est parti"
+cta:
+  - title: "Essayer"
+    text: "Créer un compte dans l'environnement de démonstration et commencer tout de suite."
+    label: "Vers l'environnement de démonstration"
+    url: "https://demo.sitrep.ch"
+  - title: "Pour votre état-major"
+    text: "Comment sitrep accélère le traitement de la situation dans votre appui à la conduite, et comment le vérifier lors du prochain exercice."
+    label: "Améliorer votre état-major"
+    url: "pour-votre-etat-major/"
+  - title: "Mise en œuvre"
+    text: "L'exploiter soi-même ou l'utiliser comme service : comment sitrep arrive dans votre organisation."
+    label: "Mettre sitrep en œuvre"
+    url: "mise-en-oeuvre/"
 ---
 Représentation numérique de la situation, robuste, adaptée à la milice et moderne, pour prendre des décisions rapides et fondées et gérer avec succès les événements dans toutes les situations.

@@ -1,8 +1,9 @@
 ---
 title: "sitrep.ch"
 subtitle: "Elektronische Lagedarstellung für die Schweiz 🇨🇭"
-image: "images/lage.png"
-image_alt: "Lagekarte und Einsatzjournal in sitrep"
+image: "images/features/dashboard.webp"
+image_alt: "Dashboard mit aktuellen Meldungen, Lagekarte, Personenübersicht und Mitteln"
+showcase_more: "Alle Funktionen"
 facts_title: "Was zeichnet sitrep aus?"
 facts:
   - title: "Schnell"
@@ -12,10 +13,27 @@ facts:
   - title: "Open Source"
     text: "Jede Organisation kann sitrep selber betreiben, verändern und weiterentwickeln, im Gegensatz zu oft proprietären, teuren Tools. Änderungen fliessen zurück ins Projekt ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE))."
   - title: "Funktionen"
-    text: "Journalführung, Triage und Lagekarte werden heute unterstützt. Mitteltabellen, Bedürfnisse / Pendenzen / Anträge und ein Ereignis-Dashboard sind in Entwicklung."
+    text: "Journalführung, Triage und Lagekarte werden heute unterstützt. Personen- und Mittelübersicht sowie das Lagedashboard sind in einer Vorabversion. Bedürfnisse / Pendenzen / Anträge sind in Entwicklung."
   - title: "Mehrsprachig"
     text: "Verfügbar auf Deutsch, Französisch, Italienisch und Englisch."
   - title: "Ressourcenschonend"
     text: "Als browser-basierte Web-Applikation mit minimalen Anforderungen: läuft auch auf einem Raspberry Pi, in einer VM oder als Docker Container."
+hero_cta:
+  label: "So setzen Sie sitrep ein"
+  url: "einsetzen/"
+cta_title: "Los geht's"
+cta:
+  - title: "Ausprobieren"
+    text: "Account in der Demo-Umgebung erstellen und sofort loslegen."
+    label: "Zur Demo-Umgebung"
+    url: "https://demo.sitrep.ch"
+  - title: "Für Ihren Stab"
+    text: "Wie sitrep die Lageverarbeitung in Ihrer Führungsunterstützung beschleunigt, und wie Sie es in der nächsten Übung prüfen."
+    label: "Stab verbessern"
+    url: "fuer-ihren-stab/"
+  - title: "Einsetzen"
+    text: "Selber betreiben oder als Service nutzen: so kommt sitrep in Ihre Organisation."
+    label: "So setzen Sie sitrep ein"
+    url: "einsetzen/"
 ---
 Robuste, miliztaugliche und moderne digitale Lagedarstellung zur raschen und fundierten Entscheidfindung und erfolgreichen Ereignisbewältigung in sämtlichen Lagen.
