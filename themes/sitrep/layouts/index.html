@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ .Params.subtitle }}</p>
+      {{ .Content }}
+      <p><a class="button" href="{{ site.Params.demo }}">{{ i18n "try_demo" }}</a></p>
+    </div>
+    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}">{{ end }}
+  </div>
+</section>
+{{ partial "facts.html" . }}
+{{ with site.GetPage "/blog" }}
+{{ if .Pages }}
+<section>
+  <div class="wrap">
+    <h2>{{ .Title }}</h2>
+    <ul class="post-list">
+      {{ range first 3 .Pages }}{{ partial "post-item.html" . }}{{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

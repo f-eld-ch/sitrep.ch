@@ -1,0 +1,4 @@
+{{/* Shown for German originals served under another language (docs fallback). */}}
+{{ if and (ne site.Language.Lang site.Params.defaultlang) .File (not (strings.Contains .File.LogicalName (printf ".%s." site.Language.Lang))) }}
+<p class="notice" role="note"><strong>DE</strong> {{ i18n "untranslated" }}</p>
+{{ end }}

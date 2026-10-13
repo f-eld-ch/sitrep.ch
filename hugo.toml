@@ -1,27 +1,127 @@
-# Basic Configuration
-title = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
-copyright = "{year}"
-theme="hugo-story"
-
-# Publish
-relativeURLs = "true"
-#canonifyURLs = "true"
+title = "sitrep.ch"
+theme = "sitrep"
 baseURL = "https://sitrep.ch/"
+relativeURLs = true
+defaultContentLanguage = "de"
 publishDir = "public"
+copyright = "Verein F-ELD"
+enableRobotsTXT = true
 
-# Hugo Built-in Features
-disableKinds = ["taxonomy", "section"]
+defaultContentLanguageInSubdir = false
 
-# Site Parameters
-[Params]
+[languages]
+  [languages.de]
+    locale = "de-CH"
+    label = "Deutsch"
+    weight = 1
+    [languages.de.params]
+      description = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
+    [[languages.de.menus.main]]
+      name = "Funktionen"
+      pageRef = "/funktionen"
+      weight = 10
+    [[languages.de.menus.main]]
+      name = "Dokumentation"
+      pageRef = "/docs"
+      weight = 20
+    [[languages.de.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 30
+    [[languages.de.menus.main]]
+      name = "Über sitrep"
+      pageRef = "/ueber-uns"
+      weight = 40
+  [languages.fr]
+    locale = "fr-CH"
+    label = "Français"
+    weight = 2
+    [languages.fr.params]
+      description = "sitrep.ch - Représentation électronique de la situation pour la Suisse"
+    [[languages.fr.menus.main]]
+      name = "Fonctionnalités"
+      pageRef = "/funktionen"
+      weight = 10
+    [[languages.fr.menus.main]]
+      name = "Documentation"
+      pageRef = "/docs"
+      weight = 20
+    [[languages.fr.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 30
+    [[languages.fr.menus.main]]
+      name = "À propos de sitrep"
+      pageRef = "/ueber-uns"
+      weight = 40
+  [languages.it]
+    locale = "it-CH"
+    label = "Italiano"
+    weight = 3
+    [languages.it.params]
+      description = "sitrep.ch - Rappresentazione elettronica della situazione per la Svizzera"
+    [[languages.it.menus.main]]
+      name = "Funzionalità"
+      pageRef = "/funktionen"
+      weight = 10
+    [[languages.it.menus.main]]
+      name = "Documentazione"
+      pageRef = "/docs"
+      weight = 20
+    [[languages.it.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 30
+    [[languages.it.menus.main]]
+      name = "Su sitrep"
+      pageRef = "/ueber-uns"
+      weight = 40
+
+[taxonomies]
+  tag = "tags"
+
+[params]
   description = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
-  logo = "images/lage.png"
-  favicon = true
-
-[Params.social]
-  github = "https://github.com/f-eld-ch/"
+  repo = "https://github.com/f-eld-ch/sitrep"
   email = "info@f-eld.ch"
+  verein = "https://f-eld.ch"
+  defaultlang = "de"
+  demo = "https://demo.sitrep.ch"
 
-[Params.asset]
-  fontawesome_css = ["css/fontawesome-all.min.css"]
-  fontawesome_js = ["js/fontawesome-all.min.js"]
+
+[markup.goldmark.renderer]
+  unsafe = false
+[markup.highlight]
+  noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Docs are German-only for now: serve them (untranslated) under /fr/ and /it/ too.
+# A translated page (e.g. foo.fr.md) takes precedence over the German original.
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    lang = "de"
+  [[module.mounts]]
+    source = "content/docs"
+    target = "content/docs"
+    lang = "fr"
+  [[module.mounts]]
+    source = "content/docs"
+    target = "content/docs"
+    lang = "it"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"

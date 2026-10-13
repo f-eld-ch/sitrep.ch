@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="wrap docs">
+  {{ partial "docs-nav.html" . }}
+  <div>
+    <h1>{{ .Title }} {{ partial "diataxis-badge.html" . }}</h1>
+    {{ partial "untranslated.html" . }}
+    <div class="prose">{{ .Content }}</div>
+    {{ if .Sections }}
+    <ul class="cards">
+      {{ range .Sections }}<li><a class="card" href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2><p>{{ with .Description }}{{ . }}{{ end }}</p></a></li>{{ end }}
+    </ul>
+    {{ end }}
+    {{ with .RegularPages }}
+    <ul class="cards">
+      {{ range .ByWeight }}<li><a class="card" href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3><p>{{ .Description | default (.Summary | plainify | truncate 140) }}</p></a></li>{{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
