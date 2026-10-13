@@ -31,7 +31,7 @@ Create un account nell'ambiente demo e iniziate subito: [demo.sitrep.ch](https:/
 
 ## Gestione
 
-- **Gestirlo autonomamente:** sitrep funziona nel browser, richiede poche risorse e gira su un Raspberry Pi, in una VM o come container Docker. Le guide si trovano nella [documentazione di amministrazione]({{< relref "/docs/admin" >}}).
+- **Gestirlo autonomamente:** sitrep funziona nel browser, richiede poche risorse e gira su un Raspberry Pi, in una VM o come container Docker. Le guide si trovano nella [documentazione di amministrazione]({{< relref "/docs/admin" >}}). L'associazione F-ELD vi sostiene in questo.
 - **Come servizio:** l'[associazione F-ELD](https://f-eld.ch), che sviluppa e cura sitrep, offre sitrep come servizio gestito ai propri membri. La gestione avviene su un'infrastruttura sicura in Svizzera, con [VSHN](https://www.vshn.ch) come partner di hosting.
 
 ## Contatto

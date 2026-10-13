@@ -31,7 +31,7 @@ Créez un compte dans l'environnement de démonstration et commencez tout de sui
 
 ## Exploitation
 
-- **L'exploiter vous-même :** sitrep fonctionne dans le navigateur, demande peu de ressources et tourne sur un Raspberry Pi, dans une VM ou comme conteneur Docker. Les guides se trouvent dans la [documentation d'administration]({{< relref "/docs/admin" >}}).
+- **L'exploiter vous-même :** sitrep fonctionne dans le navigateur, demande peu de ressources et tourne sur un Raspberry Pi, dans une VM ou comme conteneur Docker. Les guides se trouvent dans la [documentation d'administration]({{< relref "/docs/admin" >}}). L'association F-ELD vous soutient dans cette démarche.
 - **En tant que service :** l'[association F-ELD](https://f-eld.ch), qui développe et maintient sitrep, propose sitrep comme service géré à ses membres. L'exploitation se fait sur une infrastructure sécurisée en Suisse, avec [VSHN](https://www.vshn.ch) comme partenaire d'hébergement.
 
 ## Contact

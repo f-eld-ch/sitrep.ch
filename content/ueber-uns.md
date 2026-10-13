@@ -30,7 +30,7 @@ Erstellen Sie einen Account in der Demo-Umgebung und legen Sie sofort los: [demo
 
 ## Betrieb
 
-- **Selber betreiben:** sitrep läuft im Browser, braucht wenig Ressourcen und lässt sich auf einem Raspberry Pi, in einer VM oder als Docker-Container betreiben. Die Anleitungen finden Sie in der [Administrationsdokumentation]({{< relref "/docs/admin" >}}).
+- **Selber betreiben:** sitrep läuft im Browser, braucht wenig Ressourcen und lässt sich auf einem Raspberry Pi, in einer VM oder als Docker-Container betreiben. Die Anleitungen finden Sie in der [Administrationsdokumentation]({{< relref "/docs/admin" >}}). Der Verein F-ELD unterstützt Sie dabei.
 - **Als Service:** Der [Verein F-ELD](https://f-eld.ch), der sitrep entwickelt und betreut, bietet sitrep als betreuten Dienst für seine Mitglieder an. Der Betrieb erfolgt auf einer sicheren Infrastruktur in der Schweiz mit [VSHN](https://www.vshn.ch) als Hosting-Partner.
 
 ## Kontakt

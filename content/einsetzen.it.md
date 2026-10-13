@@ -22,6 +22,8 @@ Vi servono:
 
 Una guida passo dopo passo si trova in [Installation & Setup]({{< relref "/docs/admin/how-to/setup-with-local-postgres" >}}) (in inglese). La gestione degli accessi a eventi e gruppi è descritta nella [documentazione degli accessi]({{< relref "/docs/admin/reference/access-control" >}}) (in inglese).
 
+L'[associazione F-ELD](https://f-eld.ch) vi sostiene nella messa in opera e nella gestione. Scriveteci a [info@sitrep.ch](mailto:info@sitrep.ch).
+
 ## 3. Usarlo come servizio
 
 L'[associazione F-ELD](https://f-eld.ch), che sviluppa sitrep, offre sitrep come servizio gestito ai propri membri. La gestione avviene su un'infrastruttura sicura in Svizzera, con [VSHN](https://www.vshn.ch) come partner di hosting. Non dovete occuparvi di alcuna installazione.
@@ -33,7 +35,7 @@ Rispondiamo volentieri a domande sul servizio e sull'adesione: [info@sitrep.ch](
 | Volete … | Allora |
 |---|---|
 | prima conoscere sitrep | Ambiente demo |
-| pieno controllo su dati e gestione | Gestirlo autonomamente |
+| pieno controllo su dati e gestione | Gestirlo autonomamente, con il sostegno di F-ELD |
 | non costruire un'informatica propria per questo | Come servizio |
 
 Come introdurre e valutare sitrep nel vostro stato maggiore lo trovate in [Per il vostro stato maggiore]({{< relref "/fuer-ihren-stab" >}}).
