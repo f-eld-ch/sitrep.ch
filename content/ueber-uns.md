@@ -9,8 +9,8 @@ sitrep ist für den Zivilschutz und andere zivile Führungsstäbe gebaut, nicht 
 ## Wofür sitrep da ist
 
 - **Meldungen erfassen:** Das Einsatzjournal hält alle ein- und ausgehenden Nachrichten fest. Digital erfasst geht das schneller und mit weniger Fehlern als von Hand auf dem Meldezettel.
-- **Meldungen verteilen:** In der Triage werden Nachrichten den Fachbereichen zugewiesen, digital oder als ausgedruckter Meldezettel.
-- **Lage darstellen:** Die Lagekarte zeigt die aktuelle Lage mit einem Teil der Symbole des Bundesamts für Bevölkerungsschutz (BABS).
+- **Meldungen verteilen:** In der Triage werden Nachrichten den Ressorts zugewiesen, digital oder als ausgedruckter Meldezettel.
+- **Lage darstellen:** Die Nachrichtenkarte zeigt die aktuelle Lage mit den zivilen Signaturen des Bundesamts für Bevölkerungsschutz (BABS).
 
 Mehr dazu auf der Seite [Funktionen]({{< relref "/funktionen" >}}).
 

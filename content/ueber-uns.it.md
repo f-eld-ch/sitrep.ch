@@ -9,9 +9,9 @@ sitrep è pensato per la protezione civile e altri stati maggiori civili, non pe
 
 ## A cosa serve sitrep
 
-- **Registrare i messaggi:** il giornale d'intervento raccoglie tutti i messaggi in entrata e in uscita. La registrazione digitale è più veloce e meno soggetta a errori del foglio di messaggio scritto a mano.
-- **Distribuire i messaggi:** nel triage i messaggi vengono assegnati ai settori, in forma digitale o come foglio di messaggio stampato.
-- **Rappresentare la situazione:** la carta della situazione mostra la situazione attuale con una parte dei simboli dell'Ufficio federale della protezione della popolazione (UFPP).
+- **Registrare i messaggi:** il giornale d'intervento raccoglie tutti i messaggi in entrata e in uscita. La registrazione digitale è più veloce e meno soggetta a errori del modulo di notifica scritto a mano.
+- **Distribuire i messaggi:** nel triage i messaggi vengono assegnati ai settori, in forma digitale o come modulo di notifica stampato.
+- **Rappresentare la situazione:** la carta informativa mostra la situazione attuale con i segni convenzionali civili dell'Ufficio federale della protezione della popolazione (UFPP).
 
 Maggiori dettagli nella pagina [Funzionalità]({{< relref "/funktionen" >}}).
 

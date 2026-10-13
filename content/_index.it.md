@@ -2,7 +2,7 @@
 title: "sitrep.ch"
 subtitle: "Rappresentazione elettronica della situazione per la Svizzera 🇨🇭"
 image: "images/features/dashboard.webp"
-image_alt: "Dashboard con messaggi attuali, carta della situazione, quadro delle persone e dei mezzi"
+image_alt: "Dashboard con messaggi attuali, carta informativa, compendio delle persone e dei mezzi"
 showcase_more: "Tutte le funzionalità"
 facts_title: "Cosa distingue sitrep"
 facts:
@@ -13,7 +13,7 @@ facts:
   - title: "Open source"
     text: "Ogni organizzazione può gestire, modificare e sviluppare sitrep autonomamente, a differenza degli strumenti spesso proprietari e costosi. Le modifiche tornano al progetto ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE))."
   - title: "Funzionalità"
-    text: "Oggi: giornale, triage e carta della situazione. Quadri delle persone e dei mezzi e dashboard in versione preliminare. Necessità / compiti in sospeso / richieste in sviluppo."
+    text: "Oggi: giornale, triage e carta informativa. Compendi delle persone e dei mezzi e quadro della situazione (dashboard) in versione preliminare. Necessità / compiti in sospeso / richieste in sviluppo."
   - title: "Multilingue"
     text: "Disponibile in tedesco, francese, italiano e inglese."
   - title: "Parsimonioso con le risorse"

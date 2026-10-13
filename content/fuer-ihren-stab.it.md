@@ -10,9 +10,9 @@ sitrep supporta questo processo senza sostituirlo. Il lavoro nello strumento dev
 
 ## Dove sitrep aiuta nell'elaborazione della situazione
 
-- **Registrare i messaggi.** Tutti i messaggi in entrata e in uscita finiscono nel [giornale d'intervento]({{< relref "/funktionen" >}}#journal), con mittente, destinatario, canale e ora. La registrazione digitale è più veloce e meno soggetta a errori del foglio di messaggio scritto a mano.
-- **Sottoporre i messaggi a triage.** Una persona centrale esamina ogni messaggio, lo assegna ai settori, contrassegna i messaggi chiave e stabilisce le priorità. Chi non ha uno schermo riceve il foglio di messaggio stampato. Con il filtro «Triage in sospeso» vedete in ogni momento cosa è ancora aperto.
-- **Rappresentare la situazione.** Le conoscenze ricavate dai messaggi sottoposti a triage compaiono direttamente sulla [carta della situazione]({{< relref "/funktionen" >}}#karte), con simboli dell'UFPP, e sono subito a disposizione dello stato maggiore.
+- **Registrare i messaggi.** Tutti i messaggi in entrata e in uscita finiscono nel [giornale d'intervento]({{< relref "/funktionen" >}}#journal), con mittente, destinatario, canale e ora. La registrazione digitale è più veloce e meno soggetta a errori del modulo di notifica scritto a mano.
+- **Sottoporre i messaggi a triage.** Una persona centrale esamina ogni messaggio, lo assegna ai settori, contrassegna le notizie chiave e stabilisce le priorità. Chi non ha uno schermo riceve il modulo di notifica stampato. Con il filtro «Triage in sospeso» vedete in ogni momento cosa è ancora aperto.
+- **Rappresentare la situazione.** Le conoscenze ricavate dai messaggi sottoposti a triage compaiono direttamente sulla [carta informativa]({{< relref "/funktionen" >}}#karte), con segni convenzionali dell'UFPP, e sono subito a disposizione dello stato maggiore.
 - **Gestire gli accessi.** Per ogni evento stabilite chi può leggere, scrivere o amministrare, singolarmente o tramite gruppi. Dettagli nella [documentazione]({{< relref "/docs/admin/reference/access-control" >}}).
 
 ## Come capire se ne vale la pena

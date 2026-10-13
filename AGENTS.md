@@ -105,6 +105,32 @@ English is not offered on the website (the app itself supports it).
   available carry the badge "Vorabversion" (see below) and must be updated when they ship.
 - Keep the voice plain and direct: short sentences, no marketing superlatives.
 
+### Terminology (official BABS terms)
+
+Use the terms of the BABS manual *Behelf Einsatz Lage* (2022-05, German/French/Italian) and the sitrep
+app. Do not invent translations; check these first.
+
+| Concept | DE | FR | IT |
+|---|---|---|---|
+| Map (what you draw on) | Nachrichtenkarte | carte de renseignements | carta informativa |
+| Overall picture, e.g. the dashboard with persons, messages and resources | Lagebild | tableau de la situation | quadro della situazione |
+| Symbols of the BABS set | (zivile) Signaturen | signes conventionnels (civils) | segni convenzionali (civili) |
+| Message flow | Meldefluss | flux du message | flusso dei messaggi |
+| Triage | Triage | triage | triage |
+| Key message | Schlüsselnachricht | renseignements-clés | notizie chiave |
+| Operations journal | Einsatzjournal | journal d'intervention | giornale d'intervento |
+| Message sheet | Meldezettel | feuille de message | modulo di notifica |
+| Resource overview | Mittelübersicht | vue d'ensemble des moyens | compendio dei mezzi |
+| Department that receives messages | Ressort | domaine | settore |
+| Damage site | Schadenplatz | zone sinistrée | zona sinistrata |
+| Wall in the operations centre | Lagewand | paroi d'affichage | parete ANSIT |
+
+- "Lagekarte" is **not** an official term. The map is the *Nachrichtenkarte*; "Lagebild" is the overall picture.
+- The sitrep-specific "Personenübersicht" is written *vue d'ensemble des personnes* / *compendio delle persone*
+  in FR/IT, next to the *Mittelübersicht*.
+- In the sitrep app some FR/IT labels differ from the manual (e.g. "Suivi dessiné", "diario delle operazioni").
+  On this website use the manual's terms.
+
 ## Content types
 
 ### Pages (`content/*.md`)

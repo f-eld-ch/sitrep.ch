@@ -3,15 +3,15 @@ title: "À propos de sitrep"
 slug: "a-propos"
 description: "À quoi sert sitrep, qui est derrière le projet et comment contribuer ou utiliser sitrep."
 ---
-sitrep est un logiciel de représentation électronique de la situation pour les états-majors. Il permet de saisir, coordonner et communiquer les messages pendant un événement, sans gêner le travail : pas un système de plus à tenir à jour en parallèle, mais un outil qui simplifie les processus manuels fastidieux et accélère le flux de messages au sein de l'état-major.
+sitrep est un logiciel de représentation électronique de la situation pour les états-majors. Il permet de saisir, coordonner et communiquer les messages pendant un événement, sans gêner le travail : pas un système de plus à tenir à jour en parallèle, mais un outil qui simplifie les processus manuels fastidieux et accélère le flux du message au sein de l'état-major.
 
 sitrep est conçu pour la protection civile et d'autres états-majors civils, pas pour un usage militaire.
 
 ## À quoi sert sitrep
 
-- **Saisir les messages :** le journal d'intervention consigne tous les messages entrants et sortants. La saisie numérique est plus rapide et moins sujette aux erreurs que le bulletin de message écrit à la main.
-- **Distribuer les messages :** lors du triage, les messages sont attribués aux domaines spécialisés, sous forme numérique ou en bulletin de message imprimé.
-- **Représenter la situation :** la carte de situation montre la situation actuelle avec une partie des symboles de l'Office fédéral de la protection de la population (OFPP).
+- **Saisir les messages :** le journal d'intervention consigne tous les messages entrants et sortants. La saisie numérique est plus rapide et moins sujette aux erreurs que la feuille de message écrite à la main.
+- **Distribuer les messages :** lors du triage, les messages sont attribués aux domaines, sous forme numérique ou en feuille de message imprimée.
+- **Représenter la situation :** la carte de renseignements montre la situation actuelle avec les signes conventionnels civils de l'Office fédéral de la protection de la population (OFPP).
 
 Plus de détails sur la page [Fonctionnalités]({{< relref "/funktionen" >}}).
 

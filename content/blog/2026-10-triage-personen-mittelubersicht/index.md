@@ -139,9 +139,9 @@ Ein Detail, das uns wichtig war:
 
 ### Dashboard
 
-Das Dashboard zeigt die aktuelle Lage auf einen Blick: die neuesten Meldungen, die Lagekarte, die Personenübersicht und die Mittel pro Formation. Es ist als **aktuelle Information für den Führungsstab** gedacht, zum Beispiel auf einem Beamer oder Fernseher im Führungsraum. Es aktualisiert sich laufend.
+Das Dashboard zeigt die aktuelle Lage auf einen Blick: die neuesten Meldungen, die Nachrichtenkarte, die Personenübersicht und die Mittel pro Formation. Es ist als **aktuelle Information für den Führungsstab** gedacht, zum Beispiel auf einem Beamer oder Fernseher im Führungsraum. Es aktualisiert sich laufend.
 
-![Das Dashboard mit Meldungen, Lagekarte, Personenübersicht und Mitteln](images/dashboard.webp)
+![Das Dashboard mit Meldungen, Nachrichtenkarte, Personenübersicht und Mitteln](images/dashboard.webp)
 
 ## Was das für Führungsstäbe bringt
 

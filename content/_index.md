@@ -2,7 +2,7 @@
 title: "sitrep.ch"
 subtitle: "Elektronische Lagedarstellung für die Schweiz 🇨🇭"
 image: "images/features/dashboard.webp"
-image_alt: "Dashboard mit aktuellen Meldungen, Lagekarte, Personenübersicht und Mitteln"
+image_alt: "Dashboard mit aktuellen Meldungen, Nachrichtenkarte, Personenübersicht und Mitteln"
 showcase_more: "Alle Funktionen"
 facts_title: "Was zeichnet sitrep aus?"
 facts:
@@ -13,7 +13,7 @@ facts:
   - title: "Open Source"
     text: "Jede Organisation kann sitrep selber betreiben, verändern und weiterentwickeln, im Gegensatz zu oft proprietären, teuren Tools. Änderungen fliessen zurück ins Projekt ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE))."
   - title: "Funktionen"
-    text: "Journalführung, Triage und Lagekarte werden heute unterstützt. Personen- und Mittelübersicht sowie das Lagedashboard sind in einer Vorabversion. Bedürfnisse / Pendenzen / Anträge sind in Entwicklung."
+    text: "Journalführung, Triage und Nachrichtenkarte werden heute unterstützt. Personen- und Mittelübersicht sowie das Lagebild-Dashboard sind in einer Vorabversion. Bedürfnisse / Pendenzen / Anträge sind in Entwicklung."
   - title: "Mehrsprachig"
     text: "Verfügbar auf Deutsch, Französisch, Italienisch und Englisch."
   - title: "Ressourcenschonend"
