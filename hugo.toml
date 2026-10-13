@@ -21,17 +21,21 @@ defaultContentLanguageInSubdir = false
       pageRef = "/funktionen"
       weight = 10
     [[languages.de.menus.main]]
+      name = "Für Ihren Stab"
+      pageRef = "/fuer-ihren-stab"
+      weight = 20
+    [[languages.de.menus.main]]
+      name = "Einsetzen"
+      pageRef = "/einsetzen"
+      weight = 30
+    [[languages.de.menus.main]]
       name = "Dokumentation"
       pageRef = "/docs"
-      weight = 20
+      weight = 40
     [[languages.de.menus.main]]
       name = "Blog"
       pageRef = "/blog"
-      weight = 30
-    [[languages.de.menus.main]]
-      name = "Über sitrep"
-      pageRef = "/ueber-uns"
-      weight = 40
+      weight = 50
   [languages.fr]
     locale = "fr-CH"
     label = "Français"
@@ -43,17 +47,21 @@ defaultContentLanguageInSubdir = false
       pageRef = "/funktionen"
       weight = 10
     [[languages.fr.menus.main]]
+      name = "Pour votre état-major"
+      pageRef = "/fuer-ihren-stab"
+      weight = 20
+    [[languages.fr.menus.main]]
+      name = "Mise en œuvre"
+      pageRef = "/einsetzen"
+      weight = 30
+    [[languages.fr.menus.main]]
       name = "Documentation"
       pageRef = "/docs"
-      weight = 20
+      weight = 40
     [[languages.fr.menus.main]]
       name = "Blog"
       pageRef = "/blog"
-      weight = 30
-    [[languages.fr.menus.main]]
-      name = "À propos de sitrep"
-      pageRef = "/ueber-uns"
-      weight = 40
+      weight = 50
   [languages.it]
     locale = "it-CH"
     label = "Italiano"
@@ -65,17 +73,21 @@ defaultContentLanguageInSubdir = false
       pageRef = "/funktionen"
       weight = 10
     [[languages.it.menus.main]]
+      name = "Per il vostro stato maggiore"
+      pageRef = "/fuer-ihren-stab"
+      weight = 20
+    [[languages.it.menus.main]]
+      name = "Adozione"
+      pageRef = "/einsetzen"
+      weight = 30
+    [[languages.it.menus.main]]
       name = "Documentazione"
       pageRef = "/docs"
-      weight = 20
+      weight = 40
     [[languages.it.menus.main]]
       name = "Blog"
       pageRef = "/blog"
-      weight = 30
-    [[languages.it.menus.main]]
-      name = "Su sitrep"
-      pageRef = "/ueber-uns"
-      weight = 40
+      weight = 50
 
 [taxonomies]
   tag = "tags"

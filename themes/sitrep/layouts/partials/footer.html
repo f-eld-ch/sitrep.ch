@@ -1,6 +1,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <ul class="footer-links">
+      {{ with site.GetPage "/ueber-uns" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
       <li><a href="{{ site.Params.demo }}">{{ i18n "footer_demo" }}</a></li>
       <li><a href="{{ site.Params.repo }}">{{ i18n "footer_source" }}</a></li>
       <li><a href="mailto:{{ site.Params.email }}">{{ i18n "footer_contact" }}</a></li>

@@ -7,7 +7,7 @@
     {{ partial "untranslated.html" . }}
     <p>{{ partial "diataxis-badge.html" (dict "Params" (dict "diataxis" (.Params.diataxis | default .Parent.Params.diataxis))) }}</p>
     {{ if and .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}<div class="toc"><strong>{{ i18n "on_this_page" }}</strong>{{ .TableOfContents }}</div>{{ end }}
-    <div class="prose">{{ .Content }}</div>
+    <div class="prose"{{ with .Params.contentlang }} lang="{{ . }}"{{ end }}>{{ .Content }}</div>
     <div class="pager">
       <span>{{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}</span>
       <span>{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</span>

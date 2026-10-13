@@ -80,8 +80,8 @@ blockquote { margin: 0 0 1em; padding-left: 1em; border-left: 4px solid var(--si
 /* Sections */
 main > .wrap, main > section > .wrap { padding-top: 3rem; padding-bottom: 3rem; }
 .hero { background: var(--sitrep-bg-subtle); border-bottom: 1px solid var(--sitrep-line); }
-.hero .wrap { display: grid; gap: 2rem; grid-template-columns: 1fr; align-items: center; }
-@media (min-width: 56rem) { .hero .wrap { grid-template-columns: 1fr 1fr; } }
+
+
 .hero .lead { font-size: var(--sitrep-size-h3); max-width: 36rem; }
 .hero img { border: 1px solid var(--sitrep-line); }
 .cards { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); list-style: none; padding: 0; }
@@ -176,6 +176,9 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
   .site-header .brand img { height: 28px; }
   .menu-button, .lang-switch summary { padding: 0 .5rem; }
   .theme-toggle { min-width: var(--sitrep-min-touch-target); }
+}
+/* The main nav collapses earlier: French and Italian labels are long. */
+@media (max-width: 72rem) {
   .js .menu-button { display: inline-flex; }
   .js .site-header nav { display: none; order: 10; flex-basis: 100%; border-top: 1px solid var(--sitrep-line); }
   .js .site-header nav.open { display: block; }
@@ -197,3 +200,26 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
   .js .docs-nav { display: none; margin-top: .5rem; }
   .js .docs-nav.open { display: block; }
 }
+
+.actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.button.secondary { background: none; color: var(--sitrep-color-interactive); border: 2px solid var(--sitrep-color-interactive); }
+.button.secondary:hover { background: var(--sitrep-bg-subtle); color: var(--sitrep-color-interactive-hover); border-color: var(--sitrep-color-interactive-hover); }
+.button.secondary:active { color: var(--sitrep-color-interactive-pressed); border-color: var(--sitrep-color-interactive-pressed); }
+html[data-theme="dark"] .button.secondary { color: var(--sitrep-color-interactive-hover); border-color: var(--sitrep-color-interactive-hover); }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .button.secondary { color: var(--sitrep-color-interactive-hover); border-color: var(--sitrep-color-interactive-hover); } }
+.cta-card { display: flex; flex-direction: column; height: 100%; }
+.cta-card .cta-label { margin-top: auto; padding-top: .5rem; font-weight: var(--sitrep-weight-bold); color: var(--link); }
+
+/* Landing page: text first, then a wide screenshot (as on f-eld.ch). */
+.hero { border-bottom: 0; background: var(--sitrep-bg-subtle); padding-top: 3rem; }
+.hero .wrap { display: block; }
+.hero-text { text-align: center; }
+.hero-text h1 { margin-bottom: .5rem; }
+.hero-text .lead { margin: 0 auto 1rem; max-width: 40rem; }
+.hero-text .actions { justify-content: center; margin-top: 1.5rem; }
+.hero-shot { padding-top: 2.5rem; padding-bottom: 0; max-width: 80rem; }
+.hero-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--sitrep-line); border-bottom: 0; box-shadow: 0 -8px 32px rgba(0,0,0,.12); }
+.showcase .feature:first-child { border-top: 0; }
+.showcase { padding-top: 2rem; }
+.showcase > .wrap { padding-bottom: 0; }
+.cta > .wrap { padding-top: 1.5rem; }

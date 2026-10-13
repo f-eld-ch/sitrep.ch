@@ -1,16 +1,39 @@
 {{ define "main" }}
 <section class="hero">
-  <div class="wrap">
-    <div>
-      <h1>{{ .Title }}</h1>
-      <p class="lead">{{ .Params.subtitle }}</p>
-      {{ .Content }}
-      <p><a class="button" href="{{ site.Params.demo }}">{{ i18n "try_demo" }}</a></p>
-    </div>
-    {{ with .Params.image }}<img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}">{{ end }}
+  <div class="wrap hero-text">
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ .Params.subtitle }}</p>
+    {{ .Content }}
+    <p class="actions">
+      <a class="button" href="{{ site.Params.demo }}">{{ i18n "try_demo" }}</a>
+      {{ with .Params.hero_cta }}<a class="button secondary" href="{{ .url | relLangURL }}">{{ .label }}</a>{{ end }}
+    </p>
   </div>
+  {{ with .Params.image }}
+  <div class="wrap hero-shot">
+    <img src="{{ . | relURL }}" alt="{{ $.Params.image_alt }}" width="1600" height="970" fetchpriority="high">
+  </div>
+  {{ end }}
 </section>
 {{ partial "facts.html" . }}
+{{ with site.GetPage "/funktionen" }}
+{{ $page := . }}
+<section class="showcase">
+  <div class="wrap">
+    {{ range where .Params.features "teaser" "ne" nil }}
+    <div class="feature">
+      <div>
+        <h2>{{ .title }}</h2>
+        <p>{{ .teaser }}</p>
+        <p><a href="{{ $page.RelPermalink }}#{{ .id }}">{{ $.Params.showcase_more }} →</a></p>
+      </div>
+      {{ with .image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ partial "cta.html" . }}
 {{ with site.GetPage "/blog" }}
 {{ if .Pages }}
 <section>

@@ -5,12 +5,12 @@
   {{ range $f := .Params.features }}
   <section class="feature" id="{{ $f.id }}">
     <div>
-      <h2>{{ $f.title }}</h2>
+      <h2>{{ $f.title }}{{ with $f.badge }} <span class="badge">{{ . }}</span>{{ end }}</h2>
       <p>{{ $f.text }}</p>
       {{ with $f.points }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
     </div>
     <div class="shots">
-      {{ with $f.image }}<img src="{{ . | relURL }}" alt="{{ $f.title }}" loading="lazy">{{ end }}
+      {{ with $f.image }}<img src="{{ . | relURL }}" alt="{{ $f.image_alt | default $f.title }}" loading="lazy">{{ end }}
       {{ with $f.image2 }}<img src="{{ . | relURL }}" alt="{{ $f.image2_alt }}" loading="lazy">{{ end }}
     </div>
   </section>
