@@ -35,4 +35,4 @@ Erstellen Sie einen Account in der Demo-Umgebung und legen Sie sofort los: [demo
 
 ## Kontakt
 
-Fragen zu sitrep oder zum Service: [info@f-eld.ch](mailto:info@f-eld.ch)
+Fragen zu sitrep oder zum Service: [info@sitrep.ch](mailto:info@sitrep.ch)

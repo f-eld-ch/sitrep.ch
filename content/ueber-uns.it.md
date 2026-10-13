@@ -36,4 +36,4 @@ Create un account nell'ambiente demo e iniziate subito: [demo.sitrep.ch](https:/
 
 ## Contatto
 
-Domande su sitrep o sul servizio: [info@f-eld.ch](mailto:info@f-eld.ch)
+Domande su sitrep o sul servizio: [info@sitrep.ch](mailto:info@sitrep.ch)

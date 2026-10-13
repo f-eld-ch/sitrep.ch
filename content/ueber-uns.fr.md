@@ -36,4 +36,4 @@ Créez un compte dans l'environnement de démonstration et commencez tout de sui
 
 ## Contact
 
-Questions sur sitrep ou sur le service : [info@f-eld.ch](mailto:info@f-eld.ch)
+Questions sur sitrep ou sur le service : [info@sitrep.ch](mailto:info@sitrep.ch)
