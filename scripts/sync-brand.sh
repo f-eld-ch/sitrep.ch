@@ -8,6 +8,6 @@ DEST="$(dirname "$0")/../themes/sitrep"
 
 cp "$BRAND/tokens.css" "$DEST/assets/css/tokens.css"
 rm -rf "$DEST/static/brand" && mkdir -p "$DEST/static/brand"
-cp "$BRAND"/logo/{symbol,lockup-on-paper,lockup-on-ink,symbol-mono-white-accent}.svg "$DEST/static/brand/"
+cp "$BRAND"/logo/{symbol,lockup-on-paper,lockup-on-ink,lockup-blue,lockup-white,symbol-mono-white-accent}.svg "$DEST/static/brand/"
 cp "$BRAND"/png/symbol@{32,256}h.png "$DEST/static/brand/"
 echo "synced brand $(git -C "$BRAND" rev-parse --short HEAD) -> $DEST"

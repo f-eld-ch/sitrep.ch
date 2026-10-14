@@ -225,6 +225,7 @@ html[data-theme="dark"] .button.secondary { color: var(--sitrep-color-interactiv
 .hero-text { text-align: center; }
 .hero-text h1 { margin-bottom: .5rem; }
 .hero-text .lead { margin: 0 auto 1rem; max-width: 40rem; }
+.hero-text .lead p { margin: 0; }
 .hero-text .actions { justify-content: center; margin-top: 1.5rem; }
 .hero-shot { padding-top: 2.5rem; padding-bottom: 0; max-width: 80rem; }
 .hero-shot img { display: block; width: 100%; height: auto; box-shadow: 0 -4px 24px rgba(0,0,0,.12); }
@@ -238,3 +239,12 @@ html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[d
 @media (prefers-color-scheme: dark) {
   html:not([data-theme="light"]) .feature img, html:not([data-theme="light"]) .shots img, html:not([data-theme="light"]) .hero-shot img { box-shadow: none; }
 }
+
+/* Home page: the wordmark logo replaces the text heading (brand clearspace: one third of the symbol height). */
+.hero-text h1.hero-logo { margin: 0 0 .75rem; padding: .5rem 0; line-height: 0; }
+.hero-logo img { height: clamp(64px, 12vw, 96px); width: auto; aspect-ratio: 393 / 96; margin: 0 auto; }
+
+/* Tighter rhythm between the facts grid and the showcase rows on the home page. */
+.facts > .wrap { padding-bottom: 1rem; }
+.showcase { padding-top: 0; }
+.showcase > .wrap { padding-top: 0; padding-bottom: 0; }
