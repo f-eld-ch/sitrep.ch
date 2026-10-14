@@ -1,5 +1,5 @@
 ---
-title: "Ihre Führungsunterstützung mit sitrep verbessern"
+title: "sitrep für Ihren Stab"
 menu_title: "Für Ihren Stab"
 description: "Wie sitrep die Lageverarbeitung in Stab und Führungsunterstützung beschleunigt, und wie Sie es in Ihrer nächsten Übung prüfen."
 ---
@@ -31,6 +31,6 @@ Ob mit Zettel, Tabelle oder anderem Tool: Stellen Sie sich in Ihrer nächsten St
 
 ## Wir unterstützen Sie
 
-Gerne zeigen wir Ihnen sitrep an einem Beispielereignis oder begleiten Ihre nächste Übung. Schreiben Sie uns an [info@sitrep.ch](mailto:info@sitrep.ch).
+Gerne zeigen wir Ihnen sitrep an einem Beispielereignis oder begleiten Ihre nächste Übung. Gönnermitglieder des Vereins F-ELD können ausserdem sitrep-Schulungen für Stäbe und die Führungsunterstützung besuchen. Schreiben Sie uns an [info@sitrep.ch](mailto:info@sitrep.ch).
 
 Wie Sie sitrep in Ihrer Organisation betreiben können, lesen Sie unter [sitrep einsetzen]({{< relref "/einsetzen" >}}).

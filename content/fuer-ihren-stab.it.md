@@ -1,10 +1,10 @@
 ---
-title: "Migliorare il vostro supporto alla condotta con sitrep"
+title: "sitrep per il vostro stato maggiore"
 menu_title: "Per il vostro stato maggiore"
 slug: "per-il-vostro-stato-maggiore"
-description: "Come sitrep accelera l'elaborazione della situazione nello stato maggiore e nel supporto alla condotta, e come verificarlo nel prossimo esercizio."
+description: "Come sitrep accelera l'elaborazione della situazione nello stato maggiore e nell'aiuto alla condotta, e come verificarlo nel prossimo esercizio."
 ---
-Nel supporto alla condotta ogni minuto conta: i messaggi arrivano, vanno esaminati, distribuiti e trasferiti in quadri sinottici. Problemi tipici sono la burocrazia cartacea, le informazioni registrate due volte e gli stati non più aggiornati.
+Nell'aiuto alla condotta ogni minuto conta: i messaggi arrivano, vanno esaminati, distribuiti e trasferiti in quadri sinottici. Problemi tipici sono la burocrazia cartacea, le informazioni registrate due volte e gli stati non più aggiornati.
 
 sitrep supporta questo processo senza sostituirlo. Il lavoro nello strumento deve essere il lavoro nel processo, non un secondo sistema da aggiornare in parallelo.
 
@@ -21,7 +21,7 @@ Che lavoriate con fogli, tabelle o un altro strumento: ponetevi queste domande n
 
 - Quanto tempo ci vuole prima che i vostri quadri sinottici siano aggiornati?
 - Quanto spesso le stesse informazioni devono essere registrate più volte?
-- Lo strumento aiuta il vostro supporto alla condotta a rispettare i processi corretti sotto pressione, o è d'intralcio?
+- Lo strumento aiuta il vostro aiuto alla condotta a rispettare i processi corretti sotto pressione, o è d'intralcio?
 
 ## Provare sitrep nel vostro stato maggiore
 
@@ -32,6 +32,6 @@ Che lavoriate con fogli, tabelle o un altro strumento: ponetevi queste domande n
 
 ## Vi sosteniamo
 
-Vi mostriamo volentieri sitrep su un evento di esempio o accompagniamo il vostro prossimo esercizio. Scriveteci a [info@sitrep.ch](mailto:info@sitrep.ch).
+Vi mostriamo volentieri sitrep su un evento di esempio o accompagniamo il vostro prossimo esercizio. I soci sostenitori dell'associazione F-ELD possono inoltre seguire formazioni su sitrep per gli stati maggiori e l'aiuto alla condotta. Scriveteci a [info@sitrep.ch](mailto:info@sitrep.ch).
 
 Come gestire sitrep nella vostra organizzazione lo trovate in [Adottare sitrep]({{< relref "/einsetzen" >}}).
