@@ -2,7 +2,6 @@
 title: "sitrep mit Docker starten"
 description: "sitrep in wenigen Minuten lokal mit Docker starten und ausprobieren."
 weight: 10
-draft: true
 ---
 Diese Anleitung startet sitrep lokal mit Docker, damit Sie es ausprobieren können. Sie braucht weder eine eigene Datenbank noch eine Anmeldung.
 
