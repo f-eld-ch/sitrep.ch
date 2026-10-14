@@ -5,7 +5,6 @@ layout: "features"
 description: "Journal d'intervention, triage, carte de renseignements et vues d'ensemble."
 features:
   - id: "journal"
-    teaser: "Tous les messages entrants et sortants chronologiquement au même endroit : saisis rapidement, avec expéditeur, destinataire, canal et heure."
     title: "Journal d'intervention"
     text: "Le journal d'intervention consigne chaque message entrant et sortant : expéditeur, destinataire, canal, heure et contenu. Un formulaire simple permet une saisie rapide, et le classement chronologique donne à l'état-major à tout moment une vue d'ensemble de la situation."
     points:
@@ -16,7 +15,6 @@ features:
     image2: "images/features/nachrichten-editor.webp"
     image2_alt: "Éditeur avec aperçu d'un nouveau message"
   - id: "triage"
-    teaser: "Examiner chaque message, fixer sa priorité et l'attribuer au domaine compétent."
     title: "Triage"
     text: "Aucun message ne se perd : vous examinez chaque message, l'attribuez aux domaines et marquez les renseignements-clés."
     points:
@@ -29,13 +27,11 @@ features:
     image2: "images/features/triage-4-personen.webp"
     image2_alt: "Triage : saisie des personnes, avec aperçu du tableau des personnes"
   - id: "personen"
-    teaser: "Combien y a-t-il de blessés, de disparus et de décès, et où ? La vue d'ensemble donne les chiffres par zone sinistrée, toujours à l'état du triage."
     title: "Vue d'ensemble des personnes"
     text: "Combien y a-t-il de blessés, de disparus, de personnes bloquées, de sans-abri et de décès, et où ? La vue d'ensemble des personnes répond immédiatement : totaux et répartition par zone sinistrée, toujours à l'état du triage."
     image: "images/features/personenubersicht.webp"
     image_alt: "Vue d'ensemble des personnes avec répartition par zone sinistrée"
   - id: "mittel"
-    teaser: "Mis sur pied, prêts ou engagés : l'état-major voit à tout moment l'état de tous les moyens, groupés par formation."
     title: "Vue d'ensemble des moyens"
     text: "Toujours une vue d'ensemble de tous les moyens d'intervention : mis sur pied, prêts, engagés, relevés. Groupés par formation, directement depuis le triage."
     points:
@@ -45,7 +41,6 @@ features:
     image: "images/features/mittelubersicht.webp"
     image_alt: "Vue d'ensemble des moyens avec tableau des moyens"
   - id: "karte"
-    teaser: "Dessiner directement zones, zones sinistrées, moyens et itinéraires, avec les signes conventionnels civils de l'OFPP."
     title: "Carte de renseignements"
     text: "Ce qui ressort des messages triés, vous le dessinez directement sur la carte de renseignements : zones, zones sinistrées, moyens et itinéraires. Tous les signes conventionnels civils actuellement disponibles de l'OFPP sont à votre disposition, en plusieurs langues."
     points:

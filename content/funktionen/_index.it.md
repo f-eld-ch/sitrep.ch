@@ -5,7 +5,6 @@ layout: "features"
 description: "Giornale d'intervento, triage, carta informativa e compendi."
 features:
   - id: "journal"
-    teaser: "Tutti i messaggi in entrata e in uscita in ordine cronologico in un unico posto: registrati rapidamente, con mittente, destinatario, canale e ora."
     title: "Giornale d'intervento"
     text: "Il giornale d'intervento registra ogni messaggio in entrata e in uscita: mittente, destinatario, canale, ora e contenuto. Una semplice maschera di inserimento permette una registrazione rapida, e l'ordine cronologico offre allo stato maggiore in ogni momento una panoramica della situazione."
     points:
@@ -16,7 +15,6 @@ features:
     image2: "images/features/nachrichten-editor.webp"
     image2_alt: "Editor con anteprima di un nuovo messaggio"
   - id: "triage"
-    teaser: "Esaminare ogni messaggio, stabilire la priorità e assegnarlo al settore competente."
     title: "Triage"
     text: "Nessun messaggio va perso: esaminate ogni messaggio, assegnatelo ai settori e contrassegnate le notizie chiave."
     points:
@@ -29,13 +27,11 @@ features:
     image2: "images/features/triage-4-personen.webp"
     image2_alt: "Triage: registrazione delle persone, con anteprima del compendio delle persone"
   - id: "personen"
-    teaser: "Quanti feriti, dispersi e vittime ci sono, e dove? Il compendio fornisce i numeri per zona sinistrata, sempre allo stato del triage."
     title: "Compendio delle persone"
     text: "Quanti feriti, dispersi, intrappolati, senzatetto e vittime ci sono, e dove? Il compendio delle persone risponde subito: totali e ripartizione per zona sinistrata, sempre allo stato del triage."
     image: "images/features/personenubersicht.webp"
     image_alt: "Compendio delle persone con ripartizione per zona sinistrata"
   - id: "mittel"
-    teaser: "Chiamati, pronti o impiegati: lo stato maggiore vede in ogni momento la situazione di tutti i mezzi, raggruppati per formazione."
     title: "Compendio dei mezzi"
     text: "Sempre una panoramica di tutti i mezzi d'intervento: chiamati, pronti, impiegati, sostituiti. Raggruppati per formazione, direttamente dal triage."
     points:
@@ -45,7 +41,6 @@ features:
     image: "images/features/mittelubersicht.webp"
     image_alt: "Compendio dei mezzi con tabella dei mezzi"
   - id: "karte"
-    teaser: "Disegnare direttamente zone, zone sinistrate, mezzi e percorsi, con i segni convenzionali civili dell'UFPP."
     title: "Carta informativa"
     text: "Ciò che emerge dai messaggi sottoposti a triage lo disegnate direttamente sulla carta informativa: zone, zone sinistrate, mezzi e percorsi. A disposizione ci sono tutti i segni convenzionali civili dell'UFPP oggi disponibili, in più lingue."
     points:

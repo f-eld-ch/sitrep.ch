@@ -248,3 +248,5 @@ html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[d
 .facts > .wrap { padding-bottom: 1rem; }
 .showcase { padding-top: 0; }
 .showcase > .wrap { padding-top: 0; padding-bottom: 0; }
+
+.showcase-all { text-align: center; margin: 1rem 0 0; }

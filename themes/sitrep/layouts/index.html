@@ -18,20 +18,21 @@
   {{ end }}
 </section>
 {{ partial "facts.html" . }}
-{{ with site.GetPage "/funktionen" }}
-{{ $page := . }}
+{{ with .Params.showcase }}
+{{ $features := site.GetPage "/funktionen" }}
 <section class="showcase">
   <div class="wrap">
-    {{ range where .Params.features "teaser" "ne" nil }}
+    {{ range . }}
     <div class="feature">
       <div>
         <h2>{{ .title }}</h2>
-        <p>{{ .teaser }}</p>
-        <p><a href="{{ $page.RelPermalink }}#{{ .id }}">{{ $.Params.showcase_more }} →</a></p>
+        <p>{{ .text }}</p>
+        <p><a href="{{ $features.RelPermalink }}#{{ .anchor }}">{{ $.Params.showcase_more }} →</a></p>
       </div>
-      {{ with .image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+      <img src="{{ .image | relURL }}" alt="" loading="lazy">
     </div>
     {{ end }}
+    <p class="showcase-all"><a class="button secondary" href="{{ $features.RelPermalink }}">{{ $.Params.showcase_all }}</a></p>
   </div>
 </section>
 {{ end }}

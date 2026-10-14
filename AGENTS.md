@@ -138,13 +138,15 @@ app. Do not invent translations; check these first.
 Home (`_index.md`), `funktionen/`, `fuer-ihren-stab.md`, `einsetzen.md`, `ueber-uns.md`.
 
 - **Home** is driven by front matter: `image`/`image_alt` (hero screenshot), `hero_cta`,
-  `facts` (the "Was zeichnet sitrep aus?" grid), `cta` (call-to-action cards), `showcase_more`.
-  The three showcase rows come from `funktionen/_index.md`: only features with a `teaser` field
-  appear there.
+  `facts` (the "Was zeichnet sitrep aus?" grid), `showcase` (the picture rows), `cta`
+  (call-to-action cards). The home page only teases: keep `showcase` to about three rows and put the
+  details on the features page. Each row has `anchor` (id of a feature on `funktionen/`), `title`,
+  `text` and one `image`; all rows share the same layout (text and picture, alternating).
 - **Funktionen** (`layout: features`) lists features in front matter: `id` (anchor), `title`,
-  `text`, optional `teaser`, `points` (bullets), `badge`, `image`/`image_alt`, `image2`/`image2_alt`.
-  Order in the list is the order on the page. Anchors (`#journal`, `#karte`, …) are linked from
-  other pages, so do not rename ids lightly.
+  `text`, optional `points` (bullets), `badge`, `image`/`image_alt`, `image2`/`image2_alt`.
+  Order in the list is the order on the page. Anchors (`#journal`, `#personen`, `#karte`, …) are linked
+  from other pages, so do not rename ids lightly. Descriptions say why a feature is good (the benefit),
+  not how it works; how-to detail belongs in the documentation.
 - Link between pages with `{{< relref "/path" >}}` so links are language-aware.
 
 ### Blog (`content/blog/`)

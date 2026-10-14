@@ -4,7 +4,6 @@ layout: "features"
 description: "Einsatzjournal, Triage, Nachrichtenkarte und Übersichten."
 features:
   - id: "journal"
-    teaser: "Alle ein- und ausgehenden Meldungen chronologisch an einem Ort: schnell erfasst, mit Absender, Empfänger, Kanal und Zeit."
     title: "Einsatzjournal"
     text: "Das Einsatzjournal hält jede ein- und ausgehende Meldung fest: Absender, Empfänger, Kanal, Zeit und Inhalt. Eine einfache Eingabemaske macht die Erfassung schnell, und die chronologische Ablage gibt dem Stab jederzeit einen Überblick über die Lage."
     points:
@@ -15,7 +14,6 @@ features:
     image2: "images/features/nachrichten-editor.webp"
     image2_alt: "Editor mit Vorschau für eine neue Meldung"
   - id: "triage"
-    teaser: "Jede Meldung sichten, priorisieren und dem zuständigen Ressort zuweisen."
     title: "Triage"
     text: "Keine Meldung geht unter: Sie sichten jede Meldung, weisen sie den Ressorts zu und markieren Schlüsselnachrichten."
     points:
@@ -28,13 +26,11 @@ features:
     image2: "images/features/triage-4-personen.webp"
     image2_alt: "Triage: Personen erfassen, mit Vorschau der Personenübersicht"
   - id: "personen"
-    teaser: "Wie viele Verletzte, Vermisste und Tote gibt es, und wo? Die Personenübersicht liefert die Zahlen pro Schadenplatz, immer auf dem Stand der Triage."
     title: "Personenübersicht"
     text: "Wie viele Verletzte, Vermisste, Eingeschlossene, Obdachlose und Tote gibt es, und wo? Die Personenübersicht gibt die Antwort sofort: Gesamtzahlen und Verteilung pro Schadenplatz, immer auf dem Stand der Triage."
     image: "images/features/personenubersicht.webp"
     image_alt: "Personenübersicht mit Aufteilung nach Schadenplätzen"
   - id: "mittel"
-    teaser: "Aufgeboten, bereit oder im Einsatz: Der Stab sieht jederzeit den Stand aller Mittel, nach Formation gruppiert."
     title: "Mittelübersicht"
     text: "Jederzeit der Überblick über alle Einsatzmittel: aufgeboten, einsatzbereit, im Einsatz, abgelöst. Nach Formation gruppiert, direkt aus der Triage."
     points:
@@ -44,7 +40,6 @@ features:
     image: "images/features/mittelubersicht.webp"
     image_alt: "Mittelübersicht mit Mitteltabelle"
   - id: "karte"
-    teaser: "Zonen, Schadenplätze, Mittel und Wege direkt einzeichnen, mit den zivilen Signaturen des BABS."
     title: "Nachrichtenkarte"
     text: "Was aus triagierten Meldungen hervorgeht, zeichnen Sie direkt auf der Nachrichtenkarte ein: Zonen, Schadenplätze, Mittel und Wege. Dafür stehen alle aktuell verfügbaren zivilen Signaturen des BABS bereit, mehrsprachig."
     points:
