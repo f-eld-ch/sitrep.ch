@@ -260,3 +260,7 @@ html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[d
 
 /* The copyright sign is an SVG: B612 and B612 Mono draw the glyph tiny and raised. */
 .made-with .copy { vertical-align: -2px; }
+
+/* Jump list under the intro of the features page. */
+.jump ul { display: flex; flex-wrap: wrap; gap: 0 1.5rem; list-style: none; margin: .5rem 0 0; padding: 0; }
+.jump a { display: inline-flex; align-items: center; min-height: var(--sitrep-min-touch-target); font-weight: var(--sitrep-weight-bold); }

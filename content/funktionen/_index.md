@@ -60,3 +60,4 @@ features:
     image: "images/features/dashboard.webp"
     image_alt: "Dashboard mit Meldungen, Nachrichtenkarte, Personenübersicht und Mitteln"
 ---
+Von der Meldung zum Lagebild: sitrep begleitet Ihren Stab durch die ganze Lageverarbeitung.

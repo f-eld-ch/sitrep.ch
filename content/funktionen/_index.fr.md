@@ -61,3 +61,4 @@ features:
     image: "images/features/dashboard.webp"
     image_alt: "Tableau de la situation avec messages, carte de renseignements, vue d'ensemble des personnes et des moyens"
 ---
+Du message au tableau de la situation : sitrep accompagne votre état-major tout au long du traitement de la situation.

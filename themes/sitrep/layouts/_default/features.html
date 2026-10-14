@@ -2,6 +2,9 @@
 <div class="wrap">
   <h1>{{ .Title }}</h1>
   <div class="prose">{{ .Content }}</div>
+  <nav class="jump" aria-label="{{ i18n "on_this_page" }}">
+    <ul>{{ range .Params.features }}<li><a href="#{{ .id }}">{{ .title }}</a></li>{{ end }}</ul>
+  </nav>
   {{ range $f := .Params.features }}
   <section class="feature" id="{{ $f.id }}">
     <div>

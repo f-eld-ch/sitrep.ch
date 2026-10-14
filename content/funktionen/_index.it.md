@@ -61,3 +61,4 @@ features:
     image: "images/features/dashboard.webp"
     image_alt: "Quadro della situazione con messaggi, carta informativa, compendio delle persone e dei mezzi"
 ---
+Dal messaggio al quadro della situazione: sitrep accompagna il vostro stato maggiore in tutta l'elaborazione della situazione.
