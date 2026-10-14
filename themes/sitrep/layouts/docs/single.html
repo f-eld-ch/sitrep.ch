@@ -6,8 +6,11 @@
     <h1>{{ .Title }}</h1>
     {{ partial "untranslated.html" . }}
     <p>{{ partial "diataxis-badge.html" (dict "Params" (dict "diataxis" (.Params.diataxis | default .Parent.Params.diataxis))) }}</p>
-    {{ if and .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}<div class="toc"><strong>{{ i18n "on_this_page" }}</strong>{{ .TableOfContents }}</div>{{ end }}
-    <div class="prose"{{ with .Params.contentlang }} lang="{{ . }}"{{ end }}>{{ .Content }}</div>
+    {{ $hasToc := and .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
+    <div class="doc-body{{ if $hasToc }} has-toc{{ end }}">
+      <div class="prose"{{ with .Params.contentlang }} lang="{{ . }}"{{ end }}>{{ .Content }}</div>
+      {{ if $hasToc }}<aside class="toc" aria-label="{{ i18n "on_this_page" }}"><strong>{{ i18n "on_this_page" }}</strong>{{ .TableOfContents }}</aside>{{ end }}
+    </div>
     <div class="pager">
       <span>{{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}</span>
       <span>{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</span>

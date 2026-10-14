@@ -264,3 +264,11 @@ html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[d
 /* Jump list under the intro of the features page. */
 .jump ul { display: flex; flex-wrap: wrap; gap: 0 1.5rem; list-style: none; margin: .5rem 0 0; padding: 0; }
 .jump a { display: inline-flex; align-items: center; min-height: var(--sitrep-min-touch-target); font-weight: var(--sitrep-weight-bold); }
+
+/* Docs page: the table of contents is as wide as the text on narrow screens and sits beside it on wide ones. */
+.doc-body { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+.doc-body .toc { order: -1; max-width: 56rem; margin: 0; }
+@media (min-width: 90rem) {
+  .doc-body.has-toc { grid-template-columns: minmax(0, 52rem) 16rem; gap: 2.5rem; }
+  .doc-body.has-toc .toc { order: 0; position: sticky; top: 1rem; align-self: start; max-height: calc(100vh - 2rem); overflow: auto; max-width: none; }
+}

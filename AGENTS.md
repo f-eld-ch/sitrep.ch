@@ -187,6 +187,10 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
   `howto`, `reference`, `explanation`). The quadrant weights are fixed (tutorials 10, how-to 20,
   reference 30, explanation 40; user before admin). Pages without a `weight` sort last.
 - Page front matter: `title`, `description`, optional `weight`. Titles show in the sidebar.
+- **Placeholders are drafts.** Pages that only say "Platzhalter" and quadrants without real content carry
+  `draft: true` (sections use `cascade: draft: true`, per language file). They show up in previews
+  (`--buildDrafts`) but not in the production build, and a draft `relref` target breaks that build. Remove
+  the flag when the page has real content.
 - **Docs fall back to German.** Pages without a translation are served under `/fr/` and `/it/`
   with a notice ("nur auf Deutsch verfügbar"). This is configured with a `sites.matrix` mount in
   `hugo.toml`; do not remove it.
