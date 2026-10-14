@@ -1,6 +1,5 @@
 ---
 title: "sitrep.ch"
-subtitle: "Rappresentazione elettronica della situazione per la Svizzera 🇨🇭"
 image: "images/features/dashboard.webp"
 image_alt: "Dashboard con messaggi attuali, carta informativa, compendio delle persone e dei mezzi"
 showcase_more: "Tutte le funzionalità"
@@ -36,4 +35,4 @@ cta:
     label: "Adottare sitrep"
     url: "adozione/"
 ---
-Rappresentazione digitale della situazione, robusta, adatta alla milizia e moderna, per decisioni rapide e fondate e per la gestione efficace degli eventi in ogni situazione.
+Robusto, adatto alla milizia, moderno: sitrep supporta il vostro stato maggiore nelle decisioni e nella gestione degli eventi, in ogni situazione.

@@ -1,6 +1,5 @@
 ---
 title: "sitrep.ch"
-subtitle: "Elektronische Lagedarstellung für die Schweiz 🇨🇭"
 image: "images/features/dashboard.webp"
 image_alt: "Dashboard mit aktuellen Meldungen, Nachrichtenkarte, Personenübersicht und Mitteln"
 showcase_more: "Alle Funktionen"
@@ -36,4 +35,4 @@ cta:
     label: "So setzen Sie sitrep ein"
     url: "einsetzen/"
 ---
-Robuste, miliztaugliche und moderne digitale Lagedarstellung zur raschen und fundierten Entscheidfindung und erfolgreichen Ereignisbewältigung in sämtlichen Lagen.
+Robust, miliztauglich, modern: sitrep unterstützt Ihren Stab bei Entscheiden und der Ereignisbewältigung, in jeder Lage.
