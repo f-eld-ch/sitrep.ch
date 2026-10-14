@@ -8,21 +8,17 @@ Ci sono tre modi di usare sitrep. Non si escludono a vicenda: la maggior parte c
 
 ## 1. Provare
 
-Nell'[ambiente demo](https://demo.sitrep.ch) create un account (o accedete con GitHub) e iniziate subito. La demo gira sempre con l'attuale versione di sviluppo. I dati vengono cancellati regolarmente: non gestitevi quindi un intervento reale.
+Nell'[ambiente demo](https://demo.sitrep.ch) create un account (o accedete con GitHub) e iniziate subito. La demo gira sempre con l'ultima versione rilasciata di sitrep. I dati vengono cancellati regolarmente in automatico: non gestite quindi lì un intervento reale. Inoltre i dati nella demo sono potenzialmente visibili a tutti.
+
+Se la demo non basta per la vostra valutazione, potete chiedere un'istanza temporanea a [info@sitrep.ch](mailto:info@sitrep.ch) oppure gestirne una voi stessi (vedere [2. Gestirlo autonomamente](#2-gestirlo-autonomamente)).
 
 ## 2. Gestirlo autonomamente
 
-sitrep è software libero ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE)) che funziona nel browser con requisiti minimi. Potete gestirlo su un Raspberry Pi, in una macchina virtuale o come container Docker.
+**Quando conviene.** Se volete mantenere il pieno controllo su dati e gestione, o se la vostra informatica gestisce già applicazioni per lo stato maggiore. Se non volete costruire un'informatica propria per questo, il servizio (3) è la scelta migliore.
 
-Vi servono:
+**Come fare.** sitrep è software libero ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE)) e funziona già su hardware piccolo, in una macchina virtuale o come container. Lo installate voi, collegate la vostra autenticazione e lo mantenete aggiornato. Per le istanze più piccole basta l'installazione standard; per quelle più grandi consigliamo PostgreSQL come database.
 
-- un server Linux. Per Fedora, RHEL, Rocky Linux, AlmaLinux, Debian e Ubuntu sono disponibili pacchetti firmati su [packages.sitrep.ch](https://packages.sitrep.ch)
-- un database PostgreSQL
-- per l'esercizio produttivo, un provider OpenID Connect per l'autenticazione
-
-Una guida passo dopo passo si trova in [Installation & Setup]({{< relref "/docs/admin/how-to/setup-with-local-postgres" >}}) (in inglese). La gestione degli accessi a eventi e gruppi è descritta nella [documentazione degli accessi]({{< relref "/docs/admin/reference/access-control" >}}) (in inglese).
-
-L'[associazione F-ELD](https://f-eld.ch) vi sostiene nella messa in opera e nella gestione. Scriveteci a [info@sitrep.ch](mailto:info@sitrep.ch).
+**L'aiuto di F-ELD.** L'[associazione F-ELD](https://f-eld.ch) vi sostiene nella messa in opera e nella gestione e accompagna il vostro onboarding. Per i soci sostenitori offre anche formazioni su sitrep per gli stati maggiori e l'aiuto alla condotta. Scriveteci a [info@sitrep.ch](mailto:info@sitrep.ch).
 
 ## 3. Usarlo come servizio
 
@@ -35,7 +31,7 @@ Rispondiamo volentieri a domande sul servizio e sull'adesione: [info@sitrep.ch](
 | Volete … | Allora |
 |---|---|
 | prima conoscere sitrep | Ambiente demo |
-| pieno controllo su dati e gestione | Gestirlo autonomamente, con il sostegno di F-ELD |
+| pieno controllo su dati e gestione | Gestirlo autonomamente, con o senza il sostegno di F-ELD |
 | non costruire un'informatica propria per questo | Come servizio |
 
 Come introdurre e valutare sitrep nel vostro stato maggiore lo trovate in [Per il vostro stato maggiore]({{< relref "/fuer-ihren-stab" >}}).
