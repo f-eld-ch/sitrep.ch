@@ -1,23 +1,21 @@
 ---
 title: "À propos de sitrep"
 slug: "a-propos"
-description: "À quoi sert sitrep, qui est derrière le projet et comment contribuer ou utiliser sitrep."
+description: "sitrep est open source et développé et exploité par l'association d'utilité publique F-ELD."
 ---
-sitrep est un logiciel de représentation électronique de la situation pour les états-majors. Il permet de saisir, coordonner et communiquer les messages pendant un événement, sans gêner le travail : pas un système de plus à tenir à jour en parallèle, mais un outil qui simplifie les processus manuels fastidieux et accélère le flux du message au sein de l'état-major.
-
-sitrep est conçu pour la protection civile et d'autres états-majors civils, pas pour un usage militaire.
-
-## À quoi sert sitrep
-
-- **Saisir les messages :** le journal d'intervention consigne tous les messages entrants et sortants. La saisie numérique est plus rapide et moins sujette aux erreurs que la feuille de message écrite à la main.
-- **Distribuer les messages :** lors du triage, les messages sont attribués aux domaines, sous forme numérique ou en feuille de message imprimée.
-- **Représenter la situation :** la carte de renseignements montre la situation actuelle avec les signes conventionnels civils de l'Office fédéral de la protection de la population (OFPP).
-
-Plus de détails sur la page [Fonctionnalités]({{< relref "/funktionen" >}}).
+sitrep est un logiciel de représentation électronique de la situation pour les états-majors, conçu pour la protection civile et d'autres états-majors civils. Il est **open source** et développé et exploité par l'**association F-ELD, d'utilité publique et sans but lucratif**.
 
 ## Open source
 
-sitrep est un logiciel libre sous licence [AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE). Vous pouvez l'utiliser, l'exploiter vous-même, le modifier et le faire évoluer, à condition que les modifications profitent à nouveau à tous. Le code source se trouve dans le [dépôt GitHub](https://github.com/f-eld-ch/sitrep).
+sitrep est un logiciel libre sous licence [AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE). Vous pouvez l'utiliser, l'exploiter vous-même, le modifier et le faire évoluer, à condition que les modifications profitent à nouveau à tous. Le code source se trouve dans le [dépôt GitHub](https://github.com/f-eld-ch/sitrep). Contrairement à de nombreux outils existants, sitrep n'est donc pas propriétaire : chaque organisation peut l'utiliser et le vérifier.
+
+## L'association F-ELD
+
+Derrière sitrep se trouve l'[association F-ELD](https://f-eld.ch), une association d'utilité publique au sens des art. 60 ss du Code civil suisse, dont le siège est à Altdorf (UR). Son but est la promotion et la diffusion du suivi numérique de la situation dans les états-majors, ainsi que le développement et la diffusion de logiciels open source qui servent ce but.
+
+L'association ne poursuit pas de but lucratif. Elle peut proposer des prestations qui servent son but, par exemple l'exploitation de sitrep pour ses membres (hébergée en Suisse avec [VSHN](https://www.vshn.ch)), et utilise toutes ses recettes pour remplir son but. Pour ses membres donateurs, elle propose aussi des formations sitrep pour les états-majors et l'aide à la conduite. Ses organes travaillent en principe bénévolement.
+
+Pour savoir comment utiliser sitrep, voir [Mettre sitrep en œuvre]({{< relref "/einsetzen" >}}).
 
 ## Contribuer
 
@@ -27,12 +25,7 @@ sitrep est un logiciel libre sous licence [AGPL-3.0](https://github.com/f-eld-ch
 
 ## Essayer
 
-Créez un compte dans l'environnement de démonstration et commencez tout de suite : [demo.sitrep.ch](https://demo.sitrep.ch). Les données sont effacées régulièrement. N'y menez pas d'intervention réelle.
-
-## Exploitation
-
-- **L'exploiter vous-même :** sitrep fonctionne dans le navigateur, demande peu de ressources et tourne sur un Raspberry Pi, dans une VM ou comme conteneur Docker. Les guides se trouvent dans la [documentation d'administration]({{< relref "/docs/admin" >}}). L'association F-ELD vous soutient dans cette démarche.
-- **En tant que service :** l'[association F-ELD](https://f-eld.ch), qui développe et maintient sitrep, propose sitrep comme service géré à ses membres. L'exploitation se fait sur une infrastructure sécurisée en Suisse, avec [VSHN](https://www.vshn.ch) comme partenaire d'hébergement.
+Créez un compte dans l'environnement de démonstration et commencez tout de suite : [demo.sitrep.ch](https://demo.sitrep.ch). Les données sont effacées régulièrement et automatiquement : n'y menez donc pas d'intervention réelle. De plus, les données de la démo sont potentiellement visibles par tous.
 
 ## Contact
 
