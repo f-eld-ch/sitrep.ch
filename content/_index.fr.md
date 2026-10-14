@@ -17,6 +17,10 @@ showcase:
     title: "Carte de renseignements"
     text: "Dessiner directement zones, zones sinistrées, moyens et itinéraires, avec les signes conventionnels civils de l'OFPP."
     image: "images/features/nachrichtenkarte.webp"
+about:
+  title: "Qui est derrière sitrep ?"
+  text: "sitrep est open source et développé et exploité par l'[association F-ELD](https://f-eld.ch), d'utilité publique. L'association promeut le suivi numérique de la situation dans les états-majors, ne poursuit pas de but lucratif et utilise toutes ses recettes à cette fin."
+  link: "En savoir plus sur sitrep"
 facts_title: "Ce qui distingue sitrep"
 facts:
   - title: "Rapide"
@@ -41,7 +45,7 @@ cta:
     label: "Vers l'environnement de démonstration"
     url: "https://demo.sitrep.ch"
   - title: "Pour votre état-major"
-    text: "Comment sitrep accélère le traitement de la situation dans votre appui à la conduite, et comment le vérifier lors du prochain exercice."
+    text: "Comment sitrep accélère le traitement de la situation dans votre aide à la conduite, et comment le vérifier lors du prochain exercice."
     label: "Améliorer votre état-major"
     url: "pour-votre-etat-major/"
   - title: "Mise en œuvre"

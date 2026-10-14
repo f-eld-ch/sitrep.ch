@@ -250,3 +250,13 @@ html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[d
 .showcase > .wrap { padding-top: 0; padding-bottom: 0; }
 
 .showcase-all { text-align: center; margin: 1rem 0 0; }
+
+/* "Who is behind it": a quiet band between the showcase and the call to action. */
+.about { background: var(--sitrep-bg-subtle); border-top: 1px solid var(--sitrep-line); border-bottom: 1px solid var(--sitrep-line); margin-top: 2.5rem; }
+.about > .wrap { max-width: 48rem; text-align: center; padding-top: 2.5rem; padding-bottom: 2.5rem; }
+.about h2 { margin: 0 0 .5rem; }
+.about p { margin: 0 0 .75rem; }
+.about p:last-child { margin-bottom: 0; }
+
+/* The copyright sign is an SVG: B612 and B612 Mono draw the glyph tiny and raised. */
+.made-with .copy { vertical-align: -2px; }

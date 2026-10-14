@@ -17,6 +17,10 @@ showcase:
     title: "Carta informativa"
     text: "Disegnare direttamente zone, zone sinistrate, mezzi e percorsi, con i segni convenzionali civili dell'UFPP."
     image: "images/features/nachrichtenkarte.webp"
+about:
+  title: "Chi c'è dietro sitrep?"
+  text: "sitrep è open source e viene sviluppato e gestito dall'[associazione F-ELD](https://f-eld.ch), di pubblica utilità. L'associazione promuove l'elaborazione digitale della situazione negli stati maggiori, non persegue scopo di lucro e utilizza tutte le entrate a tale scopo."
+  link: "Scopri di più su sitrep"
 facts_title: "Cosa distingue sitrep"
 facts:
   - title: "Veloce"
@@ -41,7 +45,7 @@ cta:
     label: "All'ambiente demo"
     url: "https://demo.sitrep.ch"
   - title: "Per il vostro stato maggiore"
-    text: "Come sitrep accelera l'elaborazione della situazione nel vostro supporto alla condotta e come verificarlo nel prossimo esercizio."
+    text: "Come sitrep accelera l'elaborazione della situazione nel vostro aiuto alla condotta e come verificarlo nel prossimo esercizio."
     label: "Migliorare il vostro stato maggiore"
     url: "per-il-vostro-stato-maggiore/"
   - title: "Adozione"

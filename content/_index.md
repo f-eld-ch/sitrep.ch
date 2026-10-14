@@ -17,6 +17,10 @@ showcase:
     title: "Nachrichtenkarte"
     text: "Zonen, Schadenplätze, Mittel und Wege direkt einzeichnen, mit den zivilen Signaturen des BABS."
     image: "images/features/nachrichtenkarte.webp"
+about:
+  title: "Wer steht dahinter?"
+  text: "sitrep ist Open Source und wird vom gemeinnützigen [Verein F-ELD](https://f-eld.ch) entwickelt und betrieben. Der Verein fördert die digitale Lagebewirtschaftung in Führungsstäben, arbeitet nicht gewinnorientiert und verwendet alle Einnahmen für diesen Zweck."
+  link: "Mehr über sitrep"
 facts_title: "Was zeichnet sitrep aus?"
 facts:
   - title: "Schnell"
