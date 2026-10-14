@@ -9,10 +9,10 @@ sitrep unterstützt diesen Prozess, ohne ihn zu ersetzen. Die Arbeit im Tool sol
 
 ## Wo sitrep in Ihrer Lageverarbeitung hilft
 
-- **Meldungen erfassen.** Alle ein- und ausgehenden Nachrichten landen im [Einsatzjournal]({{< relref "/funktionen" >}}#journal), mit Absender, Empfänger, Kanal und Zeit. Digital erfasst geht das schneller und mit weniger Fehlern als auf dem Meldezettel von Hand.
-- **Meldungen triagieren.** Eine zentrale Person sichtet jede Meldung, weist sie den Ressorts zu, markiert Schlüsselnachrichten und priorisiert. Wer keinen Bildschirm hat, bekommt den Meldezettel ausgedruckt.
-- **Lage darstellen.** Erkenntnisse aus triagierten Meldungen erscheinen direkt auf der [Nachrichtenkarte]({{< relref "/funktionen" >}}#karte), mit Signaturen des BABS, und stehen dem Stab ohne Zeitverlust zur Verfügung.
-- **Zugriff steuern.** Pro Ereignis legen Sie fest, wer lesen, schreiben oder verwalten darf, einzeln oder über Gruppen. Details in der [Dokumentation]({{< relref "/docs/admin/reference/access-control" >}}).
+- **Kürzere Durchlaufzeit.** Von der Erfassung einer Meldung bis zur fertig verarbeiteten Meldung vergeht weniger Zeit, weil alle Schritte in einem Werkzeug zusammenlaufen.
+- **Triage ohne Umwege.** Eine zentrale Person sichtet jede Meldung, weist sie den Ressorts zu und markiert Schlüsselnachrichten.
+- **Alle Produkte nachgeführt.** Aus einer Erfassung werden [Einsatzjournal]({{< relref "/funktionen" >}}#journal), [Personen- und Mittelübersicht]({{< relref "/funktionen" >}}#personen), [Nachrichtenkarte]({{< relref "/funktionen" >}}#karte) und Lagebild nachgeführt. Niemand erfasst doppelt oder zählt nach.
+- **Die Meldung kommt bei den Ressorts an.** Jedes Ressort erhält, was es braucht, digital oder als ausgedruckter Meldezettel.
 
 ## Woran Sie erkennen, ob es sich lohnt
 

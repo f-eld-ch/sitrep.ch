@@ -10,10 +10,10 @@ sitrep soutient ce processus sans le remplacer. Le travail dans l'outil doit êt
 
 ## Où sitrep aide dans votre traitement de la situation
 
-- **Saisir les messages.** Tous les messages entrants et sortants vont dans le [journal d'intervention]({{< relref "/funktionen" >}}#journal), avec expéditeur, destinataire, canal et heure. La saisie numérique est plus rapide et moins sujette aux erreurs que la feuille de message écrite à la main.
-- **Trier les messages.** Une personne centrale examine chaque message, l'attribue aux domaines, marque les renseignements-clés et fixe les priorités. Qui n'a pas d'écran reçoit la feuille de message imprimée.
-- **Représenter la situation.** Les enseignements tirés des messages triés apparaissent directement sur la [carte de renseignements]({{< relref "/funktionen" >}}#karte), avec des signes conventionnels de l'OFPP, et sont disponibles sans délai pour l'état-major.
-- **Gérer les accès.** Pour chaque événement, vous définissez qui peut lire, écrire ou administrer, individuellement ou par groupes. Détails dans la [documentation]({{< relref "/docs/admin/reference/access-control" >}}).
+- **Délai raccourci.** Entre la saisie d'un message et son traitement complet, il s'écoule moins de temps, car toutes les étapes se font dans un seul outil.
+- **Un triage sans détour.** Une personne centrale examine chaque message, l'attribue aux domaines et marque les renseignements-clés.
+- **Tous les produits à jour.** Une seule saisie met à jour le [journal d'intervention]({{< relref "/funktionen" >}}#journal), la [vue d'ensemble des personnes et des moyens]({{< relref "/funktionen" >}}#personen), la [carte de renseignements]({{< relref "/funktionen" >}}#karte) et le tableau de la situation. Personne ne saisit à double ni ne recompte.
+- **Le message arrive aux domaines.** Chaque domaine reçoit ce dont il a besoin, sous forme numérique ou en feuille de message imprimée.
 
 ## Comment savoir si cela en vaut la peine
 

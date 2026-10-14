@@ -10,10 +10,10 @@ sitrep supporta questo processo senza sostituirlo. Il lavoro nello strumento dev
 
 ## Dove sitrep aiuta nell'elaborazione della situazione
 
-- **Registrare i messaggi.** Tutti i messaggi in entrata e in uscita finiscono nel [giornale d'intervento]({{< relref "/funktionen" >}}#journal), con mittente, destinatario, canale e ora. La registrazione digitale è più veloce e meno soggetta a errori del modulo di notifica scritto a mano.
-- **Sottoporre i messaggi a triage.** Una persona centrale esamina ogni messaggio, lo assegna ai settori, contrassegna le notizie chiave e stabilisce le priorità. Chi non ha uno schermo riceve il modulo di notifica stampato.
-- **Rappresentare la situazione.** Le conoscenze ricavate dai messaggi sottoposti a triage compaiono direttamente sulla [carta informativa]({{< relref "/funktionen" >}}#karte), con segni convenzionali dell'UFPP, e sono subito a disposizione dello stato maggiore.
-- **Gestire gli accessi.** Per ogni evento stabilite chi può leggere, scrivere o amministrare, singolarmente o tramite gruppi. Dettagli nella [documentazione]({{< relref "/docs/admin/reference/access-control" >}}).
+- **Tempi più brevi.** Dalla registrazione di un messaggio alla sua elaborazione completa passa meno tempo, perché tutti i passi confluiscono in un unico strumento.
+- **Triage senza giri.** Una persona centrale esamina ogni messaggio, lo assegna ai settori e contrassegna le notizie chiave.
+- **Tutti i prodotti aggiornati.** Con una sola registrazione si aggiornano il [giornale d'intervento]({{< relref "/funktionen" >}}#journal), il [compendio delle persone e dei mezzi]({{< relref "/funktionen" >}}#personen), la [carta informativa]({{< relref "/funktionen" >}}#karte) e il quadro della situazione. Nessuno registra due volte né riconta.
+- **Il messaggio arriva ai settori.** Ogni settore riceve ciò che gli serve, in forma digitale o come modulo di notifica stampato.
 
 ## Come capire se ne vale la pena
 
