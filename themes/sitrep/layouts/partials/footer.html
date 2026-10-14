@@ -5,7 +5,7 @@
       <li><a href="{{ site.Params.demo }}">{{ i18n "footer_demo" }}</a></li>
       <li><a href="{{ site.Params.repo }}">{{ i18n "footer_source" }}</a></li>
       <li><a href="mailto:{{ site.Params.email }}">{{ i18n "footer_contact" }}</a></li>
-      <li><a href="{{ "index.xml" | relLangURL }}">RSS</a></li>
+      {{ with site.GetPage "/blog" }}{{ with .OutputFormats.Get "rss" }}<li><a href="{{ .RelPermalink }}">RSS</a></li>{{ end }}{{ end }}
     </ul>
     <p class="made-with">
       <a class="repo-link" href="{{ site.Params.repo }}" aria-label="sitrep on GitHub">

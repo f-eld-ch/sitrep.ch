@@ -106,9 +106,12 @@ defaultContentLanguageInSubdir = false
 [markup.highlight]
   noClasses = false
 
+# RSS only for the blog (see content/blog/_index.md): one feed per language with the posts
 [outputs]
-  home = ["HTML", "RSS"]
-  section = ["HTML", "RSS"]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 # Docs are German-only for now: serve them (untranslated) under /fr/ and /it/ too.
 # A translated page (e.g. foo.fr.md) takes precedence over the German original.
