@@ -12,7 +12,7 @@ facts:
   - title: "Open Source"
     text: "Jede Organisation kann sitrep selber betreiben, verändern und weiterentwickeln, im Gegensatz zu oft proprietären, teuren Tools. Änderungen fliessen zurück ins Projekt ([AGPL-3.0](https://github.com/f-eld-ch/sitrep/blob/HEAD/LICENSE))."
   - title: "Funktionen"
-    text: "Journalführung, Triage und Nachrichtenkarte werden heute unterstützt. Personen- und Mittelübersicht sowie das Lagebild-Dashboard sind in einer Vorabversion. Bedürfnisse / Pendenzen / Anträge sind in Entwicklung."
+    text: "Personen- und Mittelübersicht direkt aus der Triage, dazu Einsatzjournal, Nachrichtenkarte und Lagebild. Bedürfnisse / Pendenzen / Anträge sind in Entwicklung."
   - title: "Mehrsprachig"
     text: "Verfügbar auf Deutsch, Französisch, Italienisch und Englisch."
   - title: "Ressourcenschonend"

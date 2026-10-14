@@ -11,7 +11,7 @@ sitrep soutient ce processus sans le remplacer. Le travail dans l'outil doit êt
 ## Où sitrep aide dans votre traitement de la situation
 
 - **Saisir les messages.** Tous les messages entrants et sortants vont dans le [journal d'intervention]({{< relref "/funktionen" >}}#journal), avec expéditeur, destinataire, canal et heure. La saisie numérique est plus rapide et moins sujette aux erreurs que la feuille de message écrite à la main.
-- **Trier les messages.** Une personne centrale examine chaque message, l'attribue aux domaines, marque les renseignements-clés et fixe les priorités. Qui n'a pas d'écran reçoit la feuille de message imprimée. Avec le filtre « Triage en suspens », vous voyez à tout moment ce qui reste ouvert.
+- **Trier les messages.** Une personne centrale examine chaque message, l'attribue aux domaines, marque les renseignements-clés et fixe les priorités. Qui n'a pas d'écran reçoit la feuille de message imprimée.
 - **Représenter la situation.** Les enseignements tirés des messages triés apparaissent directement sur la [carte de renseignements]({{< relref "/funktionen" >}}#karte), avec des signes conventionnels de l'OFPP, et sont disponibles sans délai pour l'état-major.
 - **Gérer les accès.** Pour chaque événement, vous définissez qui peut lire, écrire ou administrer, individuellement ou par groupes. Détails dans la [documentation]({{< relref "/docs/admin/reference/access-control" >}}).
 
