@@ -53,4 +53,4 @@ cta:
     label: "Adottare sitrep"
     url: "adozione/"
 ---
-Robusto, adatto alla milizia, moderno: sitrep supporta il vostro stato maggiore nelle decisioni e nella gestione degli eventi, in ogni situazione.
+Robusto, adatto alla milizia, moderno: sitrep sostiene il vostro stato maggiore anche negli eventi più stressanti.

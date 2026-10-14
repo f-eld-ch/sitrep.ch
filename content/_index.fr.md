@@ -53,4 +53,4 @@ cta:
     label: "Mettre sitrep en œuvre"
     url: "mise-en-oeuvre/"
 ---
-Robuste, adapté à la milice, moderne : sitrep soutient votre état-major dans la prise de décision et la gestion des événements, en toute situation.
+Robuste, adapté à la milice, moderne : sitrep porte votre état-major même à travers les événements les plus stressants.

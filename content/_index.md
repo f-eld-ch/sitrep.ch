@@ -53,4 +53,4 @@ cta:
     label: "So setzen Sie sitrep ein"
     url: "einsetzen/"
 ---
-Robust, miliztauglich, modern: sitrep unterstützt Ihren Stab bei Entscheiden und der Ereignisbewältigung, in jeder Lage.
+Robust, miliztauglich, modern: sitrep trägt Ihren Stab auch durch die stressigsten Ereignisse.
