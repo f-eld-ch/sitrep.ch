@@ -5,7 +5,7 @@ weight: 10
 ---
 sitrep regelt den Zugriff auf zwei Ebenen. Die **globalen Rollen** bestimmen, wer das System verwalten darf. Die **Ereignisrollen** bestimmen, wer ein einzelnes Ereignis sehen und bearbeiten darf. Die beiden Ebenen sind getrennt, damit jemand ein Ereignis führen kann, ohne das System verwalten zu dürfen, und umgekehrt.
 
-Alle Rollen, Modi und Rechte im Einzelnen stehen in der [Referenz]({{< relref "/docs/user/reference/zugriffssteuerung" >}}).
+Alle Rollen, Modi und Rechte im Einzelnen stehen in der [Referenz]({{< relref "/docs/user/reference/allgemein/zugriffssteuerung" >}}).
 
 ## Zwei Ebenen
 

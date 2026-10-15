@@ -2,7 +2,6 @@
 title: "Zugriff für ein Ereignis einrichten"
 description: "Eine Gruppe anlegen, ein Ereignis einschränken und der Gruppe eine Rolle geben."
 weight: 20
-draft: true
 ---
 In diesem Tutorial richten Sie den Zugriff für ein Ereignis so ein, dass nur ein bestimmter Stab es bearbeiten kann. Sie legen eine Gruppe an, fügen Mitglieder hinzu, schränken das Ereignis ein und geben der Gruppe die Rolle Bearbeiter. Am Schluss prüfen Sie das Ergebnis.
 
@@ -50,4 +49,4 @@ Die Gruppe erscheint mit der Rolle Bearbeiter in der Tabelle.
 1. Melden Sie sich als Mitglied der Gruppe an. Das Ereignis ist sichtbar, und Sie können Journaleinträge erfassen.
 2. Melden Sie sich als zweiter Benutzer an, der nicht in der Gruppe ist. Das Ereignis ist nicht zugänglich.
 
-Sie haben den Zugriff für ein Ereignis auf eine Gruppe beschränkt. Wie Sie später Mitglieder wechseln oder Rollen ändern, steht in den Anleitungen [Gruppen verwalten]({{< relref "/docs/user/how-to/gruppen" >}}) und [Zugriff auf ein Ereignis verwalten]({{< relref "/docs/user/how-to/ereigniszugriff-verwalten" >}}). Warum die Zugriffssteuerung so aufgebaut ist, erklärt der Hintergrundartikel [Wie die Zugriffssteuerung gedacht ist]({{< relref "/docs/user/explanation/zugriffssteuerung" >}}).
+Sie haben den Zugriff für ein Ereignis auf eine Gruppe beschränkt. Wie Sie später Mitglieder wechseln oder Rollen ändern, steht in den Anleitungen [Gruppen verwalten]({{< relref "/docs/user/how-to/allgemein/gruppen" >}}) und [Zugriff auf ein Ereignis verwalten]({{< relref "/docs/user/how-to/allgemein/ereigniszugriff-verwalten" >}}). Warum die Zugriffssteuerung so aufgebaut ist, erklärt der Hintergrundartikel [Wie die Zugriffssteuerung gedacht ist]({{< relref "/docs/user/explanation/allgemein/zugriffssteuerung" >}}).

@@ -3,7 +3,7 @@ title: "Zugriff auf ein Ereignis verwalten"
 description: "Den Zugriffsmodus eines Ereignisses wechseln und Berechtigungen erteilen, ändern und entziehen."
 weight: 20
 ---
-Diese Anleitung zeigt, wie Sie festlegen, wer ein Ereignis sehen und bearbeiten darf. Bei Ereignissen mit offenem Zugriff kann jeder angemeldete Benutzer die Einstellungen ändern. Bei eingeschränkten Ereignissen brauchen Sie die Rolle **Manager** oder **Besitzer**. Was die Rollen können, steht in der [Referenz]({{< relref "/docs/user/reference/zugriffssteuerung" >}}).
+Diese Anleitung zeigt, wie Sie festlegen, wer ein Ereignis sehen und bearbeiten darf. Bei Ereignissen mit offenem Zugriff kann jeder angemeldete Benutzer die Einstellungen ändern. Bei eingeschränkten Ereignissen brauchen Sie die Rolle **Manager** oder **Besitzer**. Was die Rollen können, steht in der [Referenz]({{< relref "/docs/user/reference/allgemein/zugriffssteuerung" >}}).
 
 Öffnen Sie dazu die Seite **Ereigniszugriff** des Ereignisses (Adresse `/incident/<id>/access`).
 

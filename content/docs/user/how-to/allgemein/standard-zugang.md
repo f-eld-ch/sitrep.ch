@@ -3,7 +3,7 @@ title: "Standard-Zugang für neue Ereignisse festlegen"
 description: "Festlegen, mit welchem Zugangsmodus und welchen Rollen neue Ereignisse erstellt werden."
 weight: 50
 ---
-Mit dem Standard-Zugang bestimmen Sie, wie neue Ereignisse erstellt werden: mit welchem Zugangsmodus und mit welchen Rollenzuweisungen. Dafür brauchen Sie die Rolle Systemadministrator. Die Einstellung gilt nur für neue Ereignisse, bestehende ändern sich nicht. Was die Modi und Rollen bedeuten, steht in der [Referenz]({{< relref "/docs/user/reference/zugriffssteuerung" >}}).
+Mit dem Standard-Zugang bestimmen Sie, wie neue Ereignisse erstellt werden: mit welchem Zugangsmodus und mit welchen Rollenzuweisungen. Dafür brauchen Sie die Rolle Systemadministrator. Die Einstellung gilt nur für neue Ereignisse, bestehende ändern sich nicht. Was die Modi und Rollen bedeuten, steht in der [Referenz]({{< relref "/docs/user/reference/allgemein/zugriffssteuerung" >}}).
 
 Öffnen Sie **Administration → Zugangskontrolle → Standard-Zugang**.
 

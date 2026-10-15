@@ -3,7 +3,7 @@ title: "Gruppen verwalten"
 description: "Gruppen erstellen, Mitglieder hinzufügen und entfernen und Gruppen archivieren."
 weight: 40
 ---
-Mit Gruppen verwalten Sie den Zugriff für mehrere Benutzer an einer Stelle. Diese Anleitung zeigt, wie Sie Gruppen erstellen, ihre Mitglieder pflegen und sie archivieren. Sie brauchen dafür die Rolle Gruppenadministrator oder Systemadministrator. Wie Gruppen zusammen mit Ereignissen wirken, steht im Hintergrundartikel [Wie die Zugriffssteuerung gedacht ist]({{< relref "/docs/user/explanation/zugriffssteuerung" >}}).
+Mit Gruppen verwalten Sie den Zugriff für mehrere Benutzer an einer Stelle. Diese Anleitung zeigt, wie Sie Gruppen erstellen, ihre Mitglieder pflegen und sie archivieren. Sie brauchen dafür die Rolle Gruppenadministrator oder Systemadministrator. Wie Gruppen zusammen mit Ereignissen wirken, steht im Hintergrundartikel [Wie die Zugriffssteuerung gedacht ist]({{< relref "/docs/user/explanation/allgemein/zugriffssteuerung" >}}).
 
 Gruppen verwalten Sie unter **Administration → Zugangskontrolle → Gruppen**.
 

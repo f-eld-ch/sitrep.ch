@@ -3,7 +3,7 @@ title: "Zugriffssteuerung"
 description: "Referenz: globale Rollen, Ereignisrollen, Zugriffsmodi und wer was darf."
 weight: 10
 ---
-Fakten zur Zugriffssteuerung von sitrep zum Nachschlagen. Die Überlegungen dahinter stehen im Hintergrundartikel [Wie die Zugriffssteuerung gedacht ist]({{< relref "/docs/user/explanation/zugriffssteuerung" >}}). Konkrete Aufgaben beschreiben die Anleitungen [Globale Rollen verwalten]({{< relref "/docs/user/how-to/globale-rollen" >}}) und [Gruppen verwalten]({{< relref "/docs/user/how-to/gruppen" >}}).
+Fakten zur Zugriffssteuerung von sitrep zum Nachschlagen. Die Überlegungen dahinter stehen im Hintergrundartikel [Wie die Zugriffssteuerung gedacht ist]({{< relref "/docs/user/explanation/allgemein/zugriffssteuerung" >}}). Konkrete Aufgaben beschreiben die Anleitungen [Globale Rollen verwalten]({{< relref "/docs/user/how-to/allgemein/globale-rollen" >}}) und [Gruppen verwalten]({{< relref "/docs/user/how-to/allgemein/gruppen" >}}).
 
 ## Wo finde ich was?
 

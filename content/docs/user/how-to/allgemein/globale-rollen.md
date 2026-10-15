@@ -3,7 +3,7 @@ title: "Globale Rollen verwalten"
 description: "Globale Rollen vergeben und entziehen und den ersten Systemadministrator festlegen."
 weight: 30
 ---
-Diese Anleitung zeigt, wie Sie globale Rollen vergeben und entziehen. Sie brauchen dafür die Rolle Systemadministrator. Was die Rollen können, steht in der [Referenz]({{< relref "/docs/user/reference/zugriffssteuerung" >}}).
+Diese Anleitung zeigt, wie Sie globale Rollen vergeben und entziehen. Sie brauchen dafür die Rolle Systemadministrator. Was die Rollen können, steht in der [Referenz]({{< relref "/docs/user/reference/allgemein/zugriffssteuerung" >}}).
 
 Globale Rollen verwalten Sie unter **Administration → Zugangskontrolle → Globale Rollen**.
 
