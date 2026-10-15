@@ -186,6 +186,12 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
 
 - Put every page in the quadrant that matches its purpose. Do not mix purposes in one page;
   split it instead.
+- **Categories** group pages inside a quadrant by feature (journal, triage, general, ...). A category is a
+  sub-folder of the quadrant (`docs/user/how-to/allgemein/seite.md`) with an `_index.md` per language: its
+  `title` is the (translated) category name and its `weight` the order of the categories (general first).
+  Categories show as headings in the overview and as groups in the sidebar. The quadrant stays the top level,
+  do not put categories above it. Pages that are not in a category (admin docs so far) are listed flat. Mark a category without real content as a draft
+  (`draft: true` plus `cascade: draft: true`), like a quadrant.
 - Section `_index.md` files carry `title`, `description`, `weight` and `diataxis` (`tutorial`,
   `howto`, `reference`, `explanation`). The quadrant weights are fixed (tutorials 10, how-to 20,
   reference 30, explanation 40; user before admin). Pages without a `weight` sort last.
