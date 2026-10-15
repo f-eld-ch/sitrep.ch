@@ -6,7 +6,7 @@
     <h1>{{ .Title }}</h1>
     {{ partial "draft-notice.html" . }}
     {{ partial "untranslated.html" . }}
-    <p>{{ partial "draft-badge.html" . }} {{ partial "diataxis-badge.html" (dict "Params" (dict "diataxis" (.Params.diataxis | default .Parent.Params.diataxis))) }}</p>
+    <p>{{ partial "diataxis-badge.html" (dict "Params" (dict "diataxis" (.Params.diataxis | default .Parent.Params.diataxis))) }}</p>
     {{ $hasToc := and .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
     <div class="doc-body{{ if $hasToc }} has-toc{{ end }}">
       <div class="prose"{{ with .Params.contentlang }} lang="{{ . }}"{{ end }}>{{ .Content }}</div>

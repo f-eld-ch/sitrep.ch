@@ -110,7 +110,7 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
 }
 
 .badge-draft { background: var(--sitrep-color-warning); color: var(--sitrep-color-ink); border: 1px dashed var(--sitrep-color-ink); margin-left: .25em; vertical-align: middle; }
-h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); }
+h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); vertical-align: middle; }
 
 /* Blog */
 .post-list { list-style: none; padding: 0; }
