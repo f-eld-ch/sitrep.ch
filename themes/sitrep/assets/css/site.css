@@ -42,6 +42,8 @@ blockquote { margin: 0 0 1em; padding-left: 1em; border-left: 4px solid var(--si
 
 .wrap { max-width: 90rem; margin: 0 auto; padding: 0 1.25rem; }
 .prose { max-width: 56rem; min-width: 0; }
+/* Blog articles: the text column sits in the middle of the page. */
+.post .prose { max-width: 66rem; margin-inline: auto; }
 .skip { position: absolute; left: -999px; }
 .skip:focus { left: 1rem; top: 1rem; background: var(--sitrep-bg); padding: .5rem 1rem; z-index: 10; }
 
