@@ -1,13 +1,15 @@
 ---
 title: "Carte de renseignements améliorée avec sitrep v26.8.2"
 date: 2026-08-24
-draft: true
 tags: ["release", "carte-de-renseignements"]
 summary: "Plus de clarté, plus de rapidité, plus d'impact : sitrep v26.8.2 apporte des signes conventionnels OFPP multilingues, de nouvelles zones et une description intelligente des signes conventionnels."
+cover: "map-fr.webp"
 ---
 Plus de clarté, plus de rapidité, plus d'impact : ces nouveautés font passer votre carte de renseignements au niveau supérieur.
 
 Un grand merci à toutes les organisations de toute la Suisse qui, grâce à leurs retours du terrain, contribuent activement à faire évoluer sitrep. Grâce à ces retours précieux, nous pouvons présenter dans la dernière version plusieurs améliorations importantes du module cartographique.
+
+![Carte de renseignements : libellé d'un signe conventionnel avec les champs Désignation, Lieu et Informations complémentaires](map-fr.webp)
 
 ## Nouvelles fonctionnalités
 
@@ -29,7 +31,7 @@ Les champs d'édition s'adaptent automatiquement au signe conventionnel sélecti
 
 ## Résultat
 
-Carte de renseignements plus intuitive, plus d'options, meilleure expérience utilisateur.
+La carte de renseignements devient plus intuitive et offre plus de possibilités pour des représentations de situation plus précises.
 
 ## Et ensuite
 

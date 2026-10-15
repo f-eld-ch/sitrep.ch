@@ -4,6 +4,7 @@ date: 2026-10-13
 draft: true
 tags: ["triage", "neue-funktion"]
 summary: "Die neue Triage-Ansicht in sitrep führt Personen- und Mittelübersicht gleich mit: Wer eine Meldung triagiert, erfasst Personen und Einsatzmittel in einem Schritt, und die Lage lässt sich jederzeit vom Bildschirm ablesen."
+cover: "images/dashboard.webp"
 ---
 **08:45 Uhr im Lagezentrum.** Der kantonale Führungsstab meldet sich: *«Bitte bis 09:30 Lagemeldung mit aktueller Personen- und Mittelübersicht einreichen.»*
 

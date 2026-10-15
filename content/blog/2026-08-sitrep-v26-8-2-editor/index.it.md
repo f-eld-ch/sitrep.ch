@@ -1,13 +1,15 @@
 ---
 title: "Carta informativa migliorata con sitrep v26.8.2"
 date: 2026-08-24
-draft: true
 tags: ["release", "carta-informativa"]
 summary: "Più chiarezza, più velocità, più impatto: sitrep v26.8.2 porta segni convenzionali UFPP multilingue, nuove zone e una descrizione intelligente dei segni convenzionali."
+cover: "map-it.webp"
 ---
 Più chiarezza, più velocità, più impatto: queste novità portano la vostra carta informativa al livello successivo.
 
 Un sentito grazie a tutte le organizzazioni di tutta la Svizzera che, con i loro feedback dal campo, contribuiscono attivamente all'evoluzione di sitrep. Grazie a questi preziosi feedback, nell'ultima versione possiamo presentare diversi importanti miglioramenti nel modulo cartografico.
+
+![Carta informativa: dicitura di un segno convenzionale con i campi Designazione, Luogo e Informazioni aggiuntive](map-it.webp)
 
 ## Nuove funzionalità
 
@@ -29,7 +31,7 @@ I campi di modifica si adattano automaticamente al segno convenzionale seleziona
 
 ## Risultato
 
-Carta informativa più intuitiva, più opzioni, migliore esperienza utente.
+La carta informativa diventa più intuitiva e offre più possibilità per rappresentazioni della situazione più precise.
 
 ## E poi
 

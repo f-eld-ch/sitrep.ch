@@ -1,13 +1,15 @@
 ---
 title: "Bessere Nachrichtenkarte mit sitrep v26.8.2"
 date: 2026-08-24
-draft: true
 tags: ["release", "nachrichtenkarte"]
 summary: "Mehr Klarheit, mehr Tempo, mehr Wirkung: sitrep v26.8.2 bringt mehrsprachige BABS-Signaturen, neue Zonen und eine intelligente Beschriftung der Signaturen."
+cover: "map-de.webp"
 ---
 Mehr Klarheit, mehr Tempo, mehr Wirkung: Diese Neuerungen bringen Ihre digitale Nachrichtenkarte auf das nächste Level.
 
 Ein herzliches Dankeschön an alle Organisationen aus der ganzen Schweiz, die mit ihrem praxisnahen Feedback sitrep aktiv mitgestalten. Dank dem wertvollen Feedback können wir im neuesten Release diverse wichtige Verbesserungen im Kartenmodul präsentieren.
+
+![Nachrichtenkarte: Beschriftung einer Signatur mit den Feldern Nähere Kennzeichnung, Ortsbezeichnung und Zusatzangaben](map-de.webp)
 
 ## Neue Funktionen
 
@@ -29,7 +31,7 @@ Bearbeitungsfelder passen sich automatisch an das ausgewählte Signatur an. Form
 
 ## Ergebnis
 
-Intuitivere Nachrichtenkarte, mehr Optionen, bessere Benutzererfahrung.
+Die Nachrichtenkarte wird intuitiver und bietet mehr Möglichkeiten für genauere Lagedarstellungen.
 
 ## Wie geht es weiter
 
