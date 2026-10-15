@@ -67,8 +67,11 @@ blockquote { margin: 0 0 1em; padding-left: 1em; border-left: 4px solid var(--si
 .site-header nav a[aria-current="page"] { border-bottom: 3px solid var(--sitrep-color-alert-red); }
 .theme-toggle {
   min-width: var(--sitrep-min-touch-target); min-height: var(--sitrep-min-touch-target);
-  background: none; border: 1px solid var(--sitrep-line); color: var(--sitrep-fg); font-size: 1.25rem; cursor: pointer;
+  background: none; border: 0; color: var(--sitrep-fg); font-size: 1.25rem; cursor: pointer;
 }
+.theme-toggle:hover { background: var(--sitrep-bg-subtle); }
+/* The controls on the right sit closer together than the rest of the header. */
+.lang-switch + .menu-button, .lang-switch + .menu-button + .theme-toggle, .lang-switch ~ .theme-toggle { margin-left: -1rem; }
 
 /* Buttons */
 .button {
@@ -90,6 +93,8 @@ main > .wrap, main > section > .wrap { padding-top: 3rem; padding-bottom: 3rem; 
 .card { border: 1px solid var(--sitrep-line); background: var(--sitrep-bg-elevated); padding: 1.25rem; }
 .card h2, .card h3 { margin: 0 0 .5rem; font-size: var(--sitrep-size-h3); }
 .card > :last-child { margin-bottom: 0; }
+.docs .card h2, .docs .card h3 { font-size: var(--sitrep-size-body); }
+.docs .card p { font-size: var(--sitrep-size-small); }
 a.card { display: block; color: inherit; text-decoration: none; }
 .cards > li:not(.card) { display: flex; }
 .cards > li > .card { flex: 1; }
@@ -105,8 +110,8 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
   .feature { grid-template-columns: 1fr 2fr; }
   .feature:nth-child(even) { grid-template-columns: 2fr 1fr; }
 }
-/* Screenshots: no frame, a soft shadow separates them from the page in light mode. */
-.feature img, .shots img { --shot-shadow: 0 1px 3px rgba(0,0,0,.14), 0 6px 20px rgba(0,0,0,.08); box-shadow: var(--shot-shadow); }
+/* Screenshots: no frame, a soft shadow separates them from the page in light mode. Includes images in docs and blog articles (.prose), not the logos. */
+.feature img, .shots img, .prose img { --shot-shadow: 0 1px 3px rgba(0,0,0,.14), 0 6px 20px rgba(0,0,0,.08); box-shadow: var(--shot-shadow); }
 .badge {
   display: inline-block; font-size: var(--sitrep-size-min); font-weight: var(--sitrep-weight-bold);
   text-transform: uppercase; letter-spacing: .04em; padding: .1em .6em; border: 1px solid currentColor;
@@ -157,7 +162,7 @@ h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); vertical-al
 .lang-switch summary {
   display: inline-flex; align-items: center; gap: .4rem; list-style: none; cursor: pointer;
   min-width: var(--sitrep-min-touch-target); min-height: var(--sitrep-min-touch-target); padding: 0 .75rem;
-  border: 1px solid var(--sitrep-line); font-family: var(--sitrep-font-mono); font-size: var(--sitrep-size-small);
+  font-family: var(--sitrep-font-mono); font-size: var(--sitrep-size-small);
   font-weight: var(--sitrep-weight-bold);
 }
 .lang-switch summary::-webkit-details-marker { display: none; }
@@ -195,6 +200,7 @@ h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); vertical-al
   .site-header .brand img { height: 28px; }
   .menu-button, .lang-switch summary { padding: 0 .5rem; }
   .theme-toggle { min-width: var(--sitrep-min-touch-target); }
+  .lang-switch + .menu-button, .lang-switch ~ .theme-toggle { margin-left: 0; }
 }
 /* The main nav collapses earlier: French and Italian labels are long. */
 @media (max-width: 72rem) {
@@ -245,9 +251,9 @@ html[data-theme="dark"] .button.secondary { color: var(--sitrep-color-interactiv
 .cta > .wrap { padding-top: 1.5rem; }
 
 /* On a dark surface the white screenshots stand out on their own. */
-html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[data-theme="dark"] .hero-shot img { box-shadow: none; }
+html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[data-theme="dark"] .prose img, html[data-theme="dark"] .hero-shot img { box-shadow: none; }
 @media (prefers-color-scheme: dark) {
-  html:not([data-theme="light"]) .feature img, html:not([data-theme="light"]) .shots img, html:not([data-theme="light"]) .hero-shot img { box-shadow: none; }
+  html:not([data-theme="light"]) .feature img, html:not([data-theme="light"]) .shots img, html:not([data-theme="light"]) .prose img, html:not([data-theme="light"]) .hero-shot img { box-shadow: none; }
 }
 
 /* Home page: the wordmark logo replaces the text heading (brand clearspace: one third of the symbol height). */
@@ -300,7 +306,7 @@ html[data-theme="dark"] .post-thumb img { box-shadow: none; }
 
 /* Docs categories (sub-folders of a quadrant) */
 .doc-category { margin-top: 2rem; }
-.doc-category h2 { font-size: var(--sitrep-size-h3); margin: 0 0 .75rem; }
+.doc-category h2 { font-size: var(--sitrep-size-h2); margin: 0 0 .75rem; }
 .doc-category h2 a { color: inherit; text-decoration: none; }
 .docs-nav .pages .cat > a { font-weight: var(--sitrep-weight-bold); color: var(--sitrep-fg); }
 .docs-nav .pages .cat > ul { margin: 0 0 .25rem .75rem; border-left: 1px solid var(--sitrep-line); }
