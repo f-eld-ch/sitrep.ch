@@ -6,7 +6,7 @@
     {{ partial "untranslated.html" . }}
     <div class="prose">{{ .Content }}</div>
     {{ if .Sections }}
-    <ul class="cards">
+    <ul class="cards{{ if eq (len .Sections) 4 }} cols-2{{ end }}">
       {{ range .Sections }}<li><a class="card" href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2><p>{{ with .Description }}{{ . }}{{ end }}</p></a></li>{{ end }}
     </ul>
     {{ end }}

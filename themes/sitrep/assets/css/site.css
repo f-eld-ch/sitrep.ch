@@ -88,6 +88,8 @@ main > .wrap, main > section > .wrap { padding-top: 3rem; padding-bottom: 3rem; 
 .card h2, .card h3 { margin: 0 0 .5rem; font-size: var(--sitrep-size-h3); }
 .card > :last-child { margin-bottom: 0; }
 a.card { display: block; color: inherit; text-decoration: none; }
+.cards > li:not(.card) { display: flex; }
+.cards > li > .card { flex: 1; }
 a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
 .feature { display: grid; gap: 2rem; align-items: center; padding: 2.5rem 0; border-top: 1px solid var(--sitrep-line); }
 /* Text is short, screenshots carry the page: give the image column the larger share. */
@@ -170,6 +172,7 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
 .lang-switch a[aria-current] { font-weight: var(--sitrep-weight-bold); box-shadow: inset 4px 0 0 var(--sitrep-color-alert-red); }
 .notice { border: 1px solid var(--sitrep-line); border-left: 6px solid var(--sitrep-color-warning); padding: .5rem 1rem; background: var(--sitrep-bg-subtle); }
 @media (min-width: 56rem) { .cards.cols-3 { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 40rem) { .cards.cols-2 { grid-template-columns: repeat(2, 1fr); } }
 .shots { display: grid; gap: 1rem; }
 
 /* Mobile menu: without JS the nav simply stays visible and wraps. */
