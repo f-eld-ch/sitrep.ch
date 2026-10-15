@@ -1,27 +1,138 @@
-# Basic Configuration
-title = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
-copyright = "{year}"
-theme="hugo-story"
-
-# Publish
-relativeURLs = "true"
-#canonifyURLs = "true"
+title = "sitrep.ch"
+theme = "sitrep"
 baseURL = "https://sitrep.ch/"
+relativeURLs = true
+defaultContentLanguage = "de"
 publishDir = "public"
+copyright = "Verein F-ELD"
+enableRobotsTXT = true
 
-# Hugo Built-in Features
-disableKinds = ["taxonomy", "section"]
+defaultContentLanguageInSubdir = false
 
-# Site Parameters
-[Params]
+[languages]
+  [languages.de]
+    locale = "de-CH"
+    label = "Deutsch"
+    weight = 1
+    [languages.de.params]
+      description = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
+    [[languages.de.menus.main]]
+      name = "Funktionen"
+      pageRef = "/funktionen"
+      weight = 10
+    [[languages.de.menus.main]]
+      name = "Für Ihren Stab"
+      pageRef = "/fuer-ihren-stab"
+      weight = 20
+    [[languages.de.menus.main]]
+      name = "Einsetzen"
+      pageRef = "/einsetzen"
+      weight = 30
+    [[languages.de.menus.main]]
+      name = "Dokumentation"
+      pageRef = "/docs"
+      weight = 40
+    [[languages.de.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 50
+  [languages.fr]
+    locale = "fr-CH"
+    label = "Français"
+    weight = 2
+    [languages.fr.params]
+      description = "sitrep.ch - Représentation électronique de la situation pour la Suisse"
+    [[languages.fr.menus.main]]
+      name = "Fonctionnalités"
+      pageRef = "/funktionen"
+      weight = 10
+    [[languages.fr.menus.main]]
+      name = "Pour votre état-major"
+      pageRef = "/fuer-ihren-stab"
+      weight = 20
+    [[languages.fr.menus.main]]
+      name = "Mise en œuvre"
+      pageRef = "/einsetzen"
+      weight = 30
+    [[languages.fr.menus.main]]
+      name = "Documentation"
+      pageRef = "/docs"
+      weight = 40
+    [[languages.fr.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 50
+  [languages.it]
+    locale = "it-CH"
+    label = "Italiano"
+    weight = 3
+    [languages.it.params]
+      description = "sitrep.ch - Rappresentazione elettronica della situazione per la Svizzera"
+    [[languages.it.menus.main]]
+      name = "Funzionalità"
+      pageRef = "/funktionen"
+      weight = 10
+    [[languages.it.menus.main]]
+      name = "Per il vostro stato maggiore"
+      pageRef = "/fuer-ihren-stab"
+      weight = 20
+    [[languages.it.menus.main]]
+      name = "Adozione"
+      pageRef = "/einsetzen"
+      weight = 30
+    [[languages.it.menus.main]]
+      name = "Documentazione"
+      pageRef = "/docs"
+      weight = 40
+    [[languages.it.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 50
+
+[taxonomies]
+  tag = "tags"
+
+[params]
   description = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
-  logo = "images/lage.png"
-  favicon = true
+  repo = "https://github.com/f-eld-ch/sitrep"
+  email = "info@sitrep.ch"
+  verein = "https://f-eld.ch"
+  defaultlang = "de"
+  demo = "https://demo.sitrep.ch"
 
-[Params.social]
-  github = "https://github.com/f-eld-ch/"
-  email = "info@f-eld.ch"
 
-[Params.asset]
-  fontawesome_css = ["css/fontawesome-all.min.css"]
-  fontawesome_js = ["js/fontawesome-all.min.js"]
+[markup.goldmark.renderer]
+  unsafe = false
+[markup.highlight]
+  noClasses = false
+
+# RSS only for the blog (see content/blog/_index.md): one feed per language with the posts
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+# Docs are German-only for now: serve them (untranslated) under /fr/ and /it/ too.
+# A translated page (e.g. foo.fr.md) takes precedence over the German original.
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "content/docs"
+    target = "content/docs"
+    [module.mounts.sites.matrix]
+      languages = ["fr", "it"]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
