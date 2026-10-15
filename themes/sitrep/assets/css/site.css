@@ -139,7 +139,7 @@ h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); vertical-al
 .docs-nav .group { margin: 0 0 1.5rem; border-top: 3px solid var(--sitrep-line); }
 .docs-nav .group.is-current { border-top-color: var(--sitrep-fg); }
 .docs-nav .group > h2 { margin: 0; font-size: var(--sitrep-size-body); }
-.docs-nav .group > h2 a { font-weight: var(--sitrep-weight-bold); }
+.docs-nav .group > h2 a { font-weight: var(--sitrep-weight-bold); padding-left: .75rem; }
 .docs-nav .quads { margin-left: .25rem; border-left: 1px solid var(--sitrep-line); }
 .docs-nav .quads > li > a { padding-left: .75rem; }
 .docs-nav .pages { margin: 0 0 .5rem 1.25rem; border-left: 1px solid var(--sitrep-line); }
