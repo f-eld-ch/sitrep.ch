@@ -161,12 +161,15 @@ date: 2026-10-13
 draft: true            # drafts are not published; remove to publish
 tags: ["triage", "neue-funktion"]
 summary: "One or two sentences shown in the blog list."
+cover: "images/dashboard.webp"   # image of the bundle, shown as thumbnail in the lists
 ---
 ```
 
 - New feature announcements are the main use. Keep `draft: true` until a human approves.
 - Add `index.fr.md` / `index.it.md` for translations (same `date`, so lists sort identically).
 - Write the first paragraph so it works as a summary, or set `summary:` explicitly.
+- Give every post a `cover` image from its bundle (per language file if the screenshot is localised). Hugo
+  makes the thumbnail (480×300) itself; posts without a cover show text only.
 - Articles may come from the product repo; move them here and convert the H1 into `title`.
 
 ### Documentation (`content/docs/`)
