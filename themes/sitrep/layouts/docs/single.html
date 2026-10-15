@@ -2,11 +2,14 @@
 <div class="wrap docs">
   {{ partial "docs-nav.html" . }}
   <article>
-    <p class="muted">{{ with .Parent }}{{ with .Parent }}{{ .Title }} / {{ end }}{{ .Title }}{{ end }}</p>
+    {{ $docs := site.GetPage "/docs" }}
+    {{ $crumbs := slice }}{{ range .Ancestors.Reverse }}{{ if and (not .IsHome) (ne .RelPermalink $docs.RelPermalink) }}{{ $crumbs = $crumbs | append .Title }}{{ end }}{{ end }}
+    <p class="muted">{{ delimit $crumbs " / " }}</p>
     <h1>{{ .Title }}</h1>
     {{ partial "draft-notice.html" . }}
     {{ partial "untranslated.html" . }}
-    <p>{{ partial "diataxis-badge.html" (dict "Params" (dict "diataxis" (.Params.diataxis | default .Parent.Params.diataxis))) }}</p>
+    {{ $dx := .Params.diataxis }}{{ range .Ancestors }}{{ if and (not $dx) .Params.diataxis }}{{ $dx = .Params.diataxis }}{{ end }}{{ end }}
+    <p>{{ partial "diataxis-badge.html" (dict "Params" (dict "diataxis" $dx)) }}</p>
     {{ $hasToc := and .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
     <div class="doc-body{{ if $hasToc }} has-toc{{ end }}">
       <div class="prose"{{ with .Params.contentlang }} lang="{{ . }}"{{ end }}>{{ .Content }}</div>

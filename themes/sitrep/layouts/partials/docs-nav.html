@@ -14,7 +14,15 @@
       <li>
         <a href="{{ .RelPermalink }}"{{ if eq $cur.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a>
         {{ if or ($cur.IsDescendant .) (eq $cur .) }}
-        <ul class="pages">{{ range .Pages }}<li><a href="{{ .RelPermalink }}"{{ if eq $cur.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a></li>{{ end }}</ul>
+        {{ $quad := . }}{{ $cats := .Sections.ByWeight }}
+        <ul class="pages">
+          {{ range .RegularPages.ByWeight }}<li><a href="{{ .RelPermalink }}"{{ if eq $cur.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a></li>{{ end }}
+          {{ range $cats }}
+          <li class="cat"><a href="{{ .RelPermalink }}"{{ if eq $cur.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a>
+            <ul>{{ range .RegularPages.ByWeight }}<li><a href="{{ .RelPermalink }}"{{ if eq $cur.RelPermalink .RelPermalink }} aria-current="page"{{ end }}>{{ .Title }}</a></li>{{ end }}</ul>
+          </li>
+          {{ end }}
+        </ul>
         {{ end }}
       </li>
       {{ end }}
