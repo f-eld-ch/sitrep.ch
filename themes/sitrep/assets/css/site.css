@@ -109,6 +109,9 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
   text-transform: uppercase; letter-spacing: .04em; padding: .1em .6em; border: 1px solid currentColor;
 }
 
+.badge-draft { background: var(--sitrep-color-warning); color: var(--sitrep-color-ink); border: 1px dashed var(--sitrep-color-ink); margin-left: .25em; vertical-align: middle; }
+h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); }
+
 /* Blog */
 .post-list { list-style: none; padding: 0; }
 .post-list li { padding: 1.5rem 0; border-top: 1px solid var(--sitrep-line); }
@@ -171,6 +174,7 @@ a.card:hover { border-color: var(--sitrep-color-interactive-hover); }
 .lang-switch .code { font-family: var(--sitrep-font-mono); font-size: var(--sitrep-size-small); min-width: 2ch; }
 .lang-switch a[aria-current] { font-weight: var(--sitrep-weight-bold); box-shadow: inset 4px 0 0 var(--sitrep-color-alert-red); }
 .notice { border: 1px solid var(--sitrep-line); border-left: 6px solid var(--sitrep-color-warning); padding: .5rem 1rem; background: var(--sitrep-bg-subtle); }
+.notice-draft { background: color-mix(in srgb, var(--sitrep-color-warning) 22%, var(--sitrep-bg)); }
 @media (min-width: 56rem) { .cards.cols-3 { grid-template-columns: repeat(3, 1fr); } }
 @media (min-width: 40rem) { .cards.cols-2 { grid-template-columns: repeat(2, 1fr); } }
 .shots { display: grid; gap: 1rem; }
