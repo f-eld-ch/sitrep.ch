@@ -280,3 +280,10 @@ html[data-theme="dark"] .feature img, html[data-theme="dark"] .shots img, html[d
 @media (min-width: 40rem) { .post-list li.has-cover { grid-template-columns: 15rem 1fr; } }
 html[data-theme="dark"] .post-thumb img { box-shadow: none; }
 @media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .post-thumb img { box-shadow: none; } }
+
+/* Changelog */
+.changelog .release { margin: 2rem 0; padding-top: 1rem; border-top: 1px solid var(--sitrep-line); }
+.changelog .release h2 { margin-top: 0; }
+.changelog .release h2 a { color: inherit; text-decoration: none; }
+.changelog .release h3 { font-size: var(--sitrep-size-body, 1rem); margin: 1rem 0 .25rem; }
+.changelog .release ul { margin-top: 0; }

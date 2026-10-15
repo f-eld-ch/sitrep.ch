@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Neuigkeiten und neue Funktionen von sitrep."
+description: "Neue Funktionen, Erfahrungen aus Stäben und Einblicke in die Arbeit hinter sitrep."
 outputs: ["HTML", "RSS"]
 ---
-Ankündigungen zu neuen Funktionen und Releases.
+Was bei sitrep passiert: neue Funktionen, Erfahrungen aus Stäben und Einblicke in die Arbeit hinter dem Projekt.

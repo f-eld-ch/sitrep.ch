@@ -41,6 +41,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           TZ: Etc/UTC
+          HUGO_GITHUB_TOKEN: ${{ github.token }}
         run: |
           hugo \
             --gc \

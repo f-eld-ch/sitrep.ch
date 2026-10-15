@@ -4,6 +4,7 @@
       {{ with site.GetPage "/ueber-uns" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
       <li><a href="{{ site.Params.demo }}">{{ i18n "footer_demo" }}</a></li>
       <li><a href="{{ site.Params.repo }}">{{ i18n "footer_source" }}</a></li>
+      {{ with site.GetPage "/changelog" }}<li><a href="{{ .RelPermalink }}">{{ i18n "footer_changelog" }}</a></li>{{ end }}
       <li><a href="mailto:{{ site.Params.email }}">{{ i18n "footer_contact" }}</a></li>
       {{ with site.GetPage "/blog" }}{{ with .OutputFormats.Get "rss" }}<li><a href="{{ .RelPermalink }}">RSS</a></li>{{ end }}{{ end }}
     </ul>
