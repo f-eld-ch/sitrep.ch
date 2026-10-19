@@ -1,7 +1,0 @@
-style: "style4 orient-right content-align-left image-position-left"
-id: "journal"
-title : "Einsatzjournal"
-content: |
-  Sämtliche Nachrichten sind chronologisch im Einsatzjournal erfasst und bieten
-  eine guten Überblick über die aktuelle Lage.
-image : "images/einsatzjournal.png"
