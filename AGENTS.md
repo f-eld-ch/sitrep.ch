@@ -25,6 +25,8 @@ tool for command staffs (civil protection), published at <https://sitrep.ch>. It
 The Hugo version is pinned in **`.hugo-version`**. It is the single source of truth: the
 GitHub Actions workflow and `scripts/cloudflare-build.sh` read it. To upgrade Hugo, change that
 file only (the theme needs 0.158+). The non-extended build is enough, there is no Sass.
+A weekly workflow (`.github/workflows/hugo-update.yaml`, `scripts/update-hugo.sh`) opens a pull request when a new
+Hugo release is out, after a test build; `scripts/update-hugo.sh --dry-run` shows what it would do.
 
 ```sh
 hugo server --buildDrafts      # live preview on http://localhost:1313, includes draft posts
@@ -44,6 +46,7 @@ hugo.toml                  languages, menus, params, module mounts
 content/                   all content (see below)
 static/images/             site screenshots (WebP)
 scripts/sync-brand.sh      brand sync (tokens.css, logos, favicons)
+scripts/update-hugo.sh      weekly Hugo upgrade check (used by the hugo-update workflow)
 scripts/cloudflare-build.sh  build script for Cloudflare Workers Builds (production and previews)
 wrangler.jsonc             Cloudflare Workers config: serves public/ as static assets
 .hugo-version              pinned Hugo version (used by CI and the Cloudflare build)
