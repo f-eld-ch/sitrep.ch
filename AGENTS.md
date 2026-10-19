@@ -240,3 +240,11 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
 `main` → GitHub Actions → GitHub Pages (`.github/workflows/hugo.yaml`). A merge to
 `main` changes the live site, so review the build output before merging. Branch builds are not
 deployed.
+
+## License
+
+Code (theme, scripts, workflows, configuration) is **AGPL-3.0** (`LICENSE`), content (`content/`, `static/images/`)
+is **CC BY-SA 4.0** (`LICENSE-CONTENT`). The logos, the names sitrep and F-ELD, and third-party material
+(map data and BABS signatures in screenshots) are not covered, see the README. Do not add third-party material
+or text without checking that it may be reused. Documentation copied from the sitrep repository stays under
+AGPL-3.0. Do not change the license files.
