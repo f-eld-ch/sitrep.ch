@@ -14,7 +14,7 @@ tool for command staffs (civil protection), published at <https://sitrep.ch>. It
 
 ## Working rules
 
-- **The live site deploys from `main`** (`.github/workflows/hugo.yaml`). Work on a branch,
+- **The live site deploys from `main`** (Cloudflare Workers Builds, `scripts/cloudflare-build.sh`). Work on a branch,
   never push to `main`, and do not push or open PRs unless asked.
 - Commit only when asked. Use small commits grouped by topic (theme, content, docs) with
   conventional-style messages (`feat(theme): ...`, `feat(content): ...`, `docs(admin): ...`).
@@ -23,7 +23,7 @@ tool for command staffs (civil protection), published at <https://sitrep.ch>. It
 ## Commands
 
 The Hugo version is pinned in **`.hugo-version`**. It is the single source of truth: the
-GitHub Actions workflow and `scripts/cloudflare-build.sh` read it. To upgrade Hugo, change that
+Cloudflare build (`scripts/cloudflare-build.sh`) reads it. To upgrade Hugo, change that
 file only (the theme needs 0.158+). The non-extended build is enough, there is no Sass.
 A weekly workflow (`.github/workflows/hugo-update.yaml`, `scripts/update-hugo.sh`) opens a pull request when a new
 Hugo release is out, after a test build; `scripts/update-hugo.sh --dry-run` shows what it would do.
@@ -237,9 +237,17 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
 
 ## Deployment
 
-`main` → GitHub Actions → GitHub Pages (`.github/workflows/hugo.yaml`). A merge to
-`main` changes the live site, so review the build output before merging. Branch builds are not
-deployed.
+`main` → Cloudflare Workers Builds → <https://sitrep.ch> (static assets of the Worker `sitrep-ch`,
+`wrangler.jsonc`). A merge to `main` changes the live site, so review the build output before merging.
+Other branches get a preview build (drafts included, `noindex`) at
+`https://<branch>-sitrep-ch.f-eld.workers.dev/`; they do not change the live site.
+
+- The build command is `scripts/cloudflare-build.sh`, the deploy command `npx wrangler deploy`.
+- `www.sitrep.ch` redirects to `sitrep.ch` (Redirect Rule in the Cloudflare dashboard, not in this repo).
+- The changelog page is built from the GitHub releases of the product repo. A published release calls a
+  Cloudflare deploy hook (workflow in `f-eld-ch/sitrep`) that rebuilds `main`. The build secret
+  `HUGO_GITHUB_TOKEN` raises the GitHub API rate limit.
+- GitHub Pages is no longer used.
 
 ## License
 
