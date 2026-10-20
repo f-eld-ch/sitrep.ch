@@ -25,6 +25,8 @@ tool for command staffs (civil protection), published at <https://sitrep.ch>. It
 The Hugo version is pinned in **`.hugo-version`**. It is the single source of truth: the
 Cloudflare build (`scripts/cloudflare-build.sh`) reads it. To upgrade Hugo, change that
 file only (the theme needs 0.158+). The non-extended build is enough, there is no Sass.
+A weekly workflow (`.github/workflows/hugo-update.yaml`, `scripts/update-hugo.sh`) opens a pull request when a new
+Hugo release is out, after a test build; `scripts/update-hugo.sh --dry-run` shows what it would do.
 
 ```sh
 hugo server --buildDrafts      # live preview on http://localhost:1313, includes draft posts
@@ -44,6 +46,7 @@ hugo.toml                  languages, menus, params, module mounts
 content/                   all content (see below)
 static/images/             site screenshots (WebP)
 scripts/sync-brand.sh      brand sync (tokens.css, logos, favicons)
+scripts/update-hugo.sh      weekly Hugo upgrade check (used by the hugo-update workflow)
 scripts/cloudflare-build.sh  build script for Cloudflare Workers Builds (production and previews)
 wrangler.jsonc             Cloudflare Workers config: serves public/ as static assets
 .hugo-version              pinned Hugo version (used by CI and the Cloudflare build)
@@ -245,3 +248,11 @@ Other branches get a preview build (drafts included, `noindex`) at
   Cloudflare deploy hook (workflow in `f-eld-ch/sitrep`) that rebuilds `main`. The build secret
   `HUGO_GITHUB_TOKEN` raises the GitHub API rate limit.
 - GitHub Pages is no longer used.
+
+## License
+
+Code (theme, scripts, workflows, configuration) is **AGPL-3.0** (`LICENSE`), content (`content/`, `static/images/`)
+is **CC BY-SA 4.0** (`LICENSE-CONTENT`). The logos, the names sitrep and F-ELD, and third-party material
+(map data and BABS signatures in screenshots) are not covered, see the README. Do not add third-party material
+or text without checking that it may be reused. Documentation copied from the sitrep repository stays under
+AGPL-3.0. Do not change the license files.
