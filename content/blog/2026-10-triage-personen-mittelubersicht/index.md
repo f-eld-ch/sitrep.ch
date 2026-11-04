@@ -17,7 +17,7 @@ Die Antworten stecken irgendwo in den Meldungen der letzten Stunden. Jemand blä
 
 Dabei wurde jede dieser Meldungen schon einmal gelesen und beurteilt: in der Triage. Genau dort setzt die neue Triage-Ansicht in [sitrep]({{< relref "/funktionen" >}}) an, der Open-Source-Software für die Führungsunterstützung im Bevölkerungsschutz. Wer eine Meldung triagiert, erfasst nur, was die Meldung Neues sagt: «ein Vermisster weniger, ein Verletzter mehr», «Zug aufgeboten», «Gruppe eingesetzt». Personen- und Mittelübersicht ergeben sich daraus von selbst. Wenn die Anfrage kommt, lässt sich die Antwort vom Bildschirm ablesen.
 
-Die neue Triage-Ansicht testen aktuell ausgewählte Organisationen in einer **geschlossenen Vorabversion**. Im November steht sie allen sitrep-Nutzenden zur Verfügung.
+Die neue Triage-Ansicht haben wir gemeinsam mit ausgewählten Organisationen entwickelt und in einer grossen Übung getestet. Mit dem Release [v26.11.0](https://github.com/f-eld-ch/sitrep/releases/tag/v26.11.0) ist sie für alle sitrep-Nutzenden verfügbar.
 
 In diesem Artikel zeigen wir, wie das funktioniert und warum die Triage der richtige Ort dafür ist. Sie erfahren auch, warum das keinen Zusatzaufwand bedeutet.
 
@@ -151,4 +151,4 @@ Ob mit Zettel, Tabelle oder einem anderen Tool: Prüfen Sie es in Ihrer nächste
 
 Wenn Ihnen diese Fragen bekannt vorkommen, probieren Sie sitrep direkt selbst aus: [demo.sitrep.ch](https://demo.sitrep.ch). Oder wir zeigen Ihnen gerne, wie sitrep damit umgeht, an einem Beispielereignis oder in Ihrer nächsten Übung. Schreiben Sie uns an [info@sitrep.ch](mailto:info@sitrep.ch).
 
-Die Triage-Ansicht ist aktuell eine **Vorabversion** und im November für alle sitrep-Nutzenden verfügbar.
+Die Triage-Ansicht ist mit dem Release v26.11.0 allgemein verfügbar.
