@@ -1,6 +1,6 @@
 ---
 title: "Mit sitrep von der Meldung zur Lage in einem Schritt"
-date: 2026-10-13
+date: 2026-11-04
 tags: ["triage", "neue-funktion"]
 summary: "Die neue Triage-Ansicht in sitrep führt Personen- und Mittelübersicht gleich mit: Wer eine Meldung triagiert, erfasst Personen und Einsatzmittel in einem Schritt, und die Lage lässt sich jederzeit vom Bildschirm ablesen."
 cover: "images/dashboard.webp"
