@@ -16,13 +16,15 @@ Jetzt zählt jede Minute. Der Stab braucht Antworten:
 
 Die Antworten stecken irgendwo in den Meldungen der letzten Stunden. Jemand blättert im Einsatzjournal, jemand anderes zählt auf einem Zettel zusammen. Das kostet Zeit, und es schleichen sich Fehler ein: eine Meldung doppelt gezählt, eine vergessen, ein Zwischenstand veraltet.
 
-Dabei wurde jede dieser Meldungen schon einmal gelesen und beurteilt: in der Triage. Genau dort setzt die neue Triage-Ansicht in sitrep an, der Software für die Führungsunterstützung. Wer eine Meldung triagiert, führt Personen- und Mittelübersicht gleich mit. Wenn die Anfrage kommt, lässt sich die Antwort vom Bildschirm ablesen.
+Dabei wurde jede dieser Meldungen schon einmal gelesen und beurteilt: in der Triage. Genau dort setzt die neue Triage-Ansicht in [sitrep]({{< relref "/funktionen" >}}) an, der Open-Source-Software für die Führungsunterstützung im Bevölkerungsschutz. Wer eine Meldung triagiert, erfasst nur, was die Meldung Neues sagt: «ein Vermisster weniger, ein Verletzter mehr», «Zug aufgeboten», «Gruppe eingesetzt». Personen- und Mittelübersicht ergeben sich daraus von selbst. Wenn die Anfrage kommt, lässt sich die Antwort vom Bildschirm ablesen.
+
+Die neue Triage-Ansicht testen aktuell ausgewählte Organisationen in einer **geschlossenen Vorabversion**. Im November steht sie allen sitrep-Nutzenden zur Verfügung.
 
 In diesem Artikel zeigen wir, wie das funktioniert und warum die Triage der richtige Ort dafür ist. Sie erfahren auch, warum das keinen Zusatzaufwand bedeutet.
 
 ## Was der Führungsbehelf dazu sagt
 
-Der Führungsbehelf «Handbuch Führungsunterstützung – Lage» legt den Weg der Meldung klar fest:
+Der BABS-Behelf «Behelf Einsatz Lage» legt den Weg der Meldung klar fest:
 
 - Die **Triage** ist die Stelle, an der Meldungen in den Lageverarbeitungszyklus eintreten. Dort werden alle Meldungen gesichtet, priorisiert und an die richtigen Stellen weitergeleitet. Beim Triagieren wird auch festgelegt, welche Inhalte in welchen Produkten erfasst werden.
 - Die **Mittelübersicht** gehört zu den Standardprodukten im Sachbereich Lage. Sie ist der tabellarische Überblick über alle Einsatzmittel: auf Pikett gestellt, aufgeboten, einsatzbereit, eingesetzt oder zur Ablösung vorgesehen.
@@ -38,7 +40,7 @@ Man könnte die Übersichten auch «bei Bedarf» nachführen, zum Beispiel jede 
 Die Person in der Triage hat die Meldung vor sich. Sie weiss, was gemeint ist, und kann bei Unklarheiten sofort nachfragen. Eine Stunde später muss jemand die Meldung erneut lesen und deuten.
 
 **2. Nachzählen ist fehleranfällig.**
-Wer alle Meldungen periodisch zusammenzählt, muss jede Meldung nochmals anfassen. Das ist die perfekte Gelegenheit für Doppelzählungen und Vergessenes. Wer jede Änderung genau einmal erfasst, zählt automatisch richtig.
+Wer alle Meldungen periodisch zusammenzählt, muss jede Meldung nochmals anfassen. So entstehen Doppelzählungen, und Meldungen gehen vergessen. Wer jede Änderung genau einmal erfasst, zählt automatisch richtig.
 
 **3. Alle arbeiten mit denselben Zahlen.**
 Der Behelf verlangt, dass sich Textprodukte und Grafikprodukte nicht widersprechen. Das geht nur, wenn es eine gemeinsame Quelle gibt. In sitrep sind Dashboard, Personenübersicht und Mittelübersicht immer aus denselben Triage-Eingaben berechnet.
@@ -48,9 +50,9 @@ Wenn der Stab fragt «Woher kommen die 37 Obdachlosen?», lässt sich das zur Me
 
 Kurz: **Die Information wird einmal erfasst, am richtigen Ort im Prozess, und steht danach in allen Übersichten bereit.**
 
-## Die neue Triage in fünf Schritten
+## Die neue Triage in vier Schritten
 
-Bisher wurden Meldungen mit Schaltflächen direkt bei der Meldung triagiert. Die neue Triage-Ansicht ist eine eigene Ansicht und führt durch fünf Schritte. Das Beispiel ist ein fiktives Ereignis: ein Murgang im Dorf «Bergdorf» nach einem Unwetter.
+Die Triage-Ansicht führt durch vier Schritte. Das Beispiel ist ein fiktives Ereignis: ein Murgang im Dorf «Bergdorf» nach einem Unwetter. Alle Namen und Zahlen auf den Bildern sind erfunden.
 
 ### 1. Meldung prüfen
 
@@ -64,21 +66,15 @@ Hier wird entschieden, wer die Meldung erhalten muss: Chef Einsatz, Nachrichtenk
 
 ![Schritt 2: Meldefluss festlegen](images/triage-2-meldefluss.webp)
 
-### 3. Schadenplatz wählen
-
-Betrifft die Meldung einen bestimmten Schadenplatz? Falls ja, wird er hier gewählt, oder direkt ein neuer angelegt. Alle Zahlen im nächsten Schritt werden diesem Schadenplatz zugeordnet.
-
-![Schritt 3: Schadenplatz wählen](images/triage-3-schadenplatz.webp)
-
-### 4. Personen erfassen
+### 3. Personen erfassen
 
 Hier werden die Personenzahlen erfasst, in den fünf Kategorien Verletzte, Vermisste, Eingeschlossene, Obdachlose und Tote.
 
-Wichtig: Man erfasst nur das, **was die Meldung Neues sagt**. Wenn eine vermisste Person gefunden wird, steht bei Vermissten «−1» und bei Verletzten oder Toten «+1». sitrep rechnet die Gesamtzahl selbst nach und verhindert, dass ein Wert unter null fällt. Rechts ist sofort die Wirkung der Eingabe zu sehen.
+Wichtig: Man erfasst nur das, **was die Meldung Neues sagt**. Meldet die Sanität drei weitere Leichtverletzte, steht bei Verletzten «+3». Wurde eine zuvor vermisste Person gefunden und ist verletzt, erfasst man bei Vermissten «−1» und bei Verletzten «+1». Rechts ist sofort die Wirkung auf die Personenübersicht zu sehen.
 
-![Schritt 4: Personen erfassen, mit Vorschau der Personenübersicht](images/triage-4-personen.webp)
+![Schritt 3: Personen erfassen, mit Vorschau der Personenübersicht](images/triage-3-personen.webp)
 
-### 5. Mittel aufbieten und disponieren
+### 4. Mittel aufbieten und disponieren
 
 Meldungen betreffen oft Einsatzmittel. Hier wird festgehalten, was mit ihnen passiert ist. Jede Änderung wird mit der **Zeit der Meldung** in der Mitteltabelle festgehalten. Ein Einsatzmittel durchläuft dabei diese Stationen:
 
@@ -91,15 +87,9 @@ Die vier wichtigsten Aktionen:
 - **Disponieren und einsetzen:** Das Mittel erhält Auftrag (Hauptaufgabe) und Einsatzort und wird eingesetzt. Beides ist Pflicht, damit die Mitteltabelle nie ein Mittel im Einsatz ohne Auftrag zeigt.
 - **Ablösen:** Ein anderes Mittel übernimmt. Auftrag und Einsatzort gehen automatisch an die Ablösung. Das abgelöste Mittel bleibt mit seiner Einsatzgeschichte in der Übersicht.
 
-Weitere Aktionen für den Alltag im Einsatz:
+Dazu kommen die Aktionen für den Alltag im Einsatz: umdisponieren, Einsatz abschliessen, entlassen, bei mehrtägigen Einsätzen reaktivieren und die Erreichbarkeit (Funkkanal, Telefon) pflegen.
 
-- **Umdisponieren:** Hauptaufgabe, Einsatzort oder Schadenplatz eines Mittels werden angepasst.
-- **Einsatz abgeschlossen:** Das Mittel kommt aus dem Einsatz zurück und ist wieder einsatzbereit.
-- **Entlassen:** Das Mittel wird aus dem Einsatz entlassen und gilt als abgelöst.
-- **Reaktivieren:** Bei mehrtägigen Einsätzen kommt ein abgelöstes Mittel am nächsten Tag wieder in den Dienst.
-- **Erreichbarkeit pflegen:** Funkkanal oder Telefonnummer lassen sich anpassen.
-
-![Schritt 5: Neues Mittel aufbieten](images/triage-5-mittel-aufbieten.webp)
+![Schritt 4: Neues Mittel aufbieten](images/triage-4-mittel-aufbieten.webp)
 
 Mit «Triage abschliessen» wird alles in einem Zug gespeichert.
 
@@ -107,19 +97,19 @@ Mit «Triage abschliessen» wird alles in einem Zug gespeichert.
 
 Digitale Lageverarbeitung darf kein Zusatzaufwand sein. Niemand soll Informationen, die die Führungsunterstützung ohnehin verarbeitet, ein zweites Mal in ein digitales Tool übertragen müssen. Sie muss ein fester Bestandteil des Verarbeitungsprozesses sein: Die Arbeit im Tool ist die Arbeit im Prozess.
 
-Genau so ist die Triage-Ansicht aufgebaut. Sie führt durch die Schritte, die der Führungsbehelf für die Triage vorsieht: Meldung prüfen, Meldefluss festlegen, Schadenplatz zuordnen, Personen und Mittel erfassen. Was in der Triage entschieden wird, ist gleichzeitig der Eintrag in den Übersichten. Es gibt keine zweite Erfassung.
+Genau so ist die Triage-Ansicht aufgebaut. Sie führt durch die Schritte, die der Führungsbehelf für die Triage vorsieht: Meldung prüfen, Meldefluss festlegen, Personen und Mittel erfassen. Was in der Triage entschieden wird, ist gleichzeitig der Eintrag in den Übersichten. Es gibt keine zweite Erfassung.
 
-Das hilft einem Stab und der Führungsunterstützung auch unter Zeitdruck, sich an die richtigen Abläufe zu halten. In den Schritten 3 bis 5 muss nur etwas erfasst werden, wenn die Meldung einen Schadenplatz, Personen oder Einsatzmittel betrifft. Sonst geht es mit «Weiter» zügig durch.
+So bleibt auch unter Zeitdruck der richtige Ablauf erhalten. In den Schritten 3 und 4 muss nur etwas erfasst werden, wenn die Meldung Personen oder Einsatzmittel betrifft. Sonst geht es mit «Weiter» zügig durch.
 
 ## Das Ergebnis: Übersichten, die dem aktuellen Triagestand entsprechen
 
-Zurück zum Beispiel aus der Einleitung: Der Kanton verlangt um 08:45 eine Lagemeldung mit Personen- und Mittelübersicht. Im Ereignis «Murgang in Bergdorf» sind die bisherigen Meldungen triagiert. Die Antwort an den Kanton ist darum keine Rechenaufgabe mehr: Die Informationen lassen sich jederzeit triageaktuell aus der Personenübersicht und der Mittelübersicht ablesen.
+Zurück zum Beispiel aus der Einleitung: Der Kanton verlangt um 08:45 eine Lagemeldung mit Personen- und Mittelübersicht. Im Ereignis «Murgang in Bergdorf» sind die bisherigen Meldungen triagiert. Die Antwort an den Kanton ist darum keine Rechenaufgabe mehr: Die Informationen lassen sich jederzeit auf dem Stand der letzten Triage aus der Personenübersicht und der Mittelübersicht ablesen.
 
 ### Personenübersicht
 
-Die Personenübersicht zeigt die Gesamtzahlen und die Aufteilung nach Schadenplätzen. Sie entspricht jederzeit dem aktuellen Triagestand, ohne dass jemand etwas zusammenzählen muss.
+Die Personenübersicht zeigt die Gesamtzahlen der fünf Kategorien. Sie entspricht jederzeit dem aktuellen Triagestand, ohne dass jemand etwas zusammenzählen muss.
 
-![Personenübersicht mit Aufteilung nach Schadenplätzen](images/personenubersicht.webp)
+![Personenübersicht mit den Gesamtzahlen der fünf Kategorien](images/personenubersicht.webp)
 
 ### Mittelübersicht
 
@@ -162,4 +152,4 @@ Ob mit Zettel, Tabelle oder einem anderen Tool: Prüfen Sie es in Ihrer nächste
 
 Wenn Ihnen diese Fragen bekannt vorkommen, probieren Sie sitrep direkt selbst aus: [demo.sitrep.ch](https://demo.sitrep.ch). Oder wir zeigen Ihnen gerne, wie sitrep damit umgeht, an einem Beispielereignis oder in Ihrer nächsten Übung. Schreiben Sie uns an [info@sitrep.ch](mailto:info@sitrep.ch).
 
-Die neue Triage-Ansicht mit Personen- und Mittelübersicht testen aktuell ausgewählte Organisationen in einer **geschlossenen Vorabversion**. Wir rechnen damit, dass sie **Anfang November** für alle sitrep-Nutzenden verfügbar ist.
+Die Triage-Ansicht ist aktuell eine **Vorabversion** und im November für alle sitrep-Nutzenden verfügbar.
