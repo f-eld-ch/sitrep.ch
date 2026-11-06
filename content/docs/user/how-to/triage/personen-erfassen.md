@@ -12,7 +12,7 @@ Sie erfassen im Schritt **Personen** nur, was die Meldung **Neues** sagt. Die Pe
 3. Prüfen Sie rechts die Vorschau der Änderung.
 4. Klicken Sie auf **Weiter**. Erst jetzt wird gespeichert.
 
-<!-- Screenshot: triage-personen-delta.webp – Schritt Personen mit +3 bei Verletzten und −1 bei Vermissten, Vorschau rechts -->
+![Der Schritt Personen: drei Verletzte erfasst, rechts die Vorschau der Änderung](/images/docs/triage/triage-3-personen.webp)
 
 ## Beispiele
 

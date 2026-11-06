@@ -5,7 +5,7 @@ weight: 30
 ---
 Diese Seite beschreibt die Triage-Ansicht. Sie öffnen sie über **Triage** im Bereich Einsatzjournal. Wie Sie vorgehen, steht in der Anleitung [Eine Meldung triagieren]({{< relref "/docs/user/how-to/triage/meldung-triagieren" >}}).
 
-<!-- Screenshot: triage-ansicht-uebersicht.webp – ganze Triage-Ansicht: Meldungsliste links, Meldung und Schrittleiste rechts -->
+![Die Triage-Ansicht: Meldungsliste links, gewählte Meldung und Schrittleiste rechts, unten Benötigt mehr Informationen, Meldezettel und Weiter](/images/docs/triage/triage-1-meldung.webp)
 
 ## Aufbau
 

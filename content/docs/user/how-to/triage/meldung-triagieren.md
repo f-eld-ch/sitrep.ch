@@ -5,7 +5,7 @@ weight: 10
 ---
 Diese Anleitung zeigt, wie Sie eine Meldung triagieren. Personen und Mittel erfassen Sie in den Schritten dazwischen, dazu gibt es eigene Anleitungen. Eine geführte Einführung bietet das Tutorial [Ihre erste Triage]({{< relref "/docs/user/tutorials/triage/erste-triage" >}}).
 
-Voraussetzung: Im Ereignis gibt es mindestens eine Meldung. Meldungen legen Sie im **Editor** an.
+Voraussetzung: Im Ereignis gibt es mindestens eine Meldung. Meldungen legen Sie im **Editor** an, siehe [Eine Meldung erfassen]({{< relref "/docs/user/how-to/einsatzjournal/meldung-erfassen" >}}).
 
 ## Meldung wählen
 
@@ -21,12 +21,16 @@ Dieser Schritt erscheint nur bei Meldungen, die noch nicht triagiert sind.
 2. Fehlt Information, klicken Sie auf **Benötigt mehr Informationen**. Die Meldung bleibt offen und trägt den Status «mehr Informationen benötigt».
 3. Sonst klicken Sie auf **Weiter**.
 
+![Der Schritt Meldung überprüfen mit den Angaben der Meldung und den Knöpfen Benötigt mehr Informationen und Weiter](/images/docs/triage/triage-1-meldung.webp)
+
 ## Meldefluss festlegen
 
 1. Wählen Sie die Ressorts, die die Meldung erhalten sollen. Mit dem Plusknopf einer Marke weisen Sie das Ressort zu, mit dem Minusknopf nehmen Sie es weg.
 2. Soll die Meldung alle erreichen, schalten Sie **Schlüsselnachricht** ein. Die Priorität wird «wichtig» und alle Ressorts erhalten die Meldung.
 3. Weisen Sie die Meldung dem Ressort **Nachrichtenkarte** zu, wenn etwas auf der Karte eingezeichnet werden soll.
 4. Klicken Sie auf **Weiter**.
+
+![Der Schritt Meldefluss mit dem Schalter Schlüsselnachricht und den Ressorts als Marken mit Plus- oder Minusknopf](/images/docs/triage/triage-2-meldefluss.webp)
 
 ## Personen und Mittel
 

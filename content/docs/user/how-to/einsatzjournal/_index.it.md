@@ -1,8 +1,5 @@
 ---
-title: "Giornale d'intervento e triage"
+title: "Giornale d'intervento"
 weight: 20
-description: "Tenere il giornale d'intervento e triare i messaggi."
-draft: true
-cascade:
-  draft: true
+description: "Tenere il giornale d'intervento."
 ---

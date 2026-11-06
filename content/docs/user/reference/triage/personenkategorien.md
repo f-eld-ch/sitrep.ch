@@ -7,7 +7,7 @@ Die Personenübersicht zeigt, wie viele Personen im Ereignis betroffen sind. Die
 
 Die Übersicht öffnen Sie über **Personenübersicht** in der Navigation des Ereignisses.
 
-<!-- Screenshot: personenuebersicht-gesamt.webp – Personenübersicht mit allen fünf Kategorien, Beispielereignis «Murgang in Bergdorf» -->
+![Die Personenübersicht mit den fünf Kategorien und der Aufschlüsselung für das Ereignis, Beispielereignis «Unwetter Bergdorf – Murgang Dorfbach»](/images/docs/triage/personenuebersicht.webp)
 
 ## Kategorien
 
@@ -35,14 +35,10 @@ Jede Kategorie hat ein Signaturensymbol des BABS-Signaturensatzes, das in der Tr
 | Bereich | Inhalt |
 |---|---|
 | Gesamtzahlen | Summe über das Ereignis und alle untergeordneten Ereignisse |
-| Schadenplätze | Aufschlüsselung nach Schadenplatz. Der Standard-Schadenplatz erscheint nur, wenn Personen erfasst sind. |
+| Aufschlüsselung | Die Zahlen des Ereignisses, nach Schadenplatz getrennt, sofern solche erfasst wurden |
 | Untergeordnete Ereignisse | Je untergeordnetes Ereignis eine Karte mit dessen Zahlen |
 
 Solange keine Meldung mit Personen triagiert wurde, zeigt die Seite «Keine Personen erfasst» und einen Knopf zur Triage.
-
-{{< note type="info" >}}
-Neue Personen werden immer dem Standard-Schadenplatz des Ereignisses zugeordnet. Benannte Schadenplätze stammen aus früheren Triagen. Sie lassen sich in der Triage nicht mehr auswählen oder anlegen und bleiben nur für Meldungen sichtbar, die dort bereits Personen erfasst haben.
-{{< /note >}}
 
 ## Siehe auch
 

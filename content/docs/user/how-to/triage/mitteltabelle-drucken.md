@@ -11,7 +11,7 @@ Die Mitteltabelle zeigt den aktuellen Stand aller Mittel und lässt sich direkt 
 
 Der Ausdruck trägt den Titel «Mitteltabelle» mit dem Namen des Ereignisses und dem **Stand** mit Datum und Uhrzeit des Drucks.
 
-<!-- Screenshot: mitteltabelle-druck.webp – Druckvorschau der Mitteltabelle -->
+![Die Mittelübersicht mit der Schaltfläche Drucken oben rechts](/images/docs/triage/mitteltabelle.webp)
 
 ## Was der Ausdruck enthält
 

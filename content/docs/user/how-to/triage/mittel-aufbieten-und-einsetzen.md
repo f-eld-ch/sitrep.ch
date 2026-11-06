@@ -17,7 +17,7 @@ Alle Aktionen beginnen gleich: Öffnen Sie die Meldung in der **Triage** und geh
 
 Das Mittel erhält den Status **Aufgeboten** und ist mit der Meldung verknüpft.
 
-<!-- Screenshot: triage-mittel-aufbieten.webp – Formular «Neues Mittel aufbieten» mit Grössenvorschlag -->
+![Das Formular zum Aufbieten eines Mittels: Formation, Ortsbezeichnung, Name, Personen und die Grösse Gruppe als Vorschlag](/images/docs/triage/triage-4-mittel-aufbieten.webp)
 
 Gibt es das Mittel schon, meldet sitrep einen Fehler. Ist es abgelöst, bietet sitrep an, es zu [reaktivieren](#ein-abgelöstes-mittel-reaktivieren).
 

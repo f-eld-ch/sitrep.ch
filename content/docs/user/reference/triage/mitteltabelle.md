@@ -7,7 +7,7 @@ Die Mittelübersicht zeigt alle Einsatzmittel des Ereignisses. Die Daten entsteh
 
 Öffnen Sie die Übersicht über **Mittel** in der Navigation des Ereignisses.
 
-<!-- Screenshot: mitteltabelle-gruppiert.webp – Mitteltabelle nach Formation gruppiert, mit verschiedenen Status -->
+![Die Mittelübersicht: oben eine Kachel je Formation mit den eingesetzten Personen und Statusmarken, darunter die Mitteltabelle nach Formation und Ortsbezeichnung gruppiert](/images/docs/triage/mitteltabelle.webp)
 
 ## Aufbau
 

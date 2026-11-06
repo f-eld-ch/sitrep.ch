@@ -26,6 +26,8 @@ Betrifft eine Meldung weder Personen noch Mittel, gehen Sie mit **Weiter** durch
 
 ## Das Ergebnis
 
+![Das Dashboard mit den neuesten Meldungen, der Nachrichtenkarte, der Personenübersicht und den Mitteln pro Formation](/images/docs/triage/dashboard.webp)
+
 - [Personenübersicht]({{< relref "/docs/user/reference/triage/personenkategorien" >}}): die Stände der fünf Kategorien
 - [Mittelübersicht]({{< relref "/docs/user/reference/triage/mitteltabelle" >}}): die Mitteltabelle nach Formation
 - [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}}): die Karte, die dem Stand der eingezeichneten Meldungen folgt
