@@ -38,7 +38,7 @@ Das Objekt ist mit der Meldung verbunden und gilt ab der Zeit der Meldung.
 2. Die Karte steht auf **Live**. Verschieben Sie den Zeitpunkt im Zeitstrahl oder klicken Sie auf **Vorherige Meldung**.
 3. Das Objekt verschwindet, wenn der Zeitpunkt vor der Meldung liegt, und erscheint mit der Meldung.
 
-![Das Lagebild mit der Karte und dem Zeitstrahl unten: Schieberegler, Schaltflächen für die vorherige und nächste Meldung und die Marke Live](/images/docs/nachrichtenkarte/lagebild-zeitstrahl.webp)
+![Das Lagebild mit der Karte und dem Zeitstrahl unten: Schieberegler, Schaltflächen für die vorherige und nächste Meldung und die Marke Live](/images/docs/lagebild/lagebild-zeitstrahl.webp)
 
 Sie haben eine Meldung eingezeichnet und gesehen, dass die Karte den Verlauf des Einsatzes kennt. Weiter:
 

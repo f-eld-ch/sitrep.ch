@@ -49,7 +49,7 @@ Im Lagebild zeigt die Karte den Stand zu einem Zeitpunkt.
 
 Ausser auf **Live** ist die Karte nur lesbar.
 
-![Das Lagebild mit dem Zeitstrahl am unteren Rand der Karte](/images/docs/nachrichtenkarte/lagebild-zeitstrahl.webp)
+![Das Lagebild mit dem Zeitstrahl am unteren Rand der Karte](/images/docs/lagebild/lagebild-zeitstrahl.webp)
 
 ## Objektangaben
 
