@@ -30,6 +30,6 @@ Betrifft eine Meldung weder Personen noch Mittel, gehen Sie mit **Weiter** durch
 
 - [Personenübersicht]({{< relref "/docs/user/reference/triage/personenkategorien" >}}): die Stände der fünf Kategorien
 - [Mittelübersicht]({{< relref "/docs/user/reference/triage/mitteltabelle" >}}): die Mitteltabelle nach Formation
-- [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}}): die Karte, die dem Stand der eingezeichneten Meldungen folgt
+- [Nachrichtenkarte]({{< relref "/docs/user/reference/lagebild/nachrichtenkarte" >}}): die Karte, die dem Stand der eingezeichneten Meldungen folgt
 
 Die Übersichten entsprechen dem Stand der triagierten Meldungen. Meldungen, die noch offen sind, fehlen darin. Wie die Zahlen gezählt werden, erklärt [Personen- und Mittelzählung]({{< relref "/docs/user/explanation/triage/personen-und-mittelzaehlung" >}}).

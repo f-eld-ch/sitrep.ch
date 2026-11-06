@@ -43,4 +43,4 @@ Triage und Nachrichtenkarte zeigen links eine Liste der Meldungen mit Filtern. D
 
 - [Felder des Editors]({{< relref "/docs/user/reference/einsatzjournal/editor-felder" >}})
 - [Triage-Ansicht und Schritte]({{< relref "/docs/user/reference/triage/triage-schritte" >}})
-- [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}})
+- [Nachrichtenkarte]({{< relref "/docs/user/reference/lagebild/nachrichtenkarte" >}})

@@ -33,4 +33,4 @@ Wurde ein Objekt mit dieser Meldung entfernt, bietet die Karte **Wiederherstelle
 
 ## Ab wann eine Änderung gilt
 
-Auf der Nachrichtenkarte gilt jede Änderung ab der **Zeit der Meldung**. Einen eigenen Zeitpunkt (**Gültig ab**) setzen Sie nur bei frei gezeichneten Objekten im Lagebild, siehe [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/lagebild-zeichnen" >}}). Mehr dazu in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).
+Auf der Nachrichtenkarte gilt jede Änderung ab der **Zeit der Meldung**. Einen eigenen Zeitpunkt (**Gültig ab**) setzen Sie nur bei frei gezeichneten Objekten im Lagebild, siehe [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/lagebild/lagebild-zeichnen" >}}). Mehr dazu in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}}).

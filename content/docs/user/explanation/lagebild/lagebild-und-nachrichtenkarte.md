@@ -44,6 +44,6 @@ Das Lagebild zeigt alle Layer übereinander: den Nachrichtenkarte-Layer und Ihre
 
 ## Siehe auch
 
-- [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}})
-- [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/lagebild-zeichnen" >}})
-- [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}})
+- [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/lagebild/nachrichtenkarte-zeichnen" >}})
+- [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/lagebild/lagebild-zeichnen" >}})
+- [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}})

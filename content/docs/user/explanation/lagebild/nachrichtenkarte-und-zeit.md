@@ -9,7 +9,7 @@ Die Nachrichtenkarte zeigt nicht nur den heutigen Stand. Jede Änderung, die Sie
 
 Das beantwortet Fragen wie: Wo verlief die Sperrung um 10:30? Wann wurde die Fläche erweitert?
 
-Das gilt für die Nachrichtenkarte. Im Lagebild, wo Sie frei zeichnen, gibt es keine Meldung. Dort setzen Sie den Zeitpunkt selbst (**Gültig ab**). Siehe [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
+Das gilt für die Nachrichtenkarte. Im Lagebild, wo Sie frei zeichnen, gibt es keine Meldung. Dort setzen Sie den Zeitpunkt selbst (**Gültig ab**). Siehe [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/lagebild/lagebild-und-nachrichtenkarte" >}}).
 
 ## Warum die Zeit der Meldung zählt
 
@@ -31,5 +31,5 @@ Zusätzlich darf die Zeit einer Meldung nicht mehr als fünf Minuten in der Zuku
 
 ## Siehe auch
 
-- [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}})
-- [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}})
+- [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/lagebild/nachrichtenkarte-zeichnen" >}})
+- [Nachrichtenkarte]({{< relref "/docs/user/reference/lagebild/nachrichtenkarte" >}})

@@ -42,7 +42,7 @@ Das Objekt ist mit der Meldung verbunden und gilt ab der Zeit der Meldung.
 
 Sie haben eine Meldung eingezeichnet und gesehen, dass die Karte den Verlauf des Einsatzes kennt. Weiter:
 
-- Wann Sie das Lagebild und wann die Nachrichtenkarte brauchen: [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
-- Für den Alltag: [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}}).
-- Alle Elemente im Überblick: [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}}).
-- Warum die Zeit der Meldung zählt: [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).
+- Wann Sie das Lagebild und wann die Nachrichtenkarte brauchen: [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/lagebild/lagebild-und-nachrichtenkarte" >}}).
+- Für den Alltag: [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/lagebild/nachrichtenkarte-zeichnen" >}}).
+- Alle Elemente im Überblick: [Nachrichtenkarte]({{< relref "/docs/user/reference/lagebild/nachrichtenkarte" >}}).
+- Warum die Zeit der Meldung zählt: [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}}).

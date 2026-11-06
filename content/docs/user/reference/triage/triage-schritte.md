@@ -31,7 +31,7 @@ Bei einer bereits triagierten Meldung öffnet sich zuerst eine Zusammenfassung m
 - **Schlüsselnachricht:** Der Schalter setzt die Priorität auf «wichtig» und weist die Meldung allen Ressorts des Ereignisses zu. Schalten Sie ihn wieder aus, kehren die vorherigen Zuweisungen zurück.
 - **Ressorts:** Jedes Ressort ist eine Marke mit Plus- oder Minusknopf. Ressorts, die die Meldung erhalten, tragen einen Minusknopf, die anderen einen Plusknopf.
 
-Meldungen, die dem Ressort **Nachrichtenkarte** zugewiesen sind, erscheinen anschliessend in der [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}}).
+Meldungen, die dem Ressort **Nachrichtenkarte** zugewiesen sind, erscheinen anschliessend in der [Nachrichtenkarte]({{< relref "/docs/user/reference/lagebild/nachrichtenkarte" >}}).
 
 ### Personen
 
@@ -50,7 +50,7 @@ Liste der Mittel, die mit dieser Meldung verknüpft sind, Suchfeld **Mittel such
 | triagiert | Triage abgeschlossen |
 | zurückgesetzt | Die Triage wurde zurückgenommen, die Meldung ist wieder offen |
 
-Sobald eine Meldung **triagiert** ist, lässt sich ihre Zeit nicht mehr ändern. Der Grund steht in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).
+Sobald eine Meldung **triagiert** ist, lässt sich ihre Zeit nicht mehr ändern. Der Grund steht in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}}).
 
 ## Nach dem Abschliessen
 

@@ -3,7 +3,7 @@ title: "Im Lagebild einen eigenen Layer zeichnen"
 description: "Einen eigenen Layer anlegen, frei zeichnen und den Zeitpunkt setzen."
 weight: 30
 ---
-Im Lagebild zeichnen Sie frei, ohne Meldung, zum Beispiel eine Führungskarte. Wann das Lagebild und wann die Nachrichtenkarte der richtige Ort ist, erklärt [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
+Im Lagebild zeichnen Sie frei, ohne Meldung, zum Beispiel eine Führungskarte. Wann das Lagebild und wann die Nachrichtenkarte der richtige Ort ist, erklärt [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/lagebild/lagebild-und-nachrichtenkarte" >}}).
 
 ## Einen Layer anlegen
 
@@ -13,7 +13,7 @@ Im Lagebild zeichnen Sie frei, ohne Meldung, zum Beispiel eine Führungskarte. W
 
 Der Layer erscheint unter **Zeichnungs-Layer**. Wählen Sie ihn aus, um darauf zu zeichnen.
 
-Der Layer **Nachrichtenkarte** ist hier nur lesbar und trägt den Hinweis «Wird über Meldungen gezeichnet». Auf ihm zeichnen Sie nur in der [Nachrichtenkarte]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}}).
+Der Layer **Nachrichtenkarte** ist hier nur lesbar und trägt den Hinweis «Wird über Meldungen gezeichnet». Auf ihm zeichnen Sie nur in der [Nachrichtenkarte]({{< relref "/docs/user/how-to/lagebild/nachrichtenkarte-zeichnen" >}}).
 
 ## Frei zeichnen
 
@@ -38,4 +38,4 @@ Der Server muss die Projektion EPSG:3857 unterstützen. Sonst meldet sitrep «Ke
 
 ## Siehe auch
 
-- [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}}), mit Zeitstrahl und Objektangaben
+- [Nachrichtenkarte]({{< relref "/docs/user/reference/lagebild/nachrichtenkarte" >}}), mit Zeitstrahl und Objektangaben

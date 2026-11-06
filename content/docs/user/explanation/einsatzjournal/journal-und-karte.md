@@ -28,7 +28,7 @@ Beide fallen oft zusammen. Trägt jemand eine Meldung zehn Minuten später ein, 
 
 ## Warum nach der Triage nichts mehr verschoben wird
 
-Mit der Triage hängen Zahlen und Zeichnungen an der Meldung. Ihre **Zeit** ist darum nach der Triage gesperrt, und der Editor bietet die Meldung nicht mehr zum Bearbeiten an. Wer sich verschrieben hat, korrigiert vor der Triage. Mehr dazu in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).
+Mit der Triage hängen Zahlen und Zeichnungen an der Meldung. Ihre **Zeit** ist darum nach der Triage gesperrt, und der Editor bietet die Meldung nicht mehr zum Bearbeiten an. Wer sich verschrieben hat, korrigiert vor der Triage. Mehr dazu in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}}).
 
 ## Siehe auch
 

@@ -72,6 +72,6 @@ sitrep zeigt «Triage gespeichert». Das Mittel hat den Status **Aufgeboten**.
 
 Sie haben zwei Meldungen triagiert und gesehen, wie aus der Triage die Übersichten entstehen. Wie es weitergeht:
 
-- Die zweite Meldung ist dem Ressort Nachrichtenkarte zugewiesen. Das Tutorial [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/nachrichtenkarte/erste-nachrichtenkarte" >}}) zeichnet sie ein.
+- Die zweite Meldung ist dem Ressort Nachrichtenkarte zugewiesen. Das Tutorial [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/lagebild/erste-nachrichtenkarte" >}}) zeichnet sie ein.
 - Für den Alltag: [Eine Meldung triagieren]({{< relref "/docs/user/how-to/triage/meldung-triagieren" >}}).
 - Warum die Triage der Ort für diese Angaben ist: [Triage und Lagebild]({{< relref "/docs/user/explanation/triage/triage-und-lagebild" >}}).

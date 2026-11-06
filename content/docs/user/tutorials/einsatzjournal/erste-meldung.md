@@ -3,7 +3,7 @@ title: "Ihre erste Meldung erfassen"
 description: "Zwei Meldungen im Editor erfassen und im Einsatzjournal wiederfinden."
 weight: 10
 ---
-In diesem Tutorial erfassen Sie zwei Meldungen eines erfundenen Ereignisses, «Unwetter Bergdorf – Murgang Dorfbach». Am Schluss sehen Sie beide im Einsatzjournal. Die Meldungen bilden die Grundlage für die Tutorials [Ihre erste Triage]({{< relref "/docs/user/tutorials/triage/erste-triage" >}}) und [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/nachrichtenkarte/erste-nachrichtenkarte" >}}). Alle Namen und Zahlen sind erfunden.
+In diesem Tutorial erfassen Sie zwei Meldungen eines erfundenen Ereignisses, «Unwetter Bergdorf – Murgang Dorfbach». Am Schluss sehen Sie beide im Einsatzjournal. Die Meldungen bilden die Grundlage für die Tutorials [Ihre erste Triage]({{< relref "/docs/user/tutorials/triage/erste-triage" >}}) und [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/lagebild/erste-nachrichtenkarte" >}}). Alle Namen und Zahlen sind erfunden.
 
 Sie brauchen:
 

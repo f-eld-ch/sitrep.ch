@@ -3,7 +3,7 @@ title: "Eine Meldung auf der Nachrichtenkarte einzeichnen"
 description: "Eine Meldung wählen, die Karte nachführen und die Meldung abschliessen."
 weight: 10
 ---
-Die Nachrichtenkarte zeigt Ihnen die Meldungen, die in der Triage dem Ressort **Nachrichtenkarte** zugewiesen wurden. Hier zeichnen Sie ein, was sie sagen. Eine geführte Einführung bietet das Tutorial [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/nachrichtenkarte/erste-nachrichtenkarte" >}}).
+Die Nachrichtenkarte zeigt Ihnen die Meldungen, die in der Triage dem Ressort **Nachrichtenkarte** zugewiesen wurden. Hier zeichnen Sie ein, was sie sagen. Eine geführte Einführung bietet das Tutorial [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/lagebild/erste-nachrichtenkarte" >}}).
 
 ## Meldung einzeichnen
 
@@ -12,7 +12,7 @@ Die Nachrichtenkarte zeigt Ihnen die Meldungen, die in der Triage dem Ressort **
 3. Zeichnen Sie auf der Karte ein, was die Meldung sagt: neue Objekte setzen, bestehende ändern oder entfernen.
 4. Klicken Sie auf **Abschliessen**.
 
-Oben steht, für welche Meldung Sie zeichnen, zum Beispiel «Einzeichnen für Meldung 12 · 09:15». Alles, was Sie zeichnen, wird mit dieser Meldung verbunden und gilt ab der **Zeit der Meldung**. Warum das so ist, steht in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).
+Oben steht, für welche Meldung Sie zeichnen, zum Beispiel «Einzeichnen für Meldung 12 · 09:15». Alles, was Sie zeichnen, wird mit dieser Meldung verbunden und gilt ab der **Zeit der Meldung**. Warum das so ist, steht in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}}).
 
 <!-- Screenshot: nachrichtenkarte-arbeitsplatz.webp – Meldungsliste links, gewählte Meldung und Karte rechts -->
 
@@ -31,4 +31,4 @@ Neue Objekte werden erst mit **Speichern** angelegt. Verlassen Sie die Meldung, 
 
 Steht dort «Noch keine Meldungen für die Nachrichtenkarte», wurde noch keine Meldung dem Ressort Nachrichtenkarte zugewiesen. Weisen Sie sie in der [Triage]({{< relref "/docs/user/how-to/triage/meldung-triagieren" >}}) im Schritt **Meldefluss** zu.
 
-Eine bereits eingezeichnete Meldung ändern: [Eine gezeichnete Meldung ändern]({{< relref "/docs/user/how-to/nachrichtenkarte/gezeichnete-meldung-aendern" >}}).
+Eine bereits eingezeichnete Meldung ändern: [Eine gezeichnete Meldung ändern]({{< relref "/docs/user/how-to/lagebild/gezeichnete-meldung-aendern" >}}).

@@ -5,7 +5,7 @@ weight: 10
 ---
 Die Nachrichtenkarte ist der Arbeitsplatz für die Karte. Sie öffnen sie im Menü **Lagebild** über den Eintrag **Nachrichtenkarte**.
 
-Das **Lagebild** ist ein anderer Ort: Dort zeichnen Sie frei auf eigenen Layern. Der Layer Nachrichtenkarte ist im Lagebild nur lesbar. Der Unterschied steht in [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
+Das **Lagebild** ist ein anderer Ort: Dort zeichnen Sie frei auf eigenen Layern. Der Layer Nachrichtenkarte ist im Lagebild nur lesbar. Der Unterschied steht in [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/lagebild/lagebild-und-nachrichtenkarte" >}}).
 
 ## Aufbau des Arbeitsplatzes
 
@@ -77,6 +77,6 @@ Mit **Signatur fixieren** und **Fixierte Signatur lösen** sperren und entsperre
 
 ## Siehe auch
 
-- [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}})
-- [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/lagebild-zeichnen" >}})
-- [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}})
+- [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/lagebild/nachrichtenkarte-zeichnen" >}})
+- [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/lagebild/lagebild-zeichnen" >}})
+- [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}})
