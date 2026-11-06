@@ -1,7 +1,7 @@
 ---
-title: "Einsatzjournal und Triage"
+title: "Einsatzjournal"
 weight: 20
-description: "Meldungen im Einsatzjournal führen und triagieren."
+description: "Meldungen im Einsatzjournal erfassen."
 draft: true
 cascade:
   draft: true
