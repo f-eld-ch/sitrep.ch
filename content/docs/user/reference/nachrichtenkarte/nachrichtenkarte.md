@@ -3,7 +3,9 @@ title: "Nachrichtenkarte"
 description: "Aufbau der Nachrichtenkarte, Status der Meldungen, Zeitstrahl und Objektangaben."
 weight: 10
 ---
-Die Nachrichtenkarte ist der Arbeitsplatz für die Karte. Sie öffnen sie im Menü **Lagebild** über den Eintrag **Nachrichtenkarte**. Das Lagebild selbst zeigt dieselbe Karte als Überblick mit Zeitstrahl.
+Die Nachrichtenkarte ist der Arbeitsplatz für die Karte. Sie öffnen sie im Menü **Lagebild** über den Eintrag **Nachrichtenkarte**.
+
+Das **Lagebild** ist ein anderer Ort: Dort zeichnen Sie frei auf eigenen Layern. Der Layer Nachrichtenkarte ist im Lagebild nur lesbar. Der Unterschied steht in [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
 
 ## Aufbau des Arbeitsplatzes
 
@@ -63,7 +65,7 @@ Je nach Signatur stehen diese Felder zur Verfügung:
 | Gefahrennummer | Kemler-Zahl |
 | Stoffnummer | vierstellige UN-Nummer |
 | Stoffbezeichnung | Name des Stoffs |
-| Gültig ab | Zeitpunkt, ab dem die Änderung gilt |
+| Gültig ab | Zeitpunkt, ab dem die Änderung gilt. Im Lagebild setzen Sie ihn selbst, auf der Nachrichtenkarte ist es die Zeit der Meldung. |
 
 Mit **Signatur fixieren** und **Fixierte Signatur lösen** sperren und entsperren Sie die Lage einer Signatur.
 
@@ -76,4 +78,5 @@ Mit **Signatur fixieren** und **Fixierte Signatur lösen** sperren und entsperre
 ## Siehe auch
 
 - [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}})
+- [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/lagebild-zeichnen" >}})
 - [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}})

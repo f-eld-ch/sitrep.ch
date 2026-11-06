@@ -9,6 +9,8 @@ Die Nachrichtenkarte zeigt nicht nur den heutigen Stand. Jede Änderung, die Sie
 
 Das beantwortet Fragen wie: Wo verlief die Sperrung um 10:30? Wann wurde die Fläche erweitert?
 
+Das gilt für die Nachrichtenkarte. Im Lagebild, wo Sie frei zeichnen, gibt es keine Meldung. Dort setzen Sie den Zeitpunkt selbst (**Gültig ab**). Siehe [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
+
 ## Warum die Zeit der Meldung zählt
 
 Es gibt zwei mögliche Zeitpunkte: wann die Meldung eintraf und wann jemand die Änderung zeichnete. Wer eine Meldung erst eine Stunde später einzeichnet, würde die Karte sonst für diese Stunde falsch darstellen. Massgebend ist deshalb die Zeit der Meldung. Die Reihenfolge der Änderungen folgt dieser Zeit, nicht der Reihenfolge, in der gezeichnet wurde.

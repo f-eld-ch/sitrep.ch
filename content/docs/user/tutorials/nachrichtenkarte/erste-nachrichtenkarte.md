@@ -34,7 +34,7 @@ Das Objekt ist mit der Meldung verbunden und gilt ab der Zeit der Meldung.
 
 ## 4. Die Karte im Zeitverlauf ansehen
 
-1. Öffnen Sie **Lagebild**.
+1. Öffnen Sie **Lagebild**. Dort ist der Layer Nachrichtenkarte nur lesbar, Sie sehen darauf, was Sie eben eingezeichnet haben.
 2. Die Karte steht auf **Live**. Verschieben Sie den Zeitpunkt im Zeitstrahl oder klicken Sie auf **Vorherige Meldung**.
 3. Das Objekt verschwindet, wenn der Zeitpunkt vor der Meldung liegt, und erscheint mit der Meldung.
 
@@ -42,6 +42,7 @@ Das Objekt ist mit der Meldung verbunden und gilt ab der Zeit der Meldung.
 
 Sie haben eine Meldung eingezeichnet und gesehen, dass die Karte den Verlauf des Einsatzes kennt. Weiter:
 
+- Wann Sie das Lagebild und wann die Nachrichtenkarte brauchen: [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/nachrichtenkarte/lagebild-und-nachrichtenkarte" >}}).
 - Für den Alltag: [Eine Meldung auf der Nachrichtenkarte einzeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/nachrichtenkarte-zeichnen" >}}).
 - Alle Elemente im Überblick: [Nachrichtenkarte]({{< relref "/docs/user/reference/nachrichtenkarte/nachrichtenkarte" >}}).
 - Warum die Zeit der Meldung zählt: [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).

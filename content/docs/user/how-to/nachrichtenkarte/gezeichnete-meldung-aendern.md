@@ -33,4 +33,4 @@ Wurde ein Objekt mit dieser Meldung entfernt, bietet die Karte **Wiederherstelle
 
 ## Ab wann eine Änderung gilt
 
-Im Objektformular steht **Gültig ab**: «Die Änderung gilt ab diesem Zeitpunkt auf dem Zeitstrahl.» Bei Objekten, die Sie mit einer Meldung zeichnen, ist das die Zeit der Meldung. Mehr dazu in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).
+Auf der Nachrichtenkarte gilt jede Änderung ab der **Zeit der Meldung**. Einen eigenen Zeitpunkt (**Gültig ab**) setzen Sie nur bei frei gezeichneten Objekten im Lagebild, siehe [Im Lagebild einen eigenen Layer zeichnen]({{< relref "/docs/user/how-to/nachrichtenkarte/lagebild-zeichnen" >}}). Mehr dazu in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/nachrichtenkarte/nachrichtenkarte-und-zeit" >}}).

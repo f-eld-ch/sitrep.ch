@@ -10,7 +10,8 @@ sitrep zeigt die Meldungen des Ereignisses in mehreren Ansichten. Jede hat einen
 | **Editor** | Meldungen erfassen und korrigieren, mit der Liste darunter | ja, solange nicht triagiert | Journal drucken, Meldezettel |
 | **Einsatzjournal** | Alle Meldungen lesen und filtern | nein | nein |
 | **Triage** | Meldungen auswerten: Meldefluss, Personen, Mittel | Meldung korrigieren im ersten Schritt | Meldezettel |
-| **Nachrichtenkarte** | Meldungen einzeichnen | nein | nein |
+| **Nachrichtenkarte** (Menü Lagebild) | Meldungen einzeichnen | nein | nein |
+| **Lagebild** | Karte ansehen, eigene Layer frei zeichnen | nein | Kartenexport |
 
 ## Einsatzjournal
 
