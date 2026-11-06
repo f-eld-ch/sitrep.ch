@@ -12,7 +12,7 @@ Sie brauchen:
 
 ## 1. Die Nachrichtenkarte öffnen
 
-1. Öffnen Sie **Nachrichtenkarte** im Einsatzjournal.
+1. Öffnen Sie im Menü **Lagebild** den Eintrag **Nachrichtenkarte**.
 2. In der Liste links stehen die Meldungen, die noch einzuzeichnen sind. sitrep wählt die älteste. Im Beispiel ist das die Meldung, dass Sanitätsgruppe 2 eingetroffen ist.
 
 Oben steht, für welche Meldung Sie zeichnen, zum Beispiel «Einzeichnen für Meldung 13 · 09:05».

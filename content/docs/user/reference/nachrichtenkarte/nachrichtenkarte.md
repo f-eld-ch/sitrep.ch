@@ -3,7 +3,7 @@ title: "Nachrichtenkarte"
 description: "Aufbau der Nachrichtenkarte, Status der Meldungen, Zeitstrahl und Objektangaben."
 weight: 10
 ---
-Die Nachrichtenkarte ist der Arbeitsplatz für die Karte. Sie öffnen sie über **Nachrichtenkarte** im Einsatzjournal. Das Lagebild (**Lagebild** in der Navigation) zeigt dieselbe Karte als Überblick mit Zeitstrahl.
+Die Nachrichtenkarte ist der Arbeitsplatz für die Karte. Sie öffnen sie im Menü **Lagebild** über den Eintrag **Nachrichtenkarte**. Das Lagebild selbst zeigt dieselbe Karte als Überblick mit Zeitstrahl.
 
 ## Aufbau des Arbeitsplatzes
 

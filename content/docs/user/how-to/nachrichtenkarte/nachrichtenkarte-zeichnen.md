@@ -7,7 +7,7 @@ Die Nachrichtenkarte zeigt Ihnen die Meldungen, die in der Triage dem Ressort **
 
 ## Meldung einzeichnen
 
-1. Öffnen Sie **Nachrichtenkarte** im Einsatzjournal.
+1. Öffnen Sie im Menü **Lagebild** den Eintrag **Nachrichtenkarte**.
 2. Wählen Sie eine Meldung in der Liste. sitrep wählt zu Beginn die älteste Meldung, die noch nicht eingezeichnet ist.
 3. Zeichnen Sie auf der Karte ein, was die Meldung sagt: neue Objekte setzen, bestehende ändern oder entfernen.
 4. Klicken Sie auf **Abschliessen**.
