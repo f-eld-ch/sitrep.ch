@@ -1,0 +1,5 @@
+{{/* "Edit this page" link to the source file on GitHub; for single docs pages (not the index pages). A page that falls back to German links to the German file. */}}
+{{ with .File }}
+{{ $path := replace .Path "\\" "/" }}
+<p class="edit-link"><a href="{{ site.Params.siterepo }}/edit/{{ site.Params.editbranch }}/content/{{ $path }}" rel="noopener">{{ i18n "edit_page" }}</a></p>
+{{ end }}

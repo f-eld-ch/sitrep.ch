@@ -15,6 +15,7 @@
       <div class="prose"{{ with .Params.contentlang }} lang="{{ . }}"{{ end }}>{{ .Content }}</div>
       {{ if $hasToc }}<aside class="toc" aria-label="{{ i18n "on_this_page" }}"><strong>{{ i18n "on_this_page" }}</strong>{{ .TableOfContents }}</aside>{{ end }}
     </div>
+    {{ partial "edit-link.html" . }}
     <div class="pager">
       <span>{{ with .PrevInSection }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}</span>
       <span>{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</span>

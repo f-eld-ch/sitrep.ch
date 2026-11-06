@@ -150,6 +150,8 @@ h1 .badge, h2 .badge, h3 .badge { font-size: var(--sitrep-size-min); vertical-al
 .docs-nav .pages a { padding-left: .75rem; color: var(--sitrep-fg-muted); min-height: 36px; }
 .docs-nav a[aria-current="page"] { font-weight: var(--sitrep-weight-bold); color: var(--sitrep-fg); box-shadow: -1px 0 0 var(--sitrep-color-alert-red), -3px 0 0 var(--sitrep-color-alert-red); }
 .docs-nav .quads a[aria-current="page"] { box-shadow: -1px 0 0 var(--sitrep-color-alert-red), -3px 0 0 var(--sitrep-color-alert-red); }
+.edit-link { margin: 2rem 0 0; font-size: var(--sitrep-size-small); }
+.edit-link a { display: inline-block; padding: 0.7rem 0; min-height: 44px; } /* touch target */
 .pager { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--sitrep-line); margin-top: 3rem; padding-top: 1rem; }
 .toc { font-size: var(--sitrep-size-small); border: 1px solid var(--sitrep-line); padding: .5rem 1rem; margin-bottom: 1.5rem; }
 .site-footer { border-top: 1px solid var(--sitrep-line); background: var(--sitrep-bg-subtle); margin-top: 3rem; text-align: center; }
