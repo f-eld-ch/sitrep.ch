@@ -14,7 +14,7 @@ Die Nachrichtenkarte zeigt Ihnen die Meldungen, die in der Triage dem Ressort **
 
 Oben steht, für welche Meldung Sie zeichnen, zum Beispiel «Einzeichnen für Meldung 12 · 09:15». Alles, was Sie zeichnen, wird mit dieser Meldung verbunden und gilt ab der **Zeit der Meldung**. Warum das so ist, steht in [Nachrichtenkarte und Zeit]({{< relref "/docs/user/explanation/lagebild/nachrichtenkarte-und-zeit" >}}).
 
-<!-- Screenshot: nachrichtenkarte-arbeitsplatz.webp – Meldungsliste links, gewählte Meldung und Karte rechts -->
+![Der Arbeitsplatz der Nachrichtenkarte: links die Meldungsliste, rechts die gewählte Meldung mit dem Knopf Abschliessen und die Karte](/images/docs/lagebild/nachrichtenkarte-arbeitsplatz.webp)
 
 Nach **Abschliessen** zeigt die Meldung «Gezeichnet» und sitrep wechselt zur nächsten Meldung, die noch einzuzeichnen ist. Sind alle eingezeichnet, steht «Alle Meldungen sind eingezeichnet».
 

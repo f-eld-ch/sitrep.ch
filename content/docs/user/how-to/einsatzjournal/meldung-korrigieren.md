@@ -9,8 +9,12 @@ Haben Sie sich beim Erfassen vertippt, korrigieren Sie die Meldung im Editor.
 
 1. Öffnen Sie **Editor** im Einsatzjournal.
 2. Klicken Sie in der Liste unter dem Formular bei der Meldung auf **bearbeiten**. Ihre Angaben erscheinen im Formular.
+
+![Die Liste unter dem Editor: noch nicht triagierte Meldungen haben den Link bearbeiten, triagierte den Link Meldezettel](/images/docs/einsatzjournal/editor-liste.webp)
 3. Ändern Sie, was nicht stimmt.
 4. Klicken Sie auf **speichern**.
+
+![Der Editor mit einer geladenen Meldung zum Bearbeiten](/images/docs/einsatzjournal/editor-bearbeiten.webp)
 
 Verlassen Sie die Seite mit ungespeicherten Änderungen, fragt sitrep: «Sie haben ungespeicherte Änderungen. Verwerfen und verlassen?» Mit **Änderungen verwerfen** gehen sie verloren.
 

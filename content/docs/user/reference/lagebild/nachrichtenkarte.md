@@ -13,7 +13,7 @@ Das **Lagebild** ist ein anderer Ort: Dort zeichnen Sie frei auf eigenen Layern.
 - **Rechts oben:** die gewählte Meldung und die Aktion **Abschliessen** beziehungsweise **Ändern**.
 - **Rechts unten:** die Karte.
 
-<!-- Screenshot: nachrichtenkarte-arbeitsplatz.webp – Arbeitsplatz mit Meldungsliste, Meldung und Karte -->
+![Der Arbeitsplatz der Nachrichtenkarte mit Meldungsliste, Meldung und Karte](/images/docs/lagebild/nachrichtenkarte-arbeitsplatz.webp)
 
 ## Schaltflächen und Marken
 

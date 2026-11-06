@@ -13,6 +13,8 @@ Im Lagebild zeichnen Sie frei, ohne Meldung, zum Beispiel eine Führungskarte. W
 
 Der Layer erscheint unter **Zeichnungs-Layer**. Wählen Sie ihn aus, um darauf zu zeichnen.
 
+![Das Layer-Menü im Lagebild: Zeichnungs-Layer mit Nachrichtenkarte und Lage, darunter das Feld für den Namen eines neuen Layers](/images/docs/lagebild/lagebild-layer-menue.webp)
+
 Der Layer **Nachrichtenkarte** ist hier nur lesbar und trägt den Hinweis «Wird über Meldungen gezeichnet». Auf ihm zeichnen Sie nur in der [Nachrichtenkarte]({{< relref "/docs/user/how-to/lagebild/nachrichtenkarte-zeichnen" >}}).
 
 ## Frei zeichnen

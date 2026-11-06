@@ -44,6 +44,8 @@ Betrifft die Meldung Personen oder Einsatzmittel, erfassen Sie sie jetzt. Sonst 
 1. Klicken Sie im letzten Schritt auf **Triage abschliessen**.
 2. sitrep zeigt «Triage gespeichert». Klicken Sie auf **Nächste offene Meldung**, um weiterzumachen.
 
+![Die Bestätigung «Triage gespeichert» mit Nächste offene Meldung, Triage anpassen und Meldezettel](/images/docs/triage/triage-gespeichert.webp)
+
 Alles wird in einem Zug gespeichert. Mit **Ctrl + ↵** gehen Sie zum nächsten Schritt oder schliessen im letzten Schritt ab.
 
 ## Eine Triage nachträglich ändern
@@ -51,6 +53,8 @@ Alles wird in einem Zug gespeichert. Mit **Ctrl + ↵** gehen Sie zum nächsten 
 1. Wählen Sie die bereits triagierte Meldung in der Liste.
 2. Klicken Sie in der Zusammenfassung auf **Triage anpassen**.
 3. Ändern Sie, was nötig ist, und schliessen Sie die Triage erneut ab.
+
+![Die Zusammenfassung einer triagierten Meldung mit dem Meldefluss und dem Knopf Triage anpassen](/images/docs/triage/triage-zusammenfassung.webp)
 
 Die Zeit der Meldung können Sie nach der Triage nicht mehr ändern.
 

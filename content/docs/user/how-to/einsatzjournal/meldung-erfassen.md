@@ -22,12 +22,16 @@ Der Knopf **speichern** wirkt erst, wenn alle Pflichtfelder gefüllt sind. sitre
 
 Beide Nummern sind Pflicht.
 
+![Der Editor mit einer Telefonmeldung: Empfänger und Anrufer mit Telefonnummern](/images/docs/einsatzjournal/editor-telefon.webp)
+
 ## Funk
 
 1. Wählen Sie den **Kanal**. Er gilt für Empfänger und Absender.
 2. Tragen Sie **Empfänger** und **Absender** ein.
 
 Funk ist die Voreinstellung, wenn Sie den Editor öffnen.
+
+![Der Editor mit einer Funkmeldung: Kanal, Empfänger und Absender](/images/docs/einsatzjournal/editor-funk.webp)
 
 ## E-Mail
 
@@ -36,9 +40,13 @@ Funk ist die Voreinstellung, wenn Sie den Editor öffnen.
 
 Beide Adressen sind Pflicht.
 
+![Der Editor mit einer E-Mail: Email-Sender und Email-Empfänger mit Adressen](/images/docs/einsatzjournal/editor-email.webp)
+
 ## Andere
 
 Für Meldungen, die persönlich oder auf einem anderen Weg eintreffen, tragen Sie **Absender** und **Empfänger** ein. Unter **Details** können Sie ergänzen, wie die Meldung eintraf. Die Details sind freiwillig.
+
+![Der Editor mit der Kommunikation Andere: Absender mit Details, Empfänger](/images/docs/einsatzjournal/editor-andere.webp)
 
 ## Die Zeit setzen
 

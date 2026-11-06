@@ -27,7 +27,7 @@ Oben steht das Formular, darunter die bisherigen Meldungen.
 6. Prüfen Sie unten die **Vorschau**.
 7. Klicken Sie auf **speichern**.
 
-![Der Editor mit einer Telefonmeldung: Kommunikation, Empfänger, Anrufer, Zeit, Inhalt und Vorschau. Das Bild zeigt eine andere Meldung als im Beispiel.](/images/docs/einsatzjournal/editor-telefon.webp)
+![Der Editor mit der ersten Meldung: Kommunikation Telefon, Empfänger, Anrufer, Zeit, Inhalt und Vorschau. Im Bild ist die Zeit 08:41 eingetragen.](/images/docs/einsatzjournal/editor-telefon.webp)
 
 Die Meldung erscheint in der Liste unter dem Formular. Sie hat eine Nummer und den Triage-Status **pendent**: Sie ist erfasst, aber noch nicht triagiert.
 

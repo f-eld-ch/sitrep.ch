@@ -13,6 +13,8 @@ An eine Meldung lassen sich Dateien hängen, zum Beispiel ein Foto vom Einsatzor
 
 Die Dateien werden mit dem Speichern der Meldung hochgeladen. Bis dahin lassen sie sich mit dem Kreuz neben dem Dateinamen wieder entfernen.
 
+![Der Editor mit einem angehängten PDF im Feld Anhänge](/images/docs/einsatzjournal/editor-anhang.webp)
+
 ## An eine bestehende Meldung anhängen
 
 1. Klicken Sie in der Liste unter dem Editor bei der Meldung auf **bearbeiten**.

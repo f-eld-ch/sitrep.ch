@@ -7,6 +7,16 @@ Sie führen die Mittel im Schritt **Mittel** der Triage. Jede Änderung wird mit
 
 Alle Aktionen beginnen gleich: Öffnen Sie die Meldung in der **Triage** und gehen Sie zum Schritt **Mittel**.
 
+## Ein Mittel für die Meldung auswählen
+
+Handelt die Meldung von einem Mittel, das schon erfasst ist:
+
+1. Suchen Sie es im Suchfeld **Mittel suchen…**, oder klicken Sie auf **weitere anzeigen**.
+2. Klicken Sie das Mittel an (Tipp: «Zur Meldung hinzufügen»). Es ist jetzt mit der Meldung verknüpft und steht oben in der Liste.
+3. Klicken Sie auf **bearbeiten**, um seine Karte zu öffnen. Mit dem Kreuz nehmen Sie das Mittel wieder aus der Meldung.
+
+![Die Mittelliste einer Meldung: das neu aufgebotene Mittel steht oben, darunter die weiteren Mittel des Ereignisses](/images/docs/triage/triage-4-mittel-liste.webp)
+
 ## Ein Mittel aufbieten
 
 1. Klicken Sie auf **Neues Mittel aufbieten**.
@@ -23,17 +33,21 @@ Gibt es das Mittel schon, meldet sitrep einen Fehler. Ist es abgelöst, bietet s
 
 ## Ein Mittel einsatzbereit melden
 
-1. Wählen Sie das aufgebotene Mittel in der Liste.
+1. [Wählen Sie das aufgebotene Mittel aus](#ein-mittel-für-die-meldung-auswählen) und öffnen Sie es mit **bearbeiten**.
 2. Tragen Sie bei Bedarf die [Erreichbarkeit](#die-erreichbarkeit-pflegen) ein.
-3. Klicken Sie auf **Einsatzbereit melden**.
+3. Klicken Sie auf **Einsatzbereit melden**. Die Karte schliesst sich.
+
+![Die Karte eines aufgebotenen Mittels mit dem Feld Kontakt, dem Knopf Einsatzbereit melden und Angaben korrigieren](/images/docs/triage/triage-mittel-aufgeboten.webp)
 
 ## Ein Mittel einsetzen
 
-1. Wählen Sie das einsatzbereite Mittel.
+1. Öffnen Sie das einsatzbereite Mittel mit **bearbeiten**.
 2. Tragen Sie die **Hauptaufgabe** und den **Einsatzort** ein. Beide sind Pflicht.
 3. Klicken Sie auf **Einsetzen**.
 
 Fehlt eine Angabe, bleibt der Knopf wirkungslos und das Feld wird als Pflichtfeld markiert.
+
+![Die Karte eines einsatzbereiten Mittels mit Hauptaufgabe, Einsatzort und den Knöpfen Einsetzen und Entlassen](/images/docs/triage/triage-mittel-einsetzen.webp)
 
 ## Einsatz abschliessen oder umdisponieren
 
@@ -42,9 +56,11 @@ Fehlt eine Angabe, bleibt der Knopf wirkungslos und das Feld wird als Pflichtfel
 
 ## Ein Mittel ablösen
 
-1. Wählen Sie das eingesetzte Mittel.
-2. Wählen Sie unter **Ablösung durch** das Mittel, das übernimmt. Es muss schon aufgeboten sein.
+1. Öffnen Sie das eingesetzte Mittel mit **bearbeiten**.
+2. Wählen Sie unter **Ablösung durch** das Mittel, das übernimmt. Es muss schon erfasst sein und darf nicht abgelöst sein.
 3. Klicken Sie auf **Ablösen**.
+
+![Die Karte eines eingesetzten Mittels mit der Auswahl Ablösung durch und den Knöpfen Einsatz abgeschlossen, Ablösen und Entlassen](/images/docs/triage/triage-mittel-abloesen.webp)
 
 Das Nachfolgemittel übernimmt Auftrag und Einsatzort und wird eingesetzt. Das abgelöste Mittel erhält den Status **Abgelöst** und bleibt mit seiner Einsatzgeschichte in der Mitteltabelle.
 
@@ -56,26 +72,26 @@ Klicken Sie bei einem einsatzbereiten oder eingesetzten Mittel auf **Entlassen**
 
 Bei mehrtägigen Einsätzen kann ein abgelöstes Mittel zurückkehren.
 
-1. Öffnen Sie im Schritt **Mittel** den Bereich **Abgelöst**.
-2. Wählen Sie das Mittel und klicken Sie auf **Reaktivieren**.
+1. Öffnen Sie im Schritt **Mittel** unter der Liste den Bereich **Abgelöst**. Er erscheint, sobald es abgelöste Mittel gibt, die nicht mit dieser Meldung verknüpft sind.
+2. Klicken Sie beim Mittel auf **Reaktivieren**.
+
+![Der Bereich Abgelöst unter der Mittelliste mit einem abgelösten Mittel und dem Knopf Reaktivieren](/images/docs/triage/triage-mittel-abgeloest.webp)
 
 Das Mittel ist wieder **Aufgeboten**. Auftrag, Einsatzort und Ablösung des vorherigen Einsatzes werden zurückgesetzt, die Einsatzgeschichte bleibt.
 
 ## Die Erreichbarkeit pflegen
 
-1. Wählen Sie das Mittel.
-2. Wählen Sie die Art (Telefon, Funk, E-Mail oder Andere) und tragen Sie die Angabe ein, zum Beispiel den Funkkanal oder die Nummer.
+1. Öffnen Sie das Mittel mit **bearbeiten**.
+2. Wählen Sie die Art (Telefon, Funk oder Andere) und tragen Sie die Angabe ein, zum Beispiel den Funkkanal oder die Nummer.
 3. Bestätigen Sie die Angabe, wo sitrep dies verlangt.
 
 Bei einem aufgebotenen Mittel steht das Feld **Kontakt** direkt im Mittel. Bei einsatzbereiten und eingesetzten Mitteln finden Sie es unter **Angaben korrigieren**.
 
 ## Name, Kontakt oder Personenzahl korrigieren
 
-1. Wählen Sie das Mittel und öffnen Sie **Angaben korrigieren**.
-2. Ändern Sie Name, Kontakt oder Personenzahl und speichern Sie.
+1. Öffnen Sie das Mittel mit **bearbeiten** und klicken Sie auf **Angaben korrigieren**.
+2. Ändern Sie Name, Kontakt oder Personenzahl und klicken Sie auf **speichern**.
+
+![Die Karte mit geöffneten Angaben: Name des Mittels, Kontakt und Personen, mit speichern und Abbrechen](/images/docs/triage/triage-mittel-angaben-korrigieren.webp)
 
 Ein abgelöstes Mittel lässt sich nicht mehr ändern. Die Personenzahl wird auf eine ganze Zahl von mindestens 1 geprüft.
-
-## Ein Mittel mit der Meldung verknüpfen
-
-Wählen Sie ein bestehendes Mittel mit **Zur Meldung hinzufügen**, wenn die Meldung von ihm handelt. Das Suchfeld **Mittel suchen…** hilft bei langen Listen.

@@ -28,6 +28,8 @@ Drucken können Sie aus der Liste unter dem **Editor**. Auf der Seite **Einsatzj
 
 Der Ausdruck zeigt den Titel «Einsatzjournal», den **Stand** mit Datum und Uhrzeit und die gewählten Filter. Pro Meldung stehen Zeit, Absender, Empfänger und Inhalt darin. Ist ein Filter gesetzt, steht «gefiltert» im Titel.
 
+![Die Liste unter dem Editor mit den Filtern und dem Knopf Drucken oben rechts](/images/docs/einsatzjournal/editor-liste.webp)
+
 ## Eine einzelne Meldung ausdrucken
 
 Dafür gibt es den Meldezettel: [Einen Meldezettel drucken]({{< relref "/docs/user/how-to/einsatzjournal/meldezettel-drucken" >}}).

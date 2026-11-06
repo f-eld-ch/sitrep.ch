@@ -17,7 +17,7 @@ Sie brauchen:
 
 Oben steht, für welche Meldung Sie zeichnen, zum Beispiel «Einzeichnen für Meldung 13 · 09:05».
 
-<!-- Screenshot: tutorial-karte-arbeitsplatz.webp – Nachrichtenkarte mit der gewählten Meldung -->
+![Die Nachrichtenkarte mit der Meldung «Sanitätsgruppe 2 ist eingetroffen» und dem Knopf Abschliessen](/images/docs/lagebild/nachrichtenkarte-arbeitsplatz.webp)
 
 ## 2. Die Meldung einzeichnen
 
@@ -39,6 +39,8 @@ Das Objekt ist mit der Meldung verbunden und gilt ab der Zeit der Meldung.
 3. Das Objekt verschwindet, wenn der Zeitpunkt vor der Meldung liegt, und erscheint mit der Meldung.
 
 ![Das Lagebild mit der Karte und dem Zeitstrahl unten: Schieberegler, Schaltflächen für die vorherige und nächste Meldung und die Marke Live](/images/docs/lagebild/lagebild-zeitstrahl.webp)
+
+![Dasselbe Lagebild auf einem früheren Zeitpunkt: weniger Objekte, der Zeitstrahl zeigt «Stand» mit der Zeit](/images/docs/lagebild/lagebild-zeitstrahl-frueher.webp)
 
 Sie haben eine Meldung eingezeichnet und gesehen, dass die Karte den Verlauf des Einsatzes kennt. Weiter:
 

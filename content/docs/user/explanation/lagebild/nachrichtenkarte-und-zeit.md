@@ -7,6 +7,8 @@ weight: 10
 
 Die Nachrichtenkarte zeigt nicht nur den heutigen Stand. Jede Änderung, die Sie einzeichnen, ist mit einer **Meldung** verbunden und gilt ab der **Zeit dieser Meldung**. Im Lagebild lässt sich die Karte deshalb entlang des Einsatzes abspielen: Sie sehen den Stand nach jeder Meldung.
 
+![Das Lagebild auf einem früheren Zeitpunkt: nur die Objekte, die bis dahin gezeichnet waren](/images/docs/lagebild/lagebild-zeitstrahl-frueher.webp)
+
 Das beantwortet Fragen wie: Wo verlief die Sperrung um 10:30? Wann wurde die Fläche erweitert?
 
 Das gilt für die Nachrichtenkarte. Im Lagebild, wo Sie frei zeichnen, gibt es keine Meldung. Dort setzen Sie den Zeitpunkt selbst (**Gültig ab**). Siehe [Lagebild und Nachrichtenkarte]({{< relref "/docs/user/explanation/lagebild/lagebild-und-nachrichtenkarte" >}}).

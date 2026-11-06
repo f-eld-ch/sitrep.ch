@@ -52,13 +52,21 @@ Die Meldung ist keine Schlüsselnachricht. Lassen Sie den Schalter aus.
 
 sitrep zeigt «Triage gespeichert». Das Mittel hat den Status **Aufgeboten**.
 
+![Die Bestätigung «Triage gespeichert» mit dem Knopf «Nächste offene Meldung»](/images/docs/triage/triage-gespeichert.webp)
+
 ## 5. Die zweite Meldung triagieren
 
 1. Klicken Sie auf **Nächste offene Meldung**. Es ist die Meldung, dass Gruppe 2 eingetroffen ist.
 2. Weisen Sie im Meldefluss die Ressorts **C Lage** und **Nachrichtenkarte** zu und klicken Sie auf **Weiter**.
 3. Im Schritt **Personen** ändert sich nichts. Klicken Sie auf **Weiter**.
-4. Wählen Sie im Schritt **Mittel** das Mittel «Gruppe 2» und klicken Sie auf **Einsatzbereit melden**.
-5. Tragen Sie als **Hauptaufgabe** `Erstversorgung und Transport` und als **Einsatzort** `Dorfstrasse` ein und klicken Sie auf **Einsetzen**.
+4. Suchen Sie im Schritt **Mittel** im Suchfeld nach «Gruppe 2», klicken Sie das Mittel an und danach auf **bearbeiten**. Klicken Sie auf **Einsatzbereit melden**.
+
+![Die Karte des aufgebotenen Mittels mit dem Feld Kontakt und dem Knopf Einsatzbereit melden](/images/docs/triage/triage-mittel-aufgeboten.webp)
+
+5. Die Karte schliesst sich. Klicken Sie wieder auf **bearbeiten**, tragen Sie als **Hauptaufgabe** `Erstversorgung und Transport` und als **Einsatzort** `Dorfstrasse` ein und klicken Sie auf **Einsetzen**.
+
+![Die Karte des einsatzbereiten Mittels mit Hauptaufgabe, Einsatzort und den Knöpfen Einsetzen und Entlassen](/images/docs/triage/triage-mittel-einsetzen.webp)
+
 6. Klicken Sie auf **Triage abschliessen**.
 
 ## 6. Das Ergebnis ansehen
@@ -66,9 +74,9 @@ sitrep zeigt «Triage gespeichert». Das Mittel hat den Status **Aufgeboten**.
 1. Öffnen Sie **Personenübersicht**. Bei den Verletzten stehen jetzt 3 mehr als vorher.
 2. Öffnen Sie **Mittel**. «Gruppe 2» der Sanität ist **Eingesetzt**, mit 6 Personen, der Hauptaufgabe und dem Einsatzort. Als Zeiten stehen die Zeiten Ihrer beiden Meldungen.
 
-![Die Personenübersicht mit den fünf Kategorien](/images/docs/triage/personenuebersicht.webp)
+![Die Personenübersicht mit den fünf Kategorien nach dem Tutorial](/images/docs/triage/personenuebersicht-nach-tutorial.webp)
 
-![Die Mitteltabelle, nach Formation gruppiert, mit Status, Erreichbarkeit, Zeiten, Hauptaufgabe und Einsatzort](/images/docs/triage/mitteltabelle.webp)
+![Die Mitteltabelle, nach Formation gruppiert, mit Status, Erreichbarkeit, Zeiten, Hauptaufgabe und Einsatzort](/images/docs/triage/mitteltabelle-nach-tutorial.webp)
 
 Sie haben zwei Meldungen triagiert und gesehen, wie aus der Triage die Übersichten entstehen. Wie es weitergeht:
 

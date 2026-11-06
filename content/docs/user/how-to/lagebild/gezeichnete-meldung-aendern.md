@@ -13,6 +13,10 @@ Eine Meldung, die Sie mit **Abschliessen** als eingezeichnet markiert haben, ist
 4. Ändern Sie die Zeichnung.
 5. Klicken Sie auf **Fertig**.
 
+![Eine eingezeichnete Meldung mit der Marke Gezeichnet und dem Knopf Ändern](/images/docs/lagebild/nachrichtenkarte-gezeichnet.webp)
+
+![Dieselbe Meldung nach Ändern: statt Ändern steht Fertig, die Änderungen der Meldung sind auf der Karte hervorgehoben](/images/docs/lagebild/nachrichtenkarte-aendern.webp)
+
 Wählen Sie eine andere Meldung, ist die Zeichnung wieder gesperrt. Bei einem abgeschlossenen Ereignis ist **Ändern** nicht möglich.
 
 ## Sehen, was eine Meldung verändert hat

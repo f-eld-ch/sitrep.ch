@@ -26,6 +26,8 @@ Die Schrittleiste lässt sich anklicken. Sie können zu jedem Schritt springen.
 
 Bei einer bereits triagierten Meldung öffnet sich zuerst eine Zusammenfassung mit Meldefluss, Personen und Mitteln. Mit **Triage anpassen** bearbeiten Sie sie.
 
+![Die Zusammenfassung einer triagierten Meldung mit Meldefluss und dem Knopf Triage anpassen](/images/docs/triage/triage-zusammenfassung.webp)
+
 ### Meldefluss
 
 - **Schlüsselnachricht:** Der Schalter setzt die Priorität auf «wichtig» und weist die Meldung allen Ressorts des Ereignisses zu. Schalten Sie ihn wieder aus, kehren die vorherigen Zuweisungen zurück.
@@ -39,7 +41,7 @@ Einen Zähler je Kategorie, rechts die Vorschau der Änderung. Siehe [Personenü
 
 ### Mittel
 
-Liste der Mittel, die mit dieser Meldung verknüpft sind, Suchfeld **Mittel suchen…**, die Schaltfläche **Neues Mittel aufbieten** und ein Bereich **Abgelöst** mit Mitteln, die sich reaktivieren lassen. Siehe [Mittelübersicht und Mitteltabelle]({{< relref "/docs/user/reference/triage/mitteltabelle" >}}).
+Liste der Mittel, die mit dieser Meldung verknüpft sind (die Karte oben mit **bearbeiten** und dem Kreuz), Suchfeld **Mittel suchen…**, die Schaltfläche **Neues Mittel aufbieten** und ein Bereich **Abgelöst** mit Mitteln, die sich reaktivieren lassen. Siehe [Mittelübersicht und Mitteltabelle]({{< relref "/docs/user/reference/triage/mitteltabelle" >}}).
 
 ## Triage-Status einer Meldung
 
