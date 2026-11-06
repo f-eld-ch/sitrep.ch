@@ -95,6 +95,9 @@ defaultContentLanguageInSubdir = false
 [params]
   description = "sitrep.ch - Elektronische Lagedarstellung für die Schweiz"
   repo = "https://github.com/f-eld-ch/sitrep"
+  # source of this site, for the "edit this page" links of the documentation
+  siterepo = "https://github.com/f-eld-ch/sitrep.ch"
+  editbranch = "main"
   email = "info@sitrep.ch"
   verein = "https://f-eld.ch"
   defaultlang = "de"
