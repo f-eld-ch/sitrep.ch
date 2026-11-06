@@ -19,7 +19,7 @@ Eine Person, die gefunden wurde und verletzt ist, ist eine doppelte Änderung: e
 
 In den Zahlen der Mitteltabelle zählen nur Mittel, die im Einsatz sind. Aufgebotene und einsatzbereite Mittel werden separat als Statusmarken ausgewiesen.
 
-Der Grund ist die Einsatzstärke. Ein aufgebotenes Mittel ist noch nicht am Schadenplatz, und ein einsatzbereites arbeitet noch nicht. Zählte die Summe sie mit, überschätzte der Stab, was vor Ort wirklich geleistet wird. Im Beispiel: Die Armee ist mit 40 Personen aufgeboten, aber noch nicht im Einsatz. Ihr Beitrag zur Summe ist 0, bis sie eingesetzt wird.
+Der Grund ist die Einsatzstärke. Ein aufgebotenes Mittel ist noch nicht vor Ort, und ein einsatzbereites arbeitet noch nicht. Zählte die Summe sie mit, überschätzte der Stab, was vor Ort wirklich geleistet wird. Im Beispiel: Die Armee ist mit 40 Personen aufgeboten, aber noch nicht im Einsatz. Ihr Beitrag zur Summe ist 0, bis sie eingesetzt wird.
 
 ## Jede Änderung hat die Zeit der Meldung
 

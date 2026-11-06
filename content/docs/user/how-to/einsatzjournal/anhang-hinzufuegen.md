@@ -3,7 +3,7 @@ title: "Einen Anhang hinzufügen"
 description: "Bilder, PDF und andere Dateien an eine Meldung hängen und wieder entfernen."
 weight: 20
 ---
-An eine Meldung lassen sich Dateien hängen, zum Beispiel ein Foto vom Schadenplatz, ein PDF oder eine Tabelle.
+An eine Meldung lassen sich Dateien hängen, zum Beispiel ein Foto vom Einsatzort, ein PDF oder eine Tabelle.
 
 ## Beim Erfassen anhängen
 

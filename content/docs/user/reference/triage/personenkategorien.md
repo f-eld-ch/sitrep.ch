@@ -35,7 +35,7 @@ Jede Kategorie hat ein Signaturensymbol des BABS-Signaturensatzes, das in der Tr
 | Bereich | Inhalt |
 |---|---|
 | Gesamtzahlen | Summe über das Ereignis und alle untergeordneten Ereignisse |
-| Aufschlüsselung | Die Zahlen des Ereignisses, nach Schadenplatz getrennt, sofern solche erfasst wurden |
+| Dieses Ereignis | Die Zahlen des Ereignisses selbst |
 | Untergeordnete Ereignisse | Je untergeordnetes Ereignis eine Karte mit dessen Zahlen |
 
 Solange keine Meldung mit Personen triagiert wurde, zeigt die Seite «Keine Personen erfasst» und einen Knopf zur Triage.
