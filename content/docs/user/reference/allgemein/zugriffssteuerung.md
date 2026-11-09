@@ -39,6 +39,8 @@ Globale Rollen gelten für die ganze sitrep-Installation.
 - Ein Principal (Benutzer, Gruppe oder «Alle Benutzer») hat pro Ereignis genau eine Rolle. Eine neue Rolle ersetzt die bisherige.
 - Der letzte Besitzer eines Ereignisses kann nicht entzogen werden.
 
+Welche Aktion welche Rolle braucht und in welchem Status, steht in [Status und Rechte eines Ereignisses]({{< relref "/docs/user/reference/ereignis/status-und-rechte" >}}).
+
 ## Zugriffsmodi eines Ereignisses
 
 | Modus | Wer auf das Ereignis zugreifen kann |
