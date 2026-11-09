@@ -37,6 +37,15 @@ sitrep will die manuelle Nachrichtenkarte nicht ablösen. Die Karte an der Wand 
 
 Für Karten, die nicht aus Meldungen entstehen, etwa eine Führungskarte, legen Sie im Lagebild eigene Layer an. Die Nachrichtenkarte selbst entsteht nur über Meldungen und bleibt so nachvollziehbar.
 
+## Schneller zur Lage
+
+Jeder Stab führt eine Nachrichtenkarte. Mit sitrep führen Sie sie effizienter:
+
+- **Schneller von der Meldung zur Karte.** Die Meldung liegt digital vor und wird direkt eingezeichnet, ohne Zettel und ohne Suchen im Journal. Die Zeit von der Erfassung bis zum Einzeichnen sinkt, und die Karte ist früher auf dem Stand der Meldungen.
+- **Bessere Übersicht.** Die Karte bleibt lesbar, weil Fehler früh korrigiert werden und jedes Zeichen zu seiner Meldung führt. Frühere Stände rufen Sie jederzeit im Lagebild ab.
+
 ## Ausprobieren
 
-Testen Sie es auf [demo.sitrep.ch](https://demo.sitrep.ch). Wie es Schritt für Schritt geht, zeigt das Tutorial [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/lagebild/erste-nachrichtenkarte" >}}). Fragen und Rückmeldungen nehmen wir gerne unter [info@sitrep.ch](mailto:info@sitrep.ch) entgegen.
+**Wollen auch Sie Ihren Stab optimieren? Probieren Sie sitrep aus.** Erfassen Sie auf [demo.sitrep.ch](https://demo.sitrep.ch) eine Meldung, weisen Sie sie der Nachrichtenkarte zu und zeichnen Sie sie ein. Das Tutorial [Ihre erste Nachrichtenkarte]({{< relref "/docs/user/tutorials/lagebild/erste-nachrichtenkarte" >}}) führt Sie Schritt für Schritt durch.
+
+Jede Meldung, die Sie weiter von Hand übertragen, kostet Zeit, die sitrep Ihnen spart, und hält die Karte länger auf einem alten Stand. Probieren Sie es in Ihrer nächsten Stabsübung aus und sehen Sie selbst, wie viel schneller die Lage auf der Karte steht. Wenn Sie Fragen haben oder sitrep in Ihrem Stab einführen möchten, schreiben Sie uns an [info@sitrep.ch](mailto:info@sitrep.ch).
