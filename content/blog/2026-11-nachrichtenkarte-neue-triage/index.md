@@ -29,9 +29,9 @@ Die Nachrichtenkarte ist genauso aufgebaut wie die Triage. Dort bearbeiten Sie M
 
 ![Eine eingezeichnete Meldung: ihre Änderungen sind auf der Karte hervorgehoben](images/nachrichtenkarte-aendern.webp)
 
-## Die analoge Karte bleibt
+## Die analoge Karte bleibt, die digitale kommt dazu
 
-sitrep will die manuelle Nachrichtenkarte nicht ablösen. Die Karte an der Wand bleibt eine Rückfallebene und für den Stab ein Orientierungspunkt, am Rapport und dazwischen. sitrep erleichtert es, sie zu erstellen und aktuell zu halten.
+sitrep will die analoge Nachrichtenkarte nicht ablösen. Die Karte an der Wand bleibt eine Rückfallebene und für den Stab ein Orientierungspunkt, am Rapport und dazwischen. sitrep erleichtert es, sie zu erstellen und aktuell zu halten. Zusätzlich steht die Karte jedem im Stab digital zur Verfügung: Wer sie öffnet, kann hineinzoomen und zu jedem Symbol die zugehörige Meldung lesen. Das macht die Lage leichter verständlich als eine Folie an der Wand.
 
 ## Und das Lagebild?
 
