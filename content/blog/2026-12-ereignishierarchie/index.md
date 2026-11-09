@@ -33,6 +33,8 @@ Jeder Stab führt sein eigenes Ereignis in sitrep. Der übergeordnete Stab eröf
 
 Jedes Ereignis bleibt ein eigenes Ereignis: mit eigenen Meldungen, eigenen Ressorts und eigenem Zugriff. Es wird auch einzeln geschlossen. Das Schliessen des übergeordneten Ereignisses ändert nichts an den unterstellten Ereignissen.
 
-## Mehr erfahren
+## Ausprobieren
 
-Wie Sie ein Ereignis verknüpfen, steht in der [Anleitung]({{< relref "/docs/user/how-to/ereignis/uebergeordnetes-ereignis-verknuepfen" >}}), den Hintergrund erklärt der Artikel [Übergeordnete und untergeordnete Ereignisse]({{< relref "/docs/user/explanation/ereignis/uebergeordnete-und-untergeordnete-ereignisse" >}}). Ausprobieren können Sie es auf [demo.sitrep.ch](https://demo.sitrep.ch). Fragen nehmen wir gerne unter [info@sitrep.ch](mailto:info@sitrep.ch) entgegen.
+Legen Sie auf [demo.sitrep.ch](https://demo.sitrep.ch) zwei Ereignisse an und wählen Sie bei einem davon im Feld **Übergeordnetes Ereignis** das andere. Schon sehen Sie die Zahlen beider Ereignisse beim übergeordneten Stab. Die Schritte zeigt die [Anleitung]({{< relref "/docs/user/how-to/ereignis/uebergeordnetes-ereignis-verknuepfen" >}}), den Hintergrund erklärt der Artikel [Übergeordnete und untergeordnete Ereignisse]({{< relref "/docs/user/explanation/ereignis/uebergeordnete-und-untergeordnete-ereignisse" >}}).
+
+Führen Sie einen übergeordneten Stab oder unterstehen Sie einem? Schreiben Sie uns an [info@sitrep.ch](mailto:info@sitrep.ch), wie Sie die Zusammenarbeit zwischen den Stäben heute organisieren und was Sie sich wünschen. Ihre Rückmeldungen prägen, wie wir die Hierarchie weiterentwickeln.

@@ -1,5 +1,5 @@
 ---
-title: "Die Nachrichtenkarte leichter führen: erst digital, dann auf Folie"
+title: "Von der Meldung auf die Karte: die neue Nachrichtenkarte"
 date: 2026-11-17
 draft: true
 tags: ["nachrichtenkarte", "triage", "neue-funktion"]
