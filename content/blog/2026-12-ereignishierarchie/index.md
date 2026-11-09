@@ -32,4 +32,4 @@ Es gibt zwei Ebenen: Ein Ereignis ist entweder übergeordnet oder untergeordnet.
 
 ## Mehr erfahren
 
-Wie Sie ein Ereignis verknüpfen, steht in der [Anleitung](/docs/user/how-to/ereignis/uebergeordnetes-ereignis-verknuepfen/), den Hintergrund erklärt der Artikel [Übergeordnete und untergeordnete Ereignisse](/docs/user/explanation/ereignis/uebergeordnete-und-untergeordnete-ereignisse/). Ausprobieren können Sie es auf [demo.sitrep.ch](https://demo.sitrep.ch). Fragen nehmen wir gerne unter [info@sitrep.ch](mailto:info@sitrep.ch) entgegen.
+Wie Sie ein Ereignis verknüpfen, steht in der [Anleitung]({{< relref "/docs/user/how-to/ereignis/uebergeordnetes-ereignis-verknuepfen" >}}), den Hintergrund erklärt der Artikel [Übergeordnete und untergeordnete Ereignisse]({{< relref "/docs/user/explanation/ereignis/uebergeordnete-und-untergeordnete-ereignisse" >}}). Ausprobieren können Sie es auf [demo.sitrep.ch](https://demo.sitrep.ch). Fragen nehmen wir gerne unter [info@sitrep.ch](mailto:info@sitrep.ch) entgegen.
