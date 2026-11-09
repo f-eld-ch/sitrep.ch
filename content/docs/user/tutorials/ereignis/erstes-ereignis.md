@@ -44,8 +44,11 @@ sitrep öffnet das neue Ereignis im **Editor** des Einsatzjournals. Sie sind jet
 
 ## 4. Das Ereignis bearbeiten
 
-1. Öffnen Sie die **Ereignisse** über das Logo oben links.
-2. Klicken Sie bei **Übung Seeburg** auf **bearbeiten**.
+1. Fahren Sie oben in der Navigationsleiste mit der Maus über den Namen **Übung Seeburg**. Es öffnet sich ein Menü.
+2. Klicken Sie darin auf **Ereignis bearbeiten**.
+
+![Das Menü des Ereignisses mit den Einträgen Dashboard und Ereignis bearbeiten](/images/docs/ereignis/ereignis-menue.webp)
+
 3. Ändern Sie den **Ort** in `Seeburg Hafen`.
 
 ![Das Formular Ereignis bearbeiten mit dem geänderten Ort](/images/docs/ereignis/ereignis-bearbeiten-formular.webp)
@@ -56,8 +59,9 @@ Unter dem Formular stehen die Einstellungen zum Zugriff. Im Tutorial lassen Sie 
 
 ## 5. Das Ereignis schliessen
 
-1. Klicken Sie in der Liste bei **Übung Seeburg** auf **schliessen**.
-2. Das Ereignis verschwindet aus der Liste. Klicken Sie auf **Zeige geschlossene**.
+1. Öffnen Sie die **Ereignisse** über das Logo oben links.
+2. Klicken Sie bei **Übung Seeburg** auf **schliessen**.
+3. Das Ereignis verschwindet aus der Liste. Klicken Sie auf **Zeige geschlossene**.
 
 Das geschlossene Ereignis steht wieder in der Liste, mit gelbem Hintergrund und dem Zeitpunkt unter **Geschlossen**. Statt **bearbeiten** und **schliessen** hat es jetzt **löschen** und **öffnen**.
 

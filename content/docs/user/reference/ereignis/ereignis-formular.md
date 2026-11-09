@@ -7,6 +7,13 @@ Dasselbe Formular dient zum Erstellen und zum Bearbeiten eines Ereignisses. Anle
 
 ![Das Formular Neues Ereignis erstellen mit den Vorgaben bei Ressorts](/images/docs/ereignis/ereignis-formular-leer.webp)
 
+## Das Formular öffnen
+
+| Formular | Wo |
+|---|---|
+| **Neues Ereignis erstellen** | Schaltfläche **erstellen** in der Ereignisliste |
+| **Ereignis bearbeiten** | Menü des Ereignisses (Maus über den Ereignisnamen in der Navigationsleiste, dann **Ereignis bearbeiten**) oder Schaltfläche **bearbeiten** auf der Karte in der Ereignisliste |
+
 ## Felder
 
 | Feld | Pflicht | Inhalt und Regeln |

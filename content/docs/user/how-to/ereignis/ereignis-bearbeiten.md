@@ -5,12 +5,25 @@ weight: 20
 ---
 Sie ändern die Angaben eines Ereignisses im Formular **Ereignis bearbeiten**. Das geht nur, solange das Ereignis **offen** ist, und mit der Rolle **Bearbeiter** oder höher.
 
+## Das Formular öffnen
+
+Sie erreichen das Formular an zwei Stellen.
+
+**Im Menü des Ereignisses.** Es steht auf jeder Seite des Ereignisses:
+
+1. Öffnen Sie das Ereignis, zum Beispiel mit **eintreten** in der Ereignisliste.
+2. Fahren Sie in der Navigationsleiste oben mit der Maus über den **Namen des Ereignisses**. Es ist der erste Eintrag nach dem Logo.
+3. Klicken Sie im aufklappenden Menü auf **Ereignis bearbeiten**. Das Menü enthält ausserdem das **Dashboard**.
+
+![Das Menü des Ereignisses in der Navigationsleiste mit den Einträgen Dashboard und Ereignis bearbeiten](/images/docs/ereignis/ereignis-menue.webp)
+
+**In der Ereignisliste.** Klicken Sie bei der Karte des Ereignisses auf **bearbeiten**.
+
 ## Name oder Ort ändern
 
-1. Öffnen Sie die **Ereignisse**.
-2. Klicken Sie beim Ereignis auf **bearbeiten**.
-3. Ändern Sie den **Ereignisnamen** oder den **Ort**.
-4. Klicken Sie auf **speichern**.
+1. Öffnen Sie das Formular (siehe oben).
+2. Ändern Sie den **Ereignisnamen** oder den **Ort**.
+3. Klicken Sie auf **speichern**.
 
 ![Das Formular Ereignis bearbeiten mit dem geänderten Ort](/images/docs/ereignis/ereignis-bearbeiten-formular.webp)
 

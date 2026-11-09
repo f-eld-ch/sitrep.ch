@@ -13,7 +13,7 @@ Mit einem übergeordneten Ereignis führen Sie die Lage mehrerer Ereignisse zusa
 
 ## Ein bestehendes Ereignis verknüpfen
 
-1. Klicken Sie beim Ereignis, das untergeordnet werden soll, auf **bearbeiten**.
+1. Öffnen Sie beim Ereignis, das untergeordnet werden soll, das Formular **Ereignis bearbeiten** (Schaltfläche **bearbeiten** in der Ereignisliste oder Menü des Ereignisses, siehe [Ein Ereignis bearbeiten]({{< relref "/docs/user/how-to/ereignis/ereignis-bearbeiten" >}})).
 2. Wählen Sie im Feld **Übergeordnetes Ereignis** das Hauptereignis.
 3. Klicken Sie auf **speichern**.
 
@@ -25,7 +25,7 @@ In der Ereignisliste steht das Ereignis jetzt eingerückt unter dem Hauptereigni
 
 ## Die Verknüpfung lösen
 
-1. Klicken Sie beim untergeordneten Ereignis auf **bearbeiten**.
+1. Öffnen Sie beim untergeordneten Ereignis das Formular **Ereignis bearbeiten**.
 2. Wählen Sie «kein übergeordnetes Ereignis».
 3. Klicken Sie auf **speichern**.
 

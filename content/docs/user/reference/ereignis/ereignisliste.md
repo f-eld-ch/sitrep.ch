@@ -43,7 +43,7 @@ Welche Schaltflächen eine Karte zeigt, hängt vom Status des Ereignisses und vo
 | **öffnen** | Öffnet das Ereignis wieder | nein | ja | Manager |
 | **löschen** | Löscht das Ereignis | nein | ja | Besitzer |
 
-Fehlt Ihnen die Rolle, fehlt die Schaltfläche. Alle Rechte stehen in [Status und Rechte eines Ereignisses]({{< relref "/docs/user/reference/ereignis/status-und-rechte" >}}).
+Das Formular zum Bearbeiten erreichen Sie auch über das Menü des Ereignisses, siehe [Ein Ereignis bearbeiten]({{< relref "/docs/user/how-to/ereignis/ereignis-bearbeiten" >}}). Fehlt Ihnen die Rolle, fehlt die Schaltfläche. Alle Rechte stehen in [Status und Rechte eines Ereignisses]({{< relref "/docs/user/reference/ereignis/status-und-rechte" >}}).
 
 ## Untergeordnete Ereignisse
 
