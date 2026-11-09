@@ -29,7 +29,7 @@ A weekly workflow (`.github/workflows/hugo-update.yaml`, `scripts/update-hugo.sh
 Hugo release is out, after a test build; `scripts/update-hugo.sh --dry-run` shows what it would do.
 
 ```sh
-hugo server --buildDrafts      # live preview on http://localhost:1313, includes draft posts
+hugo server --buildDrafts --buildFuture  # live preview on http://localhost:1313, includes drafts and future-dated posts
 hugo --gc --minify             # production build into public/
 hugo --gc -d /tmp/out          # build elsewhere to avoid touching public/
 scripts/sync-brand.sh          # copy tokens + logos from ../brand into the theme
@@ -239,10 +239,12 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
 
 `main` → Cloudflare Workers Builds → <https://sitrep.ch> (static assets of the Worker `sitrep-ch`,
 `wrangler.jsonc`). A merge to `main` changes the live site, so review the build output before merging.
-Other branches get a preview build (drafts included, `noindex`) at
+Other branches get a preview build (drafts and future-dated posts included, `noindex`) at
 `https://<branch>-sitrep-ch.f-eld.workers.dev/`; they do not change the live site.
 
 - The build command is `scripts/cloudflare-build.sh`, the deploy command `npx wrangler deploy`.
+- A daily workflow (`.github/workflows/scheduled-rebuild.yaml`, 00:05 UTC) calls the same deploy hook so posts
+  with a future `date` go live on their day. It needs the repository secret `SITREP_CH_DEPLOY_HOOK`.
 - `www.sitrep.ch` redirects to `sitrep.ch` (Redirect Rule in the Cloudflare dashboard, not in this repo).
 - The changelog page is built from the GitHub releases of the product repo. A published release calls a
   Cloudflare deploy hook (workflow in `f-eld-ch/sitrep`) that rebuilds `main`. The build secret
