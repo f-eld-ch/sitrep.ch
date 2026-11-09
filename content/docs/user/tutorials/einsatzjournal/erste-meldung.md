@@ -7,7 +7,7 @@ In diesem Tutorial erfassen Sie zwei Meldungen eines erfundenen Ereignisses, «U
 
 Sie brauchen:
 
-- ein Ereignis, in dem Sie Meldungen erfassen dürfen, am besten ein Übungsereignis,
+- ein Ereignis, in dem Sie Meldungen erfassen dürfen, am besten ein Übungsereignis (so eröffnen Sie eines: [Ihr erstes Ereignis]({{< relref "/docs/user/tutorials/ereignis/erstes-ereignis" >}})),
 - etwa 10 Minuten.
 
 ## 1. Den Editor öffnen
