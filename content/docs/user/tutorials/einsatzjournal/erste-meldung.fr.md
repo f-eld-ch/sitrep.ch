@@ -7,7 +7,7 @@ Dans ce tutoriel, vous saisissez deux messages d'un événement fictif, «Unwett
 
 Il vous faut:
 
-- un événement dans lequel vous avez le droit de saisir des messages, de préférence un événement d'exercice,
+- un événement dans lequel vous avez le droit de saisir des messages, de préférence un événement d'exercice (voici comment en ouvrir un : [Votre premier événement]({{< relref "/docs/user/tutorials/ereignis/erstes-ereignis" >}})),
 - environ 10 minutes.
 
 ## 1. Ouvrir l'éditeur
