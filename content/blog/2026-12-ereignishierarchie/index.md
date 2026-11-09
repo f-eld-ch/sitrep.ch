@@ -1,34 +1,37 @@
 ---
-title: "Ereignishierarchie: die Lage der Regionen auf einen Blick"
+title: "Ereignishierarchie: die Lage aller Führungsstäbe auf einen Blick"
 date: 2026-12-01
 draft: true
 tags: ["ereignisse", "fuehrungsstab"]
-summary: "Mit der Ereignishierarchie führt ein übergeordneter Führungsstab die Ereignisse mehrerer Führungsorgane zusammen. Personen und Mittel der Regionen addieren sich, und die Regionen arbeiten weiter wie bisher."
+summary: "Mit der Ereignishierarchie sieht ein übergeordneter Führungsstab die Lage der unterstellten Stäbe, ohne Zahlen einzusammeln: Personen und Mittel addieren sich, und die Stäbe arbeiten weiter wie bisher."
 cover: "images/ereignisliste-hierarchie.webp"
 ---
-Bei einem Unwetter führen mehrere **Regionale Führungsorgane** (RFO) ihre eigene Lage. Das **Kantonale Führungsorgan** (KFO) braucht das Ganze: Wie viele Verletzte gibt es im Kanton, und welche Mittel sind wo im Einsatz? Mit der Ereignishierarchie beantwortet sitrep das, ohne dass jemand Zahlen sammeln und zusammenzählen muss.
+Ein Regionales oder Kantonales Führungsorgan führt den Einsatz nicht vor Ort. Es koordiniert die Bewältigung auf der übergeordneten Ebene und unterstützt die lokalen Einsatzkräfte. Dazu verteilt es die Mittel, die Gemeinden oder Regionen anfragen: Personal, Material, Fahrzeuge. Wohin es sie schickt, hängt davon ab, wo sie am dringendsten gebraucht werden.
 
-## So funktioniert es
+Um das gut zu entscheiden, braucht der übergeordnete Stab viele Informationen: Wie viele Personen sind betroffen, welche Mittel sind wo im Einsatz, was ist noch frei? Diese Angaben liefern die unterstellten Führungsorgane, per Telefon, Mail oder Meldung. Das dauert lange und ist fehleranfällig: Zahlen werden abgetippt, zusammengezählt und sind veraltet, bevor sie ankommen. Dabei verlieren beide Seiten Zeit, die für den Einsatz fehlt.
 
-Jedes RFO führt sein eigenes Ereignis in sitrep. Das KFO eröffnet ein **übergeordnetes Ereignis** und ordnet ihm die Ereignisse der Regionen zu: beim Erstellen oder später im Formular über das Feld **Übergeordnetes Ereignis**. In der Ereignisliste stehen die Regionen eingerückt unter dem Kantonalen Führungsorgan.
+Die **Ereignishierarchie** in [sitrep]({{< relref "/funktionen" >}}) erleichtert diese Arbeit und hilft, aktuellere Informationen zu haben. Jeder Stab führt sein Ereignis wie bisher, und der übergeordnete Stab sieht die Lage aller unterstellten Stäbe zusammengefasst. Das gilt für jede Hierarchie von Führungsstäben, etwa für ein Regionales Führungsorgan, dem mehrere Gemeindeführungsstäbe unterstehen, oder für das Kantonale Führungsorgan über den Regionen.
 
-![Die Ereignisliste: unter dem Kantonalen Führungsorgan stehen die Ereignisse der Regionen](images/ereignisliste-hierarchie.webp)
+## Was Sie davon haben
 
-## Was ein übergeordneter Führungsstab gewinnt
-
-- **Eine Übersicht statt Rückfragen.** Die Personenübersicht des KFO addiert die Zahlen aller Regionen. Darunter stehen sie je Ereignis einzeln.
-- **Die Mittel auf einen Blick.** Die Mittelübersicht zeigt die Mittel der Regionen als eigene Gruppen und rechnet sie in die Summen ein.
-- **Nichts wird doppelt erfasst.** Die Regionen erfassen ihre Meldungen wie bisher in ihrem Ereignis. Das KFO muss nichts abtippen, und die Zahlen widersprechen sich nicht.
+- **Schneller zu aktuellen Informationen.** Die Zahlen stammen aus den Ereignissen der unterstellten Stäbe. Sobald dort eine Meldung erfasst und triagiert ist, erscheint sie beim übergeordneten Stab, ohne dass jemand nachfragen oder auf eine Meldung warten muss.
+- **Eine Übersicht mit weniger Rückfragen.** Die Personenübersicht des übergeordneten Stabs addiert die Zahlen aller unterstellten Stäbe. Darunter stehen sie je Ereignis einzeln, und es ist sichtbar, woher eine Zahl kommt.
+- **Die Mittel auf einen Blick.** Die Mittelübersicht zeigt die Mittel der unterstellten Stäbe als eigene Gruppen und rechnet sie in die Summen ein.
+- **Die Nachrichtenkarten der unterstellten Stäbe.** Der übergeordnete Stab sieht auch deren Nachrichtenkarten und damit, was gezeichnet und gemeldet wurde, nicht nur die Zahlen.
+- **Weniger Abtippen, weniger Fehler.** Die unterstellten Stäbe erfassen ihre Meldungen wie bisher in ihrem Ereignis. Der übergeordnete Stab muss die Zahlen nicht mehr zusammentragen, und sie stammen aus derselben Quelle.
+- **Weniger Aufwand für die unterstellten Stäbe.** Sie müssen ihre Lage seltener gesondert melden, denn die Zahlen aus ihrem Ereignis sind für den übergeordneten Stab sichtbar.
 
 ![Die Personenübersicht des Kantonalen Führungsorgans mit den Gesamtzahlen und den Zahlen der Regionen](images/uebergeordnet-personen.webp)
 
-## Was die Regionen behalten
+## So richten Sie es ein
 
-Jedes Ereignis bleibt ein eigenes Ereignis: mit eigenen Meldungen, eigenen Ressorts und eigenem Zugriff. Es wird auch einzeln geschlossen. Das Schliessen des übergeordneten Ereignisses ändert nichts an den Ereignissen der Regionen.
+Jeder Stab führt sein eigenes Ereignis in sitrep. Der übergeordnete Stab eröffnet ein **übergeordnetes Ereignis** und ordnet ihm die Ereignisse der unterstellten Stäbe zu: beim Erstellen oder später im Formular über das Feld **Übergeordnetes Ereignis**. In der Ereignisliste stehen die unterstellten Ereignisse danach eingerückt darunter.
 
-## Gut zu wissen
+![Die Ereignisliste: unter dem Kantonalen Führungsorgan stehen die Ereignisse der Regionen](images/ereignisliste-hierarchie.webp)
 
-Es gibt zwei Ebenen: Ein Ereignis ist entweder übergeordnet oder untergeordnet. Als übergeordnetes Ereignis lassen sich nur offene Ereignisse wählen.
+## Die unterstellten Stäbe arbeiten weiter wie bisher
+
+Jedes Ereignis bleibt ein eigenes Ereignis: mit eigenen Meldungen, eigenen Ressorts und eigenem Zugriff. Es wird auch einzeln geschlossen. Das Schliessen des übergeordneten Ereignisses ändert nichts an den unterstellten Ereignissen.
 
 ## Mehr erfahren
 
