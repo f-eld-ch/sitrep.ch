@@ -7,7 +7,7 @@ In questo tutorial registrate due messaggi di un evento inventato, «Unwetter Be
 
 Vi servono:
 
-- un evento in cui potete registrare messaggi, meglio se un evento di esercitazione,
+- un evento in cui potete registrare messaggi, meglio se un evento di esercitazione (così ne aprite uno: [Il vostro primo evento]({{< relref "/docs/user/tutorials/ereignis/erstes-ereignis" >}})),
 - circa 10 minuti.
 
 ## 1. Aprire l'editor

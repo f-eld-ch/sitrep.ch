@@ -38,7 +38,7 @@ Gehört das Ereignis zu einem übergeordneten Ereignis (zum Beispiel das Ereigni
 
 ## Wer das Ereignis sehen darf
 
-Ob andere das Ereignis sehen und bearbeiten dürfen, bestimmt der **Zugangsmodus**. Er kommt aus dem Standard-Zugang der Administration. Solange dieser nicht eingestellt ist, sind neue Ereignisse **eingeschränkt**: Nur Sie sehen sie. Prüfen Sie den Zugang nach dem Erstellen:
+Ob andere das Ereignis sehen und bearbeiten dürfen, bestimmt der **Zugriffsmodus**. Er kommt aus dem Standard-Zugang der Administration. Solange dieser nicht eingestellt ist, sind neue Ereignisse **eingeschränkt**: Nur Sie sehen sie. Prüfen Sie den Zugang nach dem Erstellen:
 
 - [Zugriff auf ein Ereignis verwalten]({{< relref "/docs/user/how-to/allgemein/ereigniszugriff-verwalten" >}})
 - [Standard-Zugang festlegen]({{< relref "/docs/user/how-to/allgemein/standard-zugang" >}})
