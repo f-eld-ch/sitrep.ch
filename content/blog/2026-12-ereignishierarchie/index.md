@@ -1,5 +1,5 @@
 ---
-title: "Ereignishierarchie: die Lage aller Führungsstäbe auf einen Blick"
+title: "Ereignishierarchie: die Lage mehrerer Führungsstäbe im Blick"
 date: 2026-12-01
 draft: true
 tags: ["ereignisse", "fuehrungsstab"]
