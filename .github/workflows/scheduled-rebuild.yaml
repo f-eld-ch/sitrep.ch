@@ -1,0 +1,17 @@
+name: Scheduled rebuild
+# Rebuilds sitrep.ch every day so that posts with a future date go live on their day
+# (Hugo skips them until then). Calls the Cloudflare deploy hook for `main`; needs the
+# repository secret SITREP_CH_DEPLOY_HOOK (same hook the product repo calls on a release).
+on:
+  schedule:
+    - cron: "5 0 * * *" # daily, 00:05 UTC (01:05/02:05 in Switzerland)
+  workflow_dispatch:
+permissions: {}
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger the Cloudflare build
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.SITREP_CH_DEPLOY_HOOK }}
+        run: curl --fail --silent --show-error -X POST "$DEPLOY_HOOK_URL"
