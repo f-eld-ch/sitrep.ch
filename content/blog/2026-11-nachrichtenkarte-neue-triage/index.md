@@ -35,11 +35,12 @@ sitrep will die analoge Nachrichtenkarte nicht ablösen. Die Karte an der Wand b
 
 Für Karten, die nicht aus Meldungen entstehen, etwa eine Führungskarte, legen Sie im Lagebild eigene Layer an. Die Nachrichtenkarte selbst entsteht nur über Meldungen und bleibt so nachvollziehbar.
 
-## Schneller zur Lage
+## Schneller und sicherer zur Lage
 
 Jeder Stab führt eine Nachrichtenkarte. Mit sitrep führen Sie sie effizienter:
 
 - **Schneller von der Meldung zur Karte.** Die Meldung liegt digital vor und wird direkt eingezeichnet, ohne Zettel und ohne Suchen im Journal. Die Zeit von der Erfassung bis zum Einzeichnen sinkt, und die Karte ist früher auf dem Stand der Meldungen.
+- **Der richtige Prozess, konsequent.** sitrep führt die Führungsunterstützung Meldung für Meldung durch denselben Ablauf: erfassen, triagieren, einzeichnen, abschliessen. Der Meldungsstapel zeigt jederzeit, was noch fehlt. So bleibt keine Meldung unbemerkt liegen, und der Stab erreicht ein besseres Resultat, weil der Prozess nicht von der Tagesform abhängt.
 - **Bessere Übersicht.** Die Karte bleibt lesbar, weil Fehler früh korrigiert werden und jedes Zeichen zu seiner Meldung führt. Frühere Stände rufen Sie jederzeit im Lagebild ab.
 
 ## Ausprobieren
