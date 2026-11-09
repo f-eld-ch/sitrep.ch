@@ -15,7 +15,7 @@ The site is built with [Hugo](https://gohugo.io) and a custom theme on the sitre
 Install Hugo in the version pinned in [`.hugo-version`](.hugo-version), then:
 
 ```sh
-hugo server --buildDrafts     # live preview on http://localhost:1313, includes drafts
+hugo server --buildDrafts --buildFuture  # live preview on http://localhost:1313, includes drafts and future posts
 hugo --gc --minify            # production build into public/
 ```
 
@@ -39,7 +39,7 @@ rules and how to work with the repository. Read it before changing content or th
 
 `main` is built and deployed by Cloudflare Workers Builds to <https://sitrep.ch>
 (`scripts/cloudflare-build.sh`, then `npx wrangler deploy`). Every other branch gets a preview
-(drafts included, `noindex`). A weekly workflow opens a pull request when a new Hugo release is out.
+(drafts and future-dated posts included, `noindex`). A weekly workflow opens a pull request when a new Hugo release is out.
 
 ## Contributing
 

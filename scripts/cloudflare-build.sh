@@ -12,7 +12,7 @@
 # Cloudflare dashboard.
 #
 # WORKERS_CI_BRANCH is set by Cloudflare. The production branch (main) is built without
-# drafts. Every other branch is a preview: it includes drafts and is marked
+# drafts. Every other branch is a preview: it includes drafts and future-dated posts and is marked
 # noindex. The preview URL is not known at build time, so baseURL stays as configured
 # (relativeURLs keeps links and assets working on any host).
 set -euo pipefail
@@ -38,7 +38,7 @@ if [[ "$BRANCH" == "main" ]]; then
   hugo --gc --minify -d "$DEST"
 else
   echo "Building preview ($BRANCH)"
-  hugo --gc --minify --buildDrafts -d "$DEST"
+  hugo --gc --minify --buildDrafts --buildFuture -d "$DEST"
   # Keep previews out of search engines (served by Workers static assets).
   printf '/*\n  X-Robots-Tag: noindex, nofollow\n' > "$DEST/_headers"
 fi
