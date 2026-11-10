@@ -3,7 +3,7 @@ title: "Gerarchia degli eventi: la situazione di più stati maggiori a colpo d'o
 date: 2026-12-01
 tags: ["eventi", "stato-maggiore"]
 summary: "Con la gerarchia degli eventi uno stato maggiore sovraordinato vede la situazione degli stati maggiori subordinati senza dover raccogliere dati: le persone e i mezzi si sommano e gli stati maggiori lavorano come prima."
-cover: "images/ereignisliste-hierarchie.webp"
+cover: "images/it/ereignisliste-hierarchie.webp"
 ---
 Uno stato maggiore regionale o cantonale non conduce l'intervento sul posto. Coordina la gestione dell'evento a livello sovraordinato e sostiene le forze d'intervento locali. A tal fine distribuisce i mezzi richiesti dai Comuni o dalle regioni: personale, materiale, veicoli. Dove li invia dipende da dove servono con maggiore urgenza.
 
@@ -18,13 +18,13 @@ La **gerarchia degli eventi** in [sitrep]({{< relref "/funktionen" >}}) facilita
 - **I mezzi a colpo d'occhio.** Il compendio dei mezzi mostra i mezzi degli stati maggiori subordinati come gruppi a sé e li include nei totali.
 - **Le carte informative degli stati maggiori subordinati.** Lo stato maggiore sovraordinato vede anche le loro carte informative, e quindi che cosa è stato disegnato e segnalato, non solo i numeri.
 
-![Il compendio delle persone dello stato maggiore cantonale con i totali e i dati delle regioni](images/uebergeordnet-personen.webp)
+![Il compendio delle persone dello stato maggiore cantonale con i totali e i dati delle regioni](images/it/uebergeordnet-personen.webp)
 
 ## Come configurarla
 
 Lo stato maggiore sovraordinato assegna al proprio evento gli eventi degli stati maggiori subordinati. Nell'elenco degli eventi compaiono poi rientrati al di sotto.
 
-![L'elenco degli eventi: sotto lo stato maggiore cantonale figurano gli eventi delle regioni](images/ereignisliste-hierarchie.webp)
+![L'elenco degli eventi: sotto lo stato maggiore cantonale figurano gli eventi delle regioni](images/it/ereignisliste-hierarchie.webp)
 
 ## Gli stati maggiori subordinati lavorano come prima
 

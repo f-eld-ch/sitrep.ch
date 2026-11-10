@@ -3,7 +3,7 @@ title: "Du message à la carte : la nouvelle carte de renseignements"
 date: 2026-11-17
 tags: ["carte-de-renseignements", "triage", "nouvelle-fonction"]
 summary: "La carte de renseignements analogique reste, sa tenue devient plus simple : dans sitrep, vous dessinez d'abord chaque message au format numérique, puis vous reportez l'état vérifié sur la carte. La situation peut être rejouée à tout moment."
-cover: "images/nachrichtenkarte-arbeitsplatz.webp"
+cover: "images/fr/nachrichtenkarte-arbeitsplatz.webp"
 ---
 Entre deux rapports, l'état-major regarde surtout une chose : la carte sur la paroi. Celui qui passe devant veut savoir d'un coup d'œil ce qui est valable. Est-elle à jour des derniers messages, ou la situation d'il y a une heure y est-elle encore affichée ?
 
@@ -21,7 +21,7 @@ Désormais, la carte est en plus à la disposition de tous les membres de l'éta
 
 Le triage traite les messages un par un, le plus ancien d'abord, et détermine qui les reçoit. La carte de renseignements est construite de la même manière. Si vous attribuez un message à la carte de renseignements, il arrive à gauche dans la pile de messages, la liste des messages qui doivent encore être dessinés. Là, la règle est la même que pour le triage : choisir un message, le dessiner, le clore, puis vient le suivant. Qui connaît le triage sait donc aussi tenir la carte de renseignements. Aucune feuille de message n'a besoin d'être transmise au responsable de la carte.
 
-![Le poste de travail de la carte de renseignements : à gauche les messages qui doivent encore aller sur la carte, à droite le message choisi et la carte](images/nachrichtenkarte-arbeitsplatz.webp)
+![Le poste de travail de la carte de renseignements : à gauche les messages qui doivent encore aller sur la carte, à droite le message choisi et la carte](images/fr/nachrichtenkarte-arbeitsplatz.webp)
 
 ## Ce que vous y gagnez
 
@@ -31,9 +31,9 @@ Le triage traite les messages un par un, le plus ancien d'abord, et détermine q
 - **Le film à rembobiner.** Un dessin est valable à partir de l'**heure du message**. Dans le tableau de la situation, la carte peut donc être rejouée tout au long de l'intervention, et chaque état antérieur peut être consulté : pour le rapport, la remise et le débriefing.
 - **Aucun message ne reste en plan.** Chaque message suit le même parcours : saisir, trier, dessiner, clore. La pile de messages montre à tout moment ce qu'il reste à faire.
 
-![Un message dessiné : ses modifications sont mises en évidence sur la carte](images/nachrichtenkarte-aendern.webp)
+![Un message dessiné : ses modifications sont mises en évidence sur la carte](images/fr/nachrichtenkarte-aendern.webp)
 
-![Le tableau de la situation à un moment antérieur : seuls les objets dessinés jusque-là](images/lagebild-zeitstrahl-frueher.webp)
+![Le tableau de la situation à un moment antérieur : seuls les objets dessinés jusque-là](images/fr/lagebild-zeitstrahl-frueher.webp)
 
 ## Essayer
 

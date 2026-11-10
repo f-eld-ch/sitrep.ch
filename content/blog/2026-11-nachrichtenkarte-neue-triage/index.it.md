@@ -3,7 +3,7 @@ title: "Dal messaggio alla carta: la nuova carta informativa"
 date: 2026-11-17
 tags: ["carta-informativa", "triage", "nuova-funzione"]
 summary: "La carta informativa analogica resta, la sua gestione diventa più semplice: in sitrep disegnate ogni messaggio prima in formato digitale e riportate poi lo stato verificato sulla carta. La situazione può essere riavvolta in qualsiasi momento."
-cover: "images/nachrichtenkarte-arbeitsplatz.webp"
+cover: "images/it/nachrichtenkarte-arbeitsplatz.webp"
 ---
 Tra un rapporto e l'altro lo stato maggiore guarda soprattutto una cosa: la carta alla parete. Chi passa vuole sapere a colpo d'occhio che cosa vale. È aggiornata agli ultimi messaggi, o è ancora appesa la situazione di un'ora fa?
 
@@ -21,7 +21,7 @@ La novità: la carta è a disposizione di tutti nello stato maggiore anche in fo
 
 Il triage tratta i messaggi uno per uno, il più vecchio per primo, e stabilisce chi li riceve. La carta informativa è costruita allo stesso modo. Se assegnate un messaggio alla carta informativa, finisce a sinistra nella pila di messaggi, l'elenco dei messaggi che devono ancora essere disegnati. Vale la stessa regola del triage: scegliere un messaggio, disegnarlo, chiuderlo, poi arriva il successivo. Chi conosce il triage sa quindi anche tenere la carta informativa. Non serve alcun modulo di notifica da passare al responsabile della carta.
 
-![La postazione di lavoro della carta informativa: a sinistra i messaggi che devono ancora andare sulla carta, a destra il messaggio scelto e la carta](images/nachrichtenkarte-arbeitsplatz.webp)
+![La postazione di lavoro della carta informativa: a sinistra i messaggi che devono ancora andare sulla carta, a destra il messaggio scelto e la carta](images/it/nachrichtenkarte-arbeitsplatz.webp)
 
 ## Che cosa ne ricavate
 
@@ -31,9 +31,9 @@ Il triage tratta i messaggi uno per uno, il più vecchio per primo, e stabilisce
 - **Il film da riavvolgere.** Un disegno vale a partire dall'**ora del messaggio**. Nel quadro della situazione la carta può quindi essere riprodotta lungo tutto l'intervento, e ogni stato precedente è consultabile: per il rapporto, la consegna e il debriefing.
 - **Nessun messaggio resta indietro.** Ogni messaggio segue lo stesso percorso: registrare, sottoporre a triage, disegnare, chiudere. La pila di messaggi mostra in ogni momento che cosa manca ancora.
 
-![Un messaggio disegnato: le sue modifiche sono evidenziate sulla carta](images/nachrichtenkarte-aendern.webp)
+![Un messaggio disegnato: le sue modifiche sono evidenziate sulla carta](images/it/nachrichtenkarte-aendern.webp)
 
-![Il quadro della situazione a un momento precedente: solo gli oggetti disegnati fino a quel punto](images/lagebild-zeitstrahl-frueher.webp)
+![Il quadro della situazione a un momento precedente: solo gli oggetti disegnati fino a quel punto](images/it/lagebild-zeitstrahl-frueher.webp)
 
 ## Provare
 

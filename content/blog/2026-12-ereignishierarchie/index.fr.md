@@ -3,7 +3,7 @@ title: "Hiérarchie des événements : la situation de plusieurs états-majors e
 date: 2026-12-01
 tags: ["evenements", "etat-major"]
 summary: "Avec la hiérarchie des événements, un état-major supérieur voit la situation des états-majors subordonnés sans devoir rassembler des chiffres : les personnes et les moyens s'additionnent, et les états-majors travaillent comme avant."
-cover: "images/ereignisliste-hierarchie.webp"
+cover: "images/fr/ereignisliste-hierarchie.webp"
 ---
 Un état-major régional ou cantonal ne conduit pas l'intervention sur place. Il coordonne la maîtrise de l'événement au niveau supérieur et soutient les forces d'intervention locales. Pour cela, il répartit les moyens que les communes ou les régions demandent : personnel, matériel, véhicules. Où il les envoie dépend de l'endroit où ils sont le plus urgemment nécessaires.
 
@@ -18,13 +18,13 @@ La **hiérarchie des événements** dans [sitrep]({{< relref "/funktionen" >}}) 
 - **Les moyens en un coup d'œil.** La vue d'ensemble des moyens montre les moyens des états-majors subordonnés comme des groupes à part et les intègre dans les totaux.
 - **Les cartes de renseignements des états-majors subordonnés.** L'état-major supérieur voit aussi leurs cartes de renseignements, et donc ce qui a été dessiné et annoncé, pas seulement les chiffres.
 
-![La vue d'ensemble des personnes de l'état-major cantonal avec les totaux et les chiffres des régions](images/uebergeordnet-personen.webp)
+![La vue d'ensemble des personnes de l'état-major cantonal avec les totaux et les chiffres des régions](images/fr/uebergeordnet-personen.webp)
 
 ## Comment le mettre en place
 
 L'état-major supérieur rattache à son événement les événements des états-majors subordonnés. Dans la liste des événements, ils figurent ensuite en retrait en dessous.
 
-![La liste des événements : sous l'état-major cantonal figurent les événements des régions](images/ereignisliste-hierarchie.webp)
+![La liste des événements : sous l'état-major cantonal figurent les événements des régions](images/fr/ereignisliste-hierarchie.webp)
 
 ## Les états-majors subordonnés travaillent comme avant
 
