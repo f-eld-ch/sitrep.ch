@@ -23,7 +23,7 @@ In questo articolo mostriamo come funziona e perché il triage è il posto giust
 
 ## Cosa dice il manuale di condotta
 
-Il manuale dell'UFPP «Behelf Einsatz Lage» stabilisce chiaramente il percorso del messaggio:
+Il manuale dell'UFPP «Promemoria Intervento analisi della situazione» stabilisce chiaramente il percorso del messaggio:
 
 - Il **triage** è il punto in cui i messaggi entrano nel ciclo di elaborazione della situazione. Qui tutti i messaggi vengono esaminati, classificati per priorità e inoltrati ai posti giusti. Durante il triage si stabilisce anche quali contenuti vengono registrati in quali prodotti.
 - Il **compendio dei mezzi** fa parte dei prodotti standard del settore Situazione. È la panoramica in forma di tabella di tutti i mezzi d'intervento: messi in picchetto, chiamati, pronti, impiegati o previsti per l'avvicendamento.

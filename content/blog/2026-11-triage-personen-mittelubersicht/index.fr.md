@@ -23,7 +23,7 @@ Dans cet article, nous montrons comment cela fonctionne et pourquoi le triage es
 
 ## Ce que dit le manuel de conduite
 
-Le manuel de l'OFPP « Behelf Einsatz Lage » fixe clairement le parcours du message :
+Le manuel de l'OFPP « Aide-mémoire Intervention suivi de la situation » fixe clairement le parcours du message :
 
 - Le **triage** est le point où les messages entrent dans le cycle de traitement de la situation. Tous les messages y sont examinés, priorisés et transmis aux bons services. Lors du triage, on détermine aussi quels contenus sont saisis dans quels produits.
 - La **vue d'ensemble des moyens** fait partie des produits standard du domaine Situation. C'est l'aperçu sous forme de tableau de tous les moyens d'intervention : mis en piquet, mis sur pied, prêts, engagés ou prévus pour être relevés.

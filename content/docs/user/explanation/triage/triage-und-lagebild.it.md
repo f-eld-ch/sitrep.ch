@@ -11,7 +11,7 @@ Uno stato maggiore di condotta deve poter dire in ogni momento quanti sono i fer
 
 Ogni messaggio viene comunque letto e valutato, nel triage. Lì stabilite chi deve ricevere il messaggio. sitrep fa un passo in più: chi esegue il triage registra anche ciò che il messaggio dice di nuovo su **persone** e **mezzi d'intervento**. Compendio delle persone, compendio dei mezzi e carta informativa ne risultano di conseguenza. Non c'è una seconda registrazione.
 
-Nel manuale dell'UFPP *Behelf Einsatz Lage* il triage è il punto in cui i messaggi entrano nel ciclo di elaborazione della situazione e in cui si stabilisce quali contenuti vengono registrati in quali prodotti. Il compendio dei mezzi fa parte dei prodotti standard del settore Situazione.
+Nel manuale dell'UFPP *Promemoria Intervento analisi della situazione* il triage è il punto in cui i messaggi entrano nel ciclo di elaborazione della situazione e in cui si stabilisce quali contenuti vengono registrati in quali prodotti. Il compendio dei mezzi fa parte dei prodotti standard del settore Situazione.
 
 ## Quattro motivi per farlo nel triage
 
