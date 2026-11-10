@@ -11,7 +11,7 @@ Un état-major de conduite doit pouvoir dire à tout moment combien il y a de bl
 
 Chaque message est de toute façon lu et évalué, lors du triage. C'est là que vous définissez qui doit recevoir le message. sitrep va un pas plus loin : celui qui trie saisit aussi ce que le message dit de nouveau sur les **personnes** et les **moyens engagés**. La vue d'ensemble des personnes, la vue d'ensemble des moyens et la carte de renseignements en découlent. Il n'y a pas de seconde saisie.
 
-Dans le manuel de l'OFPP *Behelf Einsatz Lage*, le triage est le point où les messages entrent dans le cycle de traitement de la situation et où l'on décide quels contenus sont consignés dans quels produits. La vue d'ensemble des moyens fait partie des produits standard du domaine spécialisé Lage.
+Dans le manuel de l'OFPP *Aide-mémoire Intervention suivi de la situation*, le triage est le point où les messages entrent dans le cycle de traitement de la situation et où l'on décide quels contenus sont consignés dans quels produits. La vue d'ensemble des moyens fait partie des produits standard du domaine spécialisé Lage.
 
 ## Quatre raisons pour lesquelles cela se fait lors du triage
 

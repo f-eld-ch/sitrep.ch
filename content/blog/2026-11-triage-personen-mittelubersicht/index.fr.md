@@ -3,7 +3,7 @@ title: "Avec sitrep, du message à la situation en une seule étape"
 date: 2026-11-04
 tags: ["triage", "nouvelle-fonction"]
 summary: "La nouvelle vue de triage de sitrep tient à jour la vue d'ensemble des personnes et des moyens : qui trie un message saisit les personnes et les moyens d'intervention en une seule étape, et la situation se lit à tout moment à l'écran."
-cover: "images/dashboard.webp"
+cover: "images/fr/dashboard.webp"
 ---
 **08 h 45 au centre de situation.** L'état-major cantonal appelle : *« Merci de remettre d'ici 09 h 30 un rapport de situation avec la vue d'ensemble actuelle des personnes et des moyens. »*
 
@@ -23,7 +23,7 @@ Dans cet article, nous montrons comment cela fonctionne et pourquoi le triage es
 
 ## Ce que dit le manuel de conduite
 
-Le manuel de l'OFPP « Behelf Einsatz Lage » fixe clairement le parcours du message :
+Le manuel de l'OFPP « Aide-mémoire Intervention suivi de la situation » fixe clairement le parcours du message :
 
 - Le **triage** est le point où les messages entrent dans le cycle de traitement de la situation. Tous les messages y sont examinés, priorisés et transmis aux bons services. Lors du triage, on détermine aussi quels contenus sont saisis dans quels produits.
 - La **vue d'ensemble des moyens** fait partie des produits standard du domaine Situation. C'est l'aperçu sous forme de tableau de tous les moyens d'intervention : mis en piquet, mis sur pied, prêts, engagés ou prévus pour être relevés.
@@ -57,13 +57,13 @@ La vue de triage guide à travers quatre étapes. L'exemple est un événement f
 
 L'expéditeur, le destinataire, l'heure et le contenu sont contrôlés et corrigés si nécessaire. Le message reste toujours visible en haut, aussi dans les étapes suivantes.
 
-![Étape 1 : vérifier le message](images/triage-1-meldung.webp)
+![Étape 1 : vérifier le message](images/fr/triage-1-meldung.webp)
 
 ### 2. Définir le flux du message
 
 On décide ici qui doit recevoir le message : Chef Einsatz, carte de renseignements, C Lage, Chef Logistik, Stabschef. Les messages importants peuvent être marqués comme **renseignements-clés**.
 
-![Étape 2 : définir le flux du message](images/triage-2-meldefluss.webp)
+![Étape 2 : définir le flux du message](images/fr/triage-2-meldefluss.webp)
 
 ### 3. Saisir les personnes
 
@@ -71,7 +71,7 @@ On saisit ici le nombre de personnes, dans les cinq catégories : blessés, disp
 
 Important : on saisit uniquement ce que **le message apporte de nouveau**. Si le service sanitaire annonce trois blessés légers de plus, on inscrit « +3 » pour les blessés. Si une personne auparavant portée disparue a été retrouvée et qu'elle est blessée, on inscrit « −1 » pour les disparus et « +1 » pour les blessés. À droite, on voit tout de suite l'effet sur la vue d'ensemble des personnes.
 
-![Étape 3 : saisir les personnes, avec aperçu de la vue d'ensemble des personnes](images/triage-3-personen.webp)
+![Étape 3 : saisir les personnes, avec aperçu de la vue d'ensemble des personnes](images/fr/triage-3-personen.webp)
 
 ### 4. Mettre sur pied et engager des moyens
 
@@ -88,7 +88,7 @@ Les quatre actions principales :
 
 S'y ajoutent les actions du quotidien de l'intervention : réaffecter, terminer l'engagement, libérer, réactiver lors d'interventions de plusieurs jours et tenir à jour la joignabilité (canal radio, téléphone).
 
-![Étape 4 : mettre sur pied un nouveau moyen](images/triage-4-mittel-aufbieten.webp)
+![Étape 4 : mettre sur pied un nouveau moyen](images/fr/triage-4-mittel-aufbieten.webp)
 
 Avec « Terminer le triage », tout est enregistré en une seule fois.
 
@@ -108,7 +108,7 @@ Retour à l'exemple de l'introduction : à 08 h 45, le canton demande un rapport
 
 La vue d'ensemble des personnes montre les totaux des cinq catégories. Elle correspond à tout moment à l'état actuel du triage, sans que personne n'ait à additionner quoi que ce soit.
 
-![Vue d'ensemble des personnes avec les totaux des cinq catégories](images/personenubersicht.webp)
+![Vue d'ensemble des personnes avec les totaux des cinq catégories](images/fr/personenubersicht.webp)
 
 ### Vue d'ensemble des moyens
 
@@ -121,7 +121,7 @@ La vue d'ensemble des moyens s'inspire du tableau des moyens du manuel de condui
 
 Qui a besoin de la vue d'ensemble pour le rapport ou la paroi d'affichage l'imprime directement.
 
-![Vue d'ensemble des moyens avec tableau des moyens](images/mittelubersicht.webp)
+![Vue d'ensemble des moyens avec tableau des moyens](images/fr/mittelubersicht.webp)
 
 Un détail qui nous importait :
 
@@ -131,7 +131,7 @@ Un détail qui nous importait :
 
 Le dashboard montre la situation actuelle en un coup d'œil : les derniers messages, la carte de renseignements, la vue d'ensemble des personnes et les moyens par formation. Il est conçu comme **information actuelle pour l'état-major**, par exemple sur un projecteur ou un téléviseur dans le local de conduite. Il se met à jour en continu.
 
-![Le dashboard avec messages, carte de renseignements, vue d'ensemble des personnes et moyens](images/dashboard.webp)
+![Le dashboard avec messages, carte de renseignements, vue d'ensemble des personnes et moyens](images/fr/dashboard.webp)
 
 ## Ce que cela apporte aux états-majors
 

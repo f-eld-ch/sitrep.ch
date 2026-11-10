@@ -3,7 +3,7 @@ title: "Con sitrep dal messaggio alla situazione in un solo passaggio"
 date: 2026-11-04
 tags: ["triage", "nuova-funzione"]
 summary: "La nuova vista di triage di sitrep aggiorna il compendio delle persone e dei mezzi: chi sottopone a triage un messaggio registra persone e mezzi d'intervento in un solo passaggio, e la situazione si legge in ogni momento sullo schermo."
-cover: "images/dashboard.webp"
+cover: "images/it/dashboard.webp"
 ---
 **Ore 08:45 nel centro situazione.** Lo stato maggiore cantonale si fa sentire: *«Si prega di inoltrare entro le 09:30 un rapporto sulla situazione con il compendio aggiornato delle persone e dei mezzi.»*
 
@@ -23,7 +23,7 @@ In questo articolo mostriamo come funziona e perché il triage è il posto giust
 
 ## Cosa dice il manuale di condotta
 
-Il manuale dell'UFPP «Behelf Einsatz Lage» stabilisce chiaramente il percorso del messaggio:
+Il manuale dell'UFPP «Promemoria Intervento analisi della situazione» stabilisce chiaramente il percorso del messaggio:
 
 - Il **triage** è il punto in cui i messaggi entrano nel ciclo di elaborazione della situazione. Qui tutti i messaggi vengono esaminati, classificati per priorità e inoltrati ai posti giusti. Durante il triage si stabilisce anche quali contenuti vengono registrati in quali prodotti.
 - Il **compendio dei mezzi** fa parte dei prodotti standard del settore Situazione. È la panoramica in forma di tabella di tutti i mezzi d'intervento: messi in picchetto, chiamati, pronti, impiegati o previsti per l'avvicendamento.
@@ -57,13 +57,13 @@ La vista di triage guida attraverso quattro passaggi. L'esempio è un evento fit
 
 Mittente, destinatario, ora e contenuto vengono controllati e, se necessario, corretti. Il messaggio resta sempre visibile in alto, anche nei passaggi successivi.
 
-![Passaggio 1: verificare il messaggio](images/triage-1-meldung.webp)
+![Passaggio 1: verificare il messaggio](images/it/triage-1-meldung.webp)
 
 ### 2. Definire il flusso dei messaggi
 
 Qui si decide chi deve ricevere il messaggio: Chef Einsatz, carta informativa, C Lage, Chef Logistik, Stabschef. I messaggi importanti possono essere contrassegnati come **notizie chiave**.
 
-![Passaggio 2: definire il flusso dei messaggi](images/triage-2-meldefluss.webp)
+![Passaggio 2: definire il flusso dei messaggi](images/it/triage-2-meldefluss.webp)
 
 ### 3. Registrare le persone
 
@@ -71,7 +71,7 @@ Qui si registrano i numeri di persone, nelle cinque categorie: feriti, dispersi,
 
 Importante: si registra soltanto ciò che **il messaggio dice di nuovo**. Se il servizio sanitario segnala altri tre feriti lievi, si inserisce «+3» per i feriti. Se una persona prima dispersa è stata ritrovata ed è ferita, si inserisce «−1» per i dispersi e «+1» per i feriti. A destra si vede subito l'effetto sul compendio delle persone.
 
-![Passaggio 3: registrare le persone, con anteprima del compendio delle persone](images/triage-3-personen.webp)
+![Passaggio 3: registrare le persone, con anteprima del compendio delle persone](images/it/triage-3-personen.webp)
 
 ### 4. Chiamare e impiegare i mezzi
 
@@ -88,7 +88,7 @@ Le quattro azioni principali:
 
 A ciò si aggiungono le azioni per la quotidianità dell'intervento: ridisporre, concludere l'intervento, congedare, riattivare negli interventi di più giorni e curare la raggiungibilità (canale radio, telefono).
 
-![Passaggio 4: chiamare un nuovo mezzo](images/triage-4-mittel-aufbieten.webp)
+![Passaggio 4: chiamare un nuovo mezzo](images/it/triage-4-mittel-aufbieten.webp)
 
 Con «Concludere il triage» tutto viene salvato in un colpo solo.
 
@@ -108,7 +108,7 @@ Torniamo all'esempio dell'introduzione: alle 08:45 il Cantone chiede un rapporto
 
 Il compendio delle persone mostra i totali delle cinque categorie. Corrisponde in ogni momento allo stato attuale del triage, senza che qualcuno debba sommare qualcosa.
 
-![Compendio delle persone con i totali delle cinque categorie](images/personenubersicht.webp)
+![Compendio delle persone con i totali delle cinque categorie](images/it/personenubersicht.webp)
 
 ### Compendio dei mezzi
 
@@ -121,7 +121,7 @@ Il compendio dei mezzi si ispira alla tabella dei mezzi del manuale di condotta.
 
 Chi ha bisogno del compendio per il rapporto o per la parete ANSIT lo stampa direttamente.
 
-![Compendio dei mezzi con tabella dei mezzi](images/mittelubersicht.webp)
+![Compendio dei mezzi con tabella dei mezzi](images/it/mittelubersicht.webp)
 
 Un dettaglio che ci stava a cuore:
 
@@ -131,7 +131,7 @@ Un dettaglio che ci stava a cuore:
 
 Il dashboard mostra la situazione attuale a colpo d'occhio: gli ultimi messaggi, la carta informativa, il compendio delle persone e i mezzi per formazione. È pensato come **informazione aggiornata per lo stato maggiore**, per esempio su un proiettore o un televisore nel locale di condotta. Si aggiorna continuamente.
 
-![Il dashboard con messaggi, carta informativa, compendio delle persone e mezzi](images/dashboard.webp)
+![Il dashboard con messaggi, carta informativa, compendio delle persone e mezzi](images/it/dashboard.webp)
 
 ## Che cosa porta agli stati maggiori
 
