@@ -5,7 +5,7 @@ tags: ["nachrichtenkarte", "triage", "neue-funktion"]
 summary: "Die analoge Nachrichtenkarte bleibt, ihre Führung wird leichter: In sitrep zeichnen Sie Meldung für Meldung zuerst digital ein und übertragen den geprüften Stand auf die Karte. Die Lage lässt sich zu jedem Zeitpunkt zurückspulen."
 cover: "images/nachrichtenkarte-arbeitsplatz.webp"
 ---
-Zwischen zwei Rapports sieht der Stab nur eines: die Karte an der Wand. Wer vorbeigeht, will auf einen Blick wissen, was gilt. Ist sie auf dem Stand der letzten Meldungen, oder hängt noch die Lage von vor einer Stunde da?
+Zwischen zwei Rapports sieht der Stab vor allem eines: die Karte an der Wand. Wer vorbeigeht, will auf einen Blick wissen, was gilt. Ist sie auf dem Stand der letzten Meldungen, oder hängt noch die Lage von vor einer Stunde da?
 
 Das Problem kennt jeder Stab, der die Karte von Hand führt. Der BABS-Behelf «Einsatz Lage» nennt die **Nachrichtenkarte** ein «permanentes Arbeitsinstrument zur laufenden Erfassung und Auswertung des relevanten Meldeflusses». Klassisch führt sie ein Nachrichtenkartenführer auf Folie und wechselt sie von Zeit zu Zeit, damit sie lesbar bleibt. Dabei muss er alles, was weiter gilt, auf die neue Folie übertragen. Das kostet Zeit und geschieht oft zu spät oder gar nicht. Die Karte wird für den Stab schwerer verständlich und lesbar.
 
