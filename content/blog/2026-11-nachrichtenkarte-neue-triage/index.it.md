@@ -1,6 +1,6 @@
 ---
 title: "Dal messaggio alla carta: la nuova carta informativa"
-date: 2026-11-17
+date: 2026-11-12
 tags: ["carta-informativa", "triage", "nuova-funzione"]
 summary: "La carta informativa analogica resta, la sua gestione diventa più semplice: in sitrep disegnate ogni messaggio prima in formato digitale e riportate poi lo stato verificato sulla carta. La situazione può essere riavvolta in qualsiasi momento."
 cover: "images/it/nachrichtenkarte-arbeitsplatz.webp"
