@@ -1,6 +1,6 @@
 ---
 title: "Du message à la carte : la nouvelle carte de renseignements"
-date: 2026-11-17
+date: 2026-11-12
 tags: ["carte-de-renseignements", "triage", "nouvelle-fonction"]
 summary: "La carte de renseignements analogique reste, sa tenue devient plus simple : dans sitrep, vous dessinez d'abord chaque message au format numérique, puis vous reportez l'état vérifié sur la carte. La situation peut être rejouée à tout moment."
 cover: "images/fr/nachrichtenkarte-arbeitsplatz.webp"

@@ -1,6 +1,6 @@
 ---
 title: "Von der Meldung auf die Karte: die neue Nachrichtenkarte"
-date: 2026-11-17
+date: 2026-11-12
 tags: ["nachrichtenkarte", "triage", "neue-funktion"]
 summary: "Die analoge Nachrichtenkarte bleibt, ihre Führung wird leichter: In sitrep zeichnen Sie Meldung für Meldung zuerst digital ein und übertragen den geprüften Stand auf die Karte. Die Lage lässt sich zu jedem Zeitpunkt zurückspulen."
 cover: "images/nachrichtenkarte-arbeitsplatz.webp"
