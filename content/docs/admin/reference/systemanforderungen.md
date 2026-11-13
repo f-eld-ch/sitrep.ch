@@ -73,8 +73,7 @@ Die Optionen stehen unter [Konfigurationsoptionen]({{< relref "/docs/admin/refer
 
 ## Dateianhänge
 
-Eine Datei darf höchstens 25 MiB gross sein. Planen Sie den Speicherplatz für die Anhänge zusätzlich zur Datenbank ein.
-
+Eine Datei darf höchstens 25 MiB gross sein.
 ## Browser
 
 sitrep läuft in der aktuellen Version von Chrome oder in Browsern auf Chromium-Basis, zum Beispiel Edge oder Brave. Halten Sie den Browser auf dem aktuellen Stand.
