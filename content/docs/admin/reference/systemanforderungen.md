@@ -58,9 +58,16 @@ Der Implicit Flow, der Client-Credentials-Flow und der Device Flow werden nicht 
 
 ## Netzwerk
 
-- sitrep lauscht standardmässig auf Port `4180`. Mit eigenem TLS oder ACME ist es typischerweise Port 443.
-- Üblich ist ein Reverse-Proxy, der HTTPS beendet.
-- Ausgehende Verbindungen braucht sitrep zum Identity Provider, bei ACME zum Zertifikatsanbieter und für die Telemetrie zu `telemetry.sitrep.ch`. Die Telemetrie lässt sich abschalten.
+| Richtung | Gegenstelle | Port | Zweck | Erforderlich |
+|---|---|---|---|---|
+| Eingehend | Browser der Benutzer | TCP 443 (HTTPS) | Zugriff auf sitrep | Ja |
+| Ausgehend | Identity Provider | TCP 443 (HTTPS) | Anmeldung | Ja |
+| Ausgehend | PostgreSQL-Server | TCP 5432 (PostgreSQL-Standard) | Datenbank | Nur bei externer PostgreSQL-Datenbank |
+| Ausgehend | `vectortiles.geo.admin.ch` | TCP 443 (HTTPS) | Vektorkacheln der Karte laden, lokal ausliefern und regelmässig im Hintergrund aktualisieren | Ja |
+| Ausgehend | `packages.sitrep.ch` | TCP 443 (HTTPS) | Linux-Pakete (APT oder RPM) installieren und aktualisieren | Bei Installation mit Paketen |
+| Ausgehend | `ghcr.io` | TCP 443 (HTTPS) | Container-Image herunterladen | Bei Installation als Container |
+| Ausgehend | Zertifikatsanbieter (Let's Encrypt) | TCP 443 (HTTPS) | Zertifikate per ACME | Optional |
+| Ausgehend | `telemetry.sitrep.ch` oder eigener OpenTelemetry-Endpunkt | TCP 443 (HTTPS) | OpenTelemetry-Daten senden. Abschaltbar oder an einen eigenen OpenTelemetry-Endpunkt umleitbar | Optional |
 
 Die Optionen stehen unter [Konfigurationsoptionen]({{< relref "/docs/admin/reference/konfiguration" >}}).
 
