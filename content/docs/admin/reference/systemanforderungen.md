@@ -71,9 +71,6 @@ Der Implicit Flow, der Client-Credentials-Flow und der Device Flow werden nicht 
 
 Die Optionen stehen unter [Konfigurationsoptionen]({{< relref "/docs/admin/reference/konfiguration" >}}).
 
-## Dateianhänge
-
-Eine Datei darf höchstens 25 MiB gross sein.
 ## Browser
 
 sitrep läuft in der aktuellen Version von Chrome oder in Browsern auf Chromium-Basis, zum Beispiel Edge oder Brave. Halten Sie den Browser auf dem aktuellen Stand.
