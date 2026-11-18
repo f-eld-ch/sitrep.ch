@@ -18,6 +18,8 @@ Diese Seite listet auf, was Sie für den Betrieb von sitrep brauchen. Die Einric
 
 Die Werte für CPU und Arbeitsspeicher gelten nur für den sitrep-Prozess. Datenbank, Reverse-Proxy und Identity Provider kommen dazu, wenn sie auf demselben Server laufen.
 
+Mit lokalen Kartenkacheln kommen rund 4 GB Festplatte dazu: 2,5 GB für die beiden Archive und Platz für den Download der nächsten Version. Der Arbeitsspeicher von sitrep wächst dadurch kaum, das Betriebssystem hält gelesene Kacheln aber im Zwischenspeicher. Siehe [Karte ohne Internet betreiben]({{< relref "/docs/admin/how-to/kartenkacheln-offline" >}}).
+
 Die Pakete stammen von [packages.sitrep.ch](https://packages.sitrep.ch). Das Container-Image liegt unter `ghcr.io/f-eld-ch/sitrep`.
 
 ## Datenbank
@@ -63,13 +65,22 @@ Der Implicit Flow, der Client-Credentials-Flow und der Device Flow werden nicht 
 | Eingehend | Browser der Benutzer | TCP 443 (HTTPS) | Zugriff auf sitrep | Ja |
 | Ausgehend | Identity Provider | TCP 443 (HTTPS) | Anmeldung | Ja |
 | Ausgehend | PostgreSQL-Server | TCP 5432 (PostgreSQL-Standard) | Datenbank | Nur bei externer PostgreSQL-Datenbank |
-| Ausgehend | `vectortiles.geo.admin.ch` | TCP 443 (HTTPS) | Vektorkacheln der Karte laden, lokal ausliefern und regelmässig im Hintergrund aktualisieren | Ja |
+| Ausgehend | `vectortiles.geo.admin.ch` | TCP 443 (HTTPS) | Kartenkacheln von swisstopo herunterladen und aktualisieren | Nur mit lokalen Kartenkacheln (`auto-download` oder `sitrep tiles download`) |
 | Ausgehend | `packages.sitrep.ch` | TCP 443 (HTTPS) | Linux-Pakete (APT oder RPM) installieren und aktualisieren | Bei Installation mit Paketen |
 | Ausgehend | `ghcr.io` | TCP 443 (HTTPS) | Container-Image herunterladen | Bei Installation als Container |
 | Ausgehend | Zertifikatsanbieter (Let's Encrypt) | TCP 443 (HTTPS) | Zertifikate per ACME | Optional |
 | Ausgehend | `telemetry.sitrep.ch` oder eigener OpenTelemetry-Endpunkt | TCP 443 (HTTPS) | OpenTelemetry-Daten senden. Abschaltbar oder an einen eigenen OpenTelemetry-Endpunkt umleitbar | Optional |
 
 Die Optionen stehen unter [Konfigurationsoptionen]({{< relref "/docs/admin/reference/konfiguration" >}}).
+
+Die **Browser der Benutzer** brauchen ebenfalls Zugriff, soweit sie nicht von sitrep bedient werden:
+
+| Gegenstelle | Zweck | Erforderlich |
+|---|---|---|
+| `vectortiles.geo.admin.ch` | Kartenkacheln, solange sitrep sie nicht selbst ausliefert | Ohne lokale Kartenkacheln |
+| `wmts.geo.admin.ch` | Satellitenkarte (kein Offline-Betrieb möglich) | Nur für die Satellitenkarte |
+| `api3.geo.admin.ch` | Ortssuche auf der Karte | Nur für die Suche |
+| `wms.geo.admin.ch` und `geodienste.sitrep.ch` | WMS-Ebenen (zum Beispiel Gefahrenkarten) | Nur für diese Ebenen |
 
 ## Browser
 
