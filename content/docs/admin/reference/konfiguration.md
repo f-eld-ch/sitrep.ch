@@ -16,7 +16,7 @@ Die Reihenfolge, wenn eine Option mehrfach gesetzt ist: **Flag vor Umgebungsvari
 Die Datei ist YAML. Mit `--config <datei>` geben Sie sie an. Ohne `--config` liest sitrep eine Datei `config.yaml` im Arbeitsverzeichnis, falls es sie gibt. Das Paket installiert `/etc/sitrep/config.yaml` und der systemd-Dienst übergibt sie mit `--config`. Eine ausführlich kommentierte Vorlage ist [packaging/config.yaml](https://github.com/f-eld-ch/sitrep/blob/HEAD/packaging/config.yaml) im Quellcode.
 
 - Die Schlüssel heissen wie die Flags und werden **mit Bindestrichen** geschrieben (`log-level`). Schlüssel mit Unterstrichen werden stillschweigend ignoriert.
-- Die Optionen für Dateianhänge sind verschachtelt (`storage.attachments.…`, siehe unten).
+- Die Optionen für Dateianhänge und für Kartenkacheln sind verschachtelt (`storage.attachments.…` und `map.tiles.…`, siehe unten).
 
 ## Umgebungsvariablen
 
@@ -93,6 +93,32 @@ Die Speicherorte:
 - **`ephemeral`:** Die Dateien liegen in einem temporären Verzeichnis und sind nach einem Neustart weg.
 
 Ohne Angabe nimmt sitrep `database`, wenn eine Datenbank-URL gesetzt ist, sonst `ephemeral`. Setzen Sie bei SQLite deshalb `filesystem` ausdrücklich.
+
+## Kartenkacheln
+
+Die Karte zeichnet sich aus Vektorkacheln von swisstopo. Standardmässig laden die Browser der Benutzer sie direkt von swisstopo. Liegen die Kachel-Archive in `map.tiles.dir`, liefert sitrep sie selbst aus, und die Karte funktioniert ohne Internetzugang. Wie Sie das einrichten, beschreibt die Anleitung [Karte ohne Internet betreiben]({{< relref "/docs/admin/how-to/kartenkacheln-offline" >}}).
+
+In der Konfigurationsdatei sind diese Optionen verschachtelt:
+
+```yaml
+map:
+  tiles:
+    dir: "/var/lib/sitrep/tiles"
+    auto-download: false
+    update-interval: 24h
+    part-max-age: 168h
+```
+
+| Flag | Umgebungsvariable | Standard | Beschreibung |
+|---|---|---|---|
+| `--tiles-dir` | `SITREP_MAP_TILES_DIR` | `/var/lib/sitrep/tiles` | Verzeichnis mit den Kachel-Archiven, aufgebaut als `<verzeichnis>/<kachelsatz>/<version>/<kachelsatz>.mbtiles`. Das Verzeichnis muss nicht existieren. Für `auto-download` muss der sitrep-Prozess darin schreiben dürfen. Schlüssel: `map.tiles.dir` |
+| `--tiles-auto-download` | `SITREP_MAP_TILES_AUTO_DOWNLOAD` | `false` | Lädt die Archive (rund 2,5 GB) von swisstopo herunter und hält sie aktuell. Schlüssel: `map.tiles.auto-download` |
+| `--tiles-update-interval` | `SITREP_MAP_TILES_UPDATE_INTERVAL` | `24h` | Wie oft sitrep bei swisstopo nach einer neueren Version fragt, zum Beispiel `12h` oder `30m`. Mindestens `1m`. Wirkt nur mit `auto-download`. Schlüssel: `map.tiles.update-interval` |
+| `--tiles-part-max-age` | `SITREP_MAP_TILES_PART_MAX_AGE` | `168h` | Ein abgebrochener Download, der so lange nicht weiterkam, wird gelöscht (7 Tage). Schlüssel: `map.tiles.part-max-age` |
+
+Die Kachelsätze sind fest: `ch.swisstopo.base.vt` und `ch.swisstopo.relief.vt`, jeweils in der Version `v1.0.0`. Die Kommandozeile `sitrep tiles` verwaltet sie, siehe die Anleitung.
+
+Die Kacheln werden nur angemeldeten Benutzern ausgeliefert.
 
 ## HTTPS (TLS)
 
