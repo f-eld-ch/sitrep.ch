@@ -209,9 +209,9 @@ docs/user/   Benutzerhandbuch    docs/admin/   Administration
 - **English pages:** several admin docs are copied from the product repo in English. Mark them
   with `contentlang: "en"` in the front matter. They then show an "only in English" notice and
   the text is tagged `lang="en"`.
-- Source of truth for technical admin/dev docs is the product repo (`docs/administrator`,
-  `docs/development`). Copy and adapt; do not diverge silently. Use GitHub URLs when linking to
-  files that live there (not relative paths).
+- The admin docs are written here; the product repo holds no administrator documentation any more
+  (`docs/administrator` only has a README that links here). Developer docs stay in the product repo
+  (`docs/development`). Use GitHub URLs when linking to files that live there (not relative paths).
 
 ## Images
 
